@@ -1,0 +1,120 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Helvetica Neue", "Arial", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.video {
+  position: absolute;
+  top: 200px;
+  width: 600px;
+  height: 330px;
+  right: 5%;
+}
+
+.red {
+  color: #ca043f;
+}
+
+.blue {
+  color: #2f80ed;
+}
+
+.blue:hover {
+  opacity: 0.5;
+  transition: all 300ms ease;
+}
+
+.max {
+  max-height: 100px;
+}
+
+.dots {
+  font-size: 24px;
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .two {
+    display: none;
+  }
+  .title {
+    padding: 5%;
+  }
+  .video {
+    display: none;
+  }
+}
+
+.two {
+  letter-spacing: 0;
+  filter: drop-shadow(0px 0px 1px #fff);
+}
+
+.landing {
+  margin: 2.5%;
+}
+
+.center {
+  text-align: center;
+}
+
+.schedule {
+  font-size: 1.5rem;
+  color: #333;
+  line-height: 2;
+}
+.schedule item {
+  display: block;
+  border-bottom: 1px dotted #333;
+}
+
+.right {
+  float: right;
+  font-weight: bold;
+}
+
+.coc {
+  color: #ca043f;
+}
+
+.Countdown {
+  margin: 10px auto;
+  padding-bottom: 20px;
+}
+
+.Countdown-col {
+  display: inline-block;
+}
+
+.Countdown-col-element {
+  display: inline-block;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Countdown-col-element strong {
+  font-size: 100px;
+}
+
+textarea:focus,
+input:focus,
+select:focus {
+  outline: none;
+}
