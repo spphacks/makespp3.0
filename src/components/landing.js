@@ -219,7 +219,7 @@ const Landing = () => (
         144 Grand St, Jersey City, NJ 07302
         <br /> <br />
         <Iframe
-          url="https://www.google.com/maps/embed/v1/place?key=AIzaSyCa49laFsNCNi0KJWPHSTtkkAl-WHuh2LE
+          url="https://www.openstreetmap.org/export/embed.html?bbox=-74.13273476064207%2C40.656143375584584%2C-73.94734047353269%2C40.77584556137662&amp;layer=mapnik&amp;marker=40.71602137168535%2C-74.04003761708736
       &q=Saint+Peter's+Prep"
           width="90%"
           height="300px"
