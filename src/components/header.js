@@ -147,9 +147,9 @@ const Header = ({ siteTitle }) => (
     </SubTagline>
 
     <Date className="font">April 25th, 2020 </Date>
-    <Link to="/register">
+    {/* <Link to="/register">
       <Register> Register </Register>
-    </Link>
+    </Link> */}
     {/* <Link to="/live">
       <Register> MakeSPP Live </Register>
     </Link> */}

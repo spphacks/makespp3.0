@@ -12,7 +12,7 @@ const Register = () => (
     <Header />
     <div className="center">
       <h2> Thank you for submitting your MakeSPP application!</h2>
-      <h3> You will recieve your decision within two weeks. </h3>
+      <h3> You will receive your decision within two weeks. </h3>
     </div>
   </Layout>
 );
