@@ -133,7 +133,7 @@ const Header = ({ siteTitle }) => (
     >
       {" "}
       <Title className="title">
-        Make<span className="red">SPP</span> <span className="two">3.0</span>
+        <span className="purple">make</span><span className="orange">spp</span> <span className="two">3.0</span>
       </Title>
     </Link>
     <LogoContainer>
