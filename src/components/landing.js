@@ -228,7 +228,7 @@ const Landing = () => (
           allowFullScreen
         />
       </Description>
-      <Call color="#333" className="center" size="48px">
+      {/* <Call color="#333" className="center" size="48px">
         Guests
       </Call>
       <br /> <br />
@@ -436,7 +436,7 @@ const Landing = () => (
           </Description>
           <br />
         </Col>
-      </Row>
+      </Row> */}
       <Call color="#333" className="center" size="48px">
         FAQ
       </Call>
@@ -509,7 +509,7 @@ const Landing = () => (
           </Description>
         </Col>
       </Row>
-      <Call color="#333" className="center" size="48px">
+      {/* <Call color="#333" className="center" size="48px">
         Schedule
       </Call>
       <Row>
@@ -614,10 +614,10 @@ const Landing = () => (
           </div>
         </Col>
         <Col sm={2} />
-      </Row>
+      </Row> */}
       <br />
       <br />
-      <Call color="#333" className="center" size="48px">
+      {/* <Call color="#333" className="center" size="48px">
         Sponsors
       </Call>
       <br />
@@ -716,7 +716,7 @@ const Landing = () => (
         <Col sm={3}>
           <Sponsor src="/sponsors/hackclub.png" />
         </Col>
-      </Row>
+      </Row> */}
       <Call color="#333" className="center" size="48px">
         Leadership
       </Call>

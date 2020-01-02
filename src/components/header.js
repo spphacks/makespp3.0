@@ -48,7 +48,7 @@ const Tagline = styled.h1`
 
 const SubTagline = styled.h1`
   position: absolute;
-  top: 375px;
+  top: 450px;
   max-width: 500px;
   font-size: 24px;
   padding-left: 5%;
@@ -140,6 +140,8 @@ const Header = ({ siteTitle }) => (
       <Logo src="/logo.png" />
     </LogoContainer>
     <Tagline> New Jersey's Premier High School Hackathon </Tagline>
+
+
     <SubTagline>
       {" "}
       Learn to build & pitch a product with workshops, free food, and prizes.{" "}
@@ -157,7 +159,7 @@ const Header = ({ siteTitle }) => (
       params={{
         particles: {
           number: {
-            value: 200,
+            value: 2000,
             density: {
               enable: false
             }
@@ -183,7 +185,7 @@ const Header = ({ siteTitle }) => (
         interactivity: {
           events: {
             onhover: {
-              enable: true,
+              enable: false,
               mode: "bubble"
             },
             onclick: {
