@@ -10,7 +10,7 @@ const Background = styled.header`
   margin: 0;
   color: #fff;
   padding: 0;
-  background: linear-gradient(to right, #c94b4b, #4b134f);
+  background: linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d);
 `;
 
 const LogoContainer = styled.div`
@@ -146,7 +146,7 @@ const Header = ({ siteTitle }) => (
       Learn to build & pitch a product with workshops, free food, and prizes.{" "}
     </SubTagline>
 
-    <Date className="font">April 6th, 2019 </Date>
+    <Date className="font">April 25th, 2020 </Date>
     <Link to="/register">
       <Register> Register </Register>
     </Link>
