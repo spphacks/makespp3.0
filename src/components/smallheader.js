@@ -10,7 +10,7 @@ const Background = styled.header`
   margin: 0;
   color: #fff;
   padding: 0;
-  background: linear-gradient(180deg, #141e30, #20354c, #3d6591);
+  background: linear-gradient(to right, #c94b4b, #4b134f);
 `;
 
 const LogoContainer = styled.div`

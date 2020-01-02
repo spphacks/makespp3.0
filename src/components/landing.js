@@ -211,7 +211,7 @@ const Landing = () => (
         Location
       </Call>
       <Description color="#333" className="center" size="28px">
-        <b>April 6th, 2019</b>
+        <b>April 25th, 2020</b>
         <br />
         <b>8AM - 8PM</b>
         <br />
@@ -622,7 +622,7 @@ const Landing = () => (
       </Call>
       <br />
       <Row>
-  
+
 
       </Row>
       <Row>

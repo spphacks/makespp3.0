@@ -10,7 +10,7 @@ const Background = styled.header`
   margin: 0;
   color: #fff;
   padding: 0;
-  background: linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d);
+  background: linear-gradient(to right, #8e9eab, #eef2f3);
 `;
 
 const LogoContainer = styled.div`
@@ -23,7 +23,6 @@ const Logo = styled.img`
   padding-top: 30px;
   height: 75px;
   padding-left: 30px;
-  filter: drop-shadow(0px 0px 5px #ca043f);
   @media only screen and (max-width: 1024px) {
     display: none;
   }
@@ -116,7 +115,7 @@ const Title = styled.h1`
 // temp solution for video --  future use youtube component autoplay
 const Header = ({ siteTitle }) => (
   <Background>
-    <div class="video">
+    <div className="video">
       <Iframe
         url="https://www.youtube.com/embed/_pffiCMj-gw"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
