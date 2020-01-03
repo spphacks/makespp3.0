@@ -1,11 +1,8 @@
 import React from "react";
 // import { Link } from "gatsby";
 import Header from "../components/smallheader";
-import RegisterComponent from "../components/register";
 
-import Landing from "../components/landing";
 import Layout from "../components/layout";
-import SEO from "../components/seo";
 
 const Register = () => (
   <Layout>

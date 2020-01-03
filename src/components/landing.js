@@ -1,10 +1,8 @@
 import { Link } from "gatsby";
 import React from "react";
 import styled from "styled-components";
-import { Container, Row, Col } from "react-grid-system";
+import { Row, Col } from "react-grid-system";
 import Iframe from "react-iframe";
-
-let images = ["/1.jpg", "/2.jpg", "/3.jpg", "/4.jpg", "/5.jpg", "/6.jpg"];
 
 const Call = styled.h2`
   margin: 0;
@@ -35,12 +33,6 @@ const Card = styled.div`
   }
 `;
 
-const Role = styled.p`
-  text-align: center;
-  padding-bottom: 10px;
-  font-weight: bold;
-`;
-
 const Img = styled.img`
   margin-left: auto;
   margin-right: auto;
@@ -54,13 +46,6 @@ const Img = styled.img`
     height: 200px;
     max-width: 100%;
   }
-`;
-
-const Sponsor = styled.img`
-  display: block;
-  margin: auto;
-  max-width: 70%;
-  padding: 20px;
 `;
 
 const Profile = styled.img`
@@ -79,17 +64,6 @@ const Site = styled.div`
   margin: 0 auto;
 `;
 
-const Twitter = styled.a`
-  font-size: 24px;
-  padding: 10px;
-  background: #38a1f3;
-  border-radius: 10px;
-  color: #fff;
-`;
-
-const Instagram = styled.a`
-  font-size: 24px;
-`;
 const Landing = () => (
   <div className="landing">
     <Row>
@@ -122,7 +96,7 @@ const Landing = () => (
           <Card bg="#f9e5eb;">
             <Call size="24px" color="#333;">
               {" "}
-              <img height="30px" src="/learn.png" />
+              <img height="30px" src="/learn.png" alt="icon of head with turning gears."/>
               <br />
               Beginner oriented.{" "}
             </Call>
@@ -149,7 +123,7 @@ const Landing = () => (
           <Card bg="#deeaf7;">
             <Call color="#333" size="24px">
               {" "}
-              <img height="30px" src="/build.png" />
+              <img height="30px" src="/build.png" alt="icon of coding symbol."/>
               <br />
               Build something amazing.{" "}
             </Call>
@@ -168,7 +142,7 @@ const Landing = () => (
           <Card bg="#f9e5eb;">
             <Call size="24px" color="#333;">
               {" "}
-              <img height="30px" src="/share.png" />
+              <img height="30px" src="/share.png" alt="icon of sharing arrow."/>
               <br />
               Share and win prizes.{" "}
             </Call>
@@ -194,7 +168,7 @@ const Landing = () => (
           <Card bg="#deeaf7;">
             <Call color="#333" size="24px">
               {" "}
-              <img height="30px" src="/fun.png" />
+              <img height="30px" src="/fun.png" alt="icon of happy face."/>
               <br />
               Fun, food, and swag.{" "}
             </Call>
@@ -962,10 +936,10 @@ const Landing = () => (
     </Site>
     <div class="center">
       <a href="https://twitter.com/makespp">
-        <img height="50px" src="/twitter.png" />
+        <img height="50px" src="/twitter.png" alt="twitter icon."/>
       </a>
       <a href="https://instagram.com/sppmakes">
-        <img height="50px" src="/instagram.png" />
+        <img height="50px" src="/instagram.png" alt="instagram icon."/>
       </a>
     </div>
 
@@ -974,7 +948,7 @@ const Landing = () => (
     </Description>
 
 <div class="center">
-      
+
       <a href="http://2018.makespp.com">
         <b>2018</b>
       </a>&nbsp; | &nbsp;

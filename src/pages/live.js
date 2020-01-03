@@ -1,14 +1,11 @@
 import React from "react";
 // import { Link } from "gatsby";
 import Header from "../components/smallheader";
-import RegisterComponent from "../components/register";
 import styled from "styled-components";
 
-import Landing from "../components/landing";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import { Container, Row, Col } from "react-grid-system";
-import Footer from "../components/layout";
 
 import Countdown from "../components/countdown";
 import { TwitterTimelineEmbed } from "react-twitter-embed";
@@ -78,9 +75,7 @@ const Live = () => (
 
         <Col className="center" sm={4}>
           <h2>
-            <a className="blue" href="">
-              <u> Pitch your Project Workshop @ 4 PM</u>
-            </a>
+            <u> Pitch your Project Workshop @ 4 PM</u>
           </h2>
 
           <h2>

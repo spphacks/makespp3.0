@@ -26,7 +26,7 @@ const Logo = styled.img`
   @media only screen and (max-width: 1024px) {
     display: none;
   }
-  
+
 `;
 const Tagline = styled.h1`
   position: absolute;
@@ -160,7 +160,7 @@ const Header = ({ siteTitle }) => (
       params={{
         particles: {
           number: {
-            value: 500,
+            value: 400,
             density: {
               enable: false
             }

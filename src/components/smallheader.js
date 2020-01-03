@@ -2,7 +2,6 @@ import { Link } from "gatsby";
 import React from "react";
 import Particles from "react-particles-js";
 import styled from "styled-components";
-import Iframe from "react-iframe";
 
 const Background = styled.header`
   width: 100vw;
@@ -26,56 +25,6 @@ const Logo = styled.img`
   filter: drop-shadow(0px 0px 5px #ca043f);
   @media only screen and (max-width: 1024px) {
     display: none;
-  }
-`;
-const Tagline = styled.h1`
-  position: absolute;
-  top: 125px;
-  max-width: 500px;
-  font-size: 3.5rem;
-  padding-left: 5%;
-  color: #fff;
-
-  @media only screen and (max-width: 1024px) {
-    font-size: 48px;
-    top: 80px;
-  }
-`;
-
-const SubTagline = styled.h1`
-  position: absolute;
-  top: 400px;
-  max-width: 500px;
-  font-size: 2rem;
-  padding-left: 5%;
-  color: #fff;
-
-  @media only screen and (max-width: 1024px) {
-    font-size: 24px;
-    top: 360px;
-  }
-`;
-
-const Date = styled.h1`
-  position: absolute;
-  bottom: 110px;
-  border-bottom: 5px solid #ca043f;
-  margin-left: 5%;
-`;
-
-const Register = styled.h3`
-  position: absolute;
-  bottom: 30px;
-  margin-left: 5%;
-  padding: 10px;
-  border: 5px solid #fff;
-  border-radius: 10px;
-  font-size: 24px;
-  text-decoration: none;
-  color: #fff;
-  transition: all 300ms ease;
-  &:hover {
-    background: #ca043f;
   }
 `;
 
@@ -122,7 +71,7 @@ const Header = ({ siteTitle }) => (
       params={{
         particles: {
           number: {
-            value: 200,
+            value: 300,
             density: {
               enable: false
             }
@@ -148,11 +97,11 @@ const Header = ({ siteTitle }) => (
         interactivity: {
           events: {
             onhover: {
-              enable: true,
+              enable: false,
               mode: "bubble"
             },
             onclick: {
-              enable: true,
+              enable: false,
               mode: "repulse"
             }
           },
