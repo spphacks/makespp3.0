@@ -32,6 +32,11 @@ iframe {
   border: none;
 }
 
+.video iframe {
+  width: 600px;
+  height: 330px;
+}
+
 
 .red {
   color: #ca043f;
