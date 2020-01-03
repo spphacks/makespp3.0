@@ -9,7 +9,7 @@ const Background = styled.header`
   margin: 0;
   color: #fff;
   padding: 0;
-  background: linear-gradient(to right, #c94b4b, #4b134f);
+  background: linear-gradient(to right, #c33764, #1d2671);
 `;
 
 const LogoContainer = styled.div`
@@ -59,7 +59,7 @@ const Header = ({ siteTitle }) => (
     >
       {" "}
       <Title className="title">
-        make<span className="red">spp</span> <span className="two">3.0</span>
+        <span className="purple">make</span><span className="orange">spp</span> <span className="two">3.0</span>
       </Title>
     </Link>
     <LogoContainer>
