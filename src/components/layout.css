@@ -28,6 +28,11 @@ body {
   right: 5%;
 }
 
+iframe {
+  border: none;
+}
+
+
 .red {
   color: #ca043f;
 }
