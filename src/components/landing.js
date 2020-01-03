@@ -968,9 +968,23 @@ const Landing = () => (
         <img height="50px" src="/instagram.png" />
       </a>
     </div>
+
     <Description color="#333" className="center" size="16px">
       © 2020 <a href="https://spprep.org"> Saint Peter's Prep High School</a>
     </Description>
+
+<div class="center">
+      
+      <a href="https://2018.makespp.com">
+        <b>2018</b>
+      </a>&nbsp; | &nbsp;
+      <a href="https://2019.makespp.com">
+       <b>2019</b>
+      </a> &nbsp; | &nbsp;
+      <a href="https://makespp.com">
+       <b>2020</b>
+      </a>
+    </div>
   </div>
 );
 
