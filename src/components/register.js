@@ -124,7 +124,7 @@ class Register extends Component {
     console.log(this.state);
     const data = new FormData(event.target);
     fetch(
-      "https://script.google.com/macros/s/AKfycbwXbc7NliDvMD9WS_PfpY-Fv060rIlC66yX1JPYNMXALHQa0SY/exec",
+      "https://script.google.com/macros/s/AKfycbyP3jQM-nguCkmqbEmxJoIDtF_qiU_xESirUR105BzFT3Vprg/exec",
       { method: "POST", body: data }
     )
       .then(response => console.log("Success!", response))

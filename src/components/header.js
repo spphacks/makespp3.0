@@ -10,7 +10,7 @@ const Background = styled.header`
   margin: 0;
   color: #fff;
   padding: 0;
-  background: linear-gradient(to right, #304352, #d7d2cc);
+  background: linear-gradient(to right, #485563, #29323c);
 `;
 
 const LogoContainer = styled.div`
@@ -160,7 +160,7 @@ const Header = ({ siteTitle }) => (
       params={{
         particles: {
           number: {
-            value: 2000,
+            value: 500,
             density: {
               enable: false
             }
