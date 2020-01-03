@@ -26,6 +26,7 @@ const Logo = styled.img`
   @media only screen and (max-width: 1024px) {
     display: none;
   }
+  
 `;
 const Tagline = styled.h1`
   position: absolute;
@@ -69,7 +70,7 @@ const SubTagline = styled.h1`
 const Date = styled.h1`
   position: absolute;
   bottom: 10px;
-  border-bottom: 5px solid #ca043f;
+  border-bottom: 5px solid #f15f5e;
   margin-left: 5%;
 `;
 
@@ -144,7 +145,7 @@ const Header = ({ siteTitle }) => (
 
     <SubTagline>
       {" "}
-      Learn to build & pitch a product with workshops, free food, and prizes.{" "}
+      Learn to build & pitch a product with workshops, free food, and thousands in prizes.{" "}
     </SubTagline>
 
     <Date className="font">April 25th, 2020 </Date>
@@ -189,7 +190,7 @@ const Header = ({ siteTitle }) => (
               mode: "bubble"
             },
             onclick: {
-              enable: true,
+              enable: false,
               mode: "repulse"
             }
           },

@@ -13,6 +13,7 @@ export default function HTML(props) {
         />
         {props.headComponents}
         <script src="https://cdn.rawgit.com/progers/pathseg/master/pathseg.js" />
+        <script src="https://unpkg.com/scrollreveal"></script>
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
