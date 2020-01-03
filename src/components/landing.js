@@ -503,7 +503,7 @@ const Landing = () => (
           <Description className="center" color="#333" size="16px">
             {" "}
             Email us at <a href="mailto:team@makespp.com">
-              team@makespp.com
+              team@makespp.com.
             </a>{" "}
             <br />
           </Description>
@@ -721,7 +721,7 @@ const Landing = () => (
         Leadership
       </Call>
       <br /> <br /> <br />
-      <Row>
+      {/* <Row>
         <Col sm={2}>
           <Profile src="/team/samay.jpg" />
           <Description className="center" color="#333" size="18px">
@@ -792,9 +792,9 @@ const Landing = () => (
           </Description>
           <br />
         </Col>
-      </Row>
+      </Row> */}
       <Row>
-        <Col sm={2}>
+        {/* <Col sm={2}>
           <Profile src="/team/owen.jpg" />
           <Description className="center" color="#333" size="18px">
             {" "}
@@ -804,16 +804,40 @@ const Landing = () => (
             {" "}
             Event Experience
           </Description>
-        </Col>{" "}
+        </Col>{" "} */}
+        <Col sm={2} />
         <Col sm={2}>
-          <Profile src="/team/jonas.jpg" />
+          <Profile src="/team/tomek.jpg" />
           <Description className="center" color="#333" size="18px">
             {" "}
-            <b> Jonas Eaton</b>
+            <b> Tomek Botwicz</b>
           </Description>
           <Description className="center" color="#333" size="16px">
             {" "}
             Operations
+          </Description>
+          <br />
+        </Col>
+        <Col sm={2}>
+          <Profile src="/team/eli.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Eli Blumenfeld</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Marketing
+          </Description>
+        </Col>
+        <Col sm={2}>
+          <Profile src="/team/shivansh.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b>Shivansh Kumar</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Event Experience
           </Description>
           <br />
         </Col>
@@ -829,6 +853,34 @@ const Landing = () => (
           </Description>
           <br />
         </Col>
+
+        {/* <Col sm={2}>
+          <Profile src="/team/tyler.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Tyler Greene</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Event Experience
+          </Description>
+        </Col> */}
+
+      </Row>
+      <Row>
+        <Col sm={1} />
+        <Col sm={2}>
+          <Profile src="/team/jonas.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Jonas Eaton</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Operations
+          </Description>
+          <br />
+        </Col>
         <Col sm={2}>
           <Profile src="/team/ethan.jpg" />
           <Description className="center" color="#333" size="18px">
@@ -841,55 +893,7 @@ const Landing = () => (
           </Description>
           <br />
         </Col>
-        <Col sm={2}>
-          <Profile src="/team/tyler.jpg" />
-          <Description className="center" color="#333" size="18px">
-            {" "}
-            <b> Tyler Greene</b>
-          </Description>
-          <Description className="center" color="#333" size="16px">
-            {" "}
-            Event Experience
-          </Description>
-        </Col>
-        <Col sm={2}>
-          <Profile src="/team/suvan.jpg" />
-          <Description className="center" color="#333" size="18px">
-            {" "}
-            <b> Suvan Bhat</b>
-          </Description>
-          <Description className="center" color="#333" size="16px">
-            {" "}
-            Marketing
-          </Description>
-          <br />
-        </Col>
-      </Row>
-      <Row>
-        <Col sm={2}>
-          <Profile src="/team/tomek.jpg" />
-          <Description className="center" color="#333" size="18px">
-            {" "}
-            <b> Tomek Botwicz</b>
-          </Description>
-          <Description className="center" color="#333" size="16px">
-            {" "}
-            Finance
-          </Description>
-          <br />
-        </Col>
-        <Col sm={2}>
-          <Profile src="/team/eli.jpg" />
-          <Description className="center" color="#333" size="18px">
-            {" "}
-            <b> Eli Blumenfeld</b>
-          </Description>
-          <Description className="center" color="#333" size="16px">
-            {" "}
-            Event Experience
-          </Description>
-        </Col>
-        <Col sm={2}>
+        {/* <Col sm={2}>
           <Profile src="/team/liam.jpg" />
           <Description className="center" color="#333" size="18px">
             {" "}
@@ -900,7 +904,7 @@ const Landing = () => (
             Operations
           </Description>
           <br />
-        </Col>
+        </Col> */}
         <Col sm={2}>
           <Profile src="/team/sam.jpg" />
           <Description className="center" color="#333" size="18px">
@@ -914,10 +918,10 @@ const Landing = () => (
           <br />
         </Col>
         <Col sm={2}>
-          <Profile src="/team/shivansh.jpg" />
+          <Profile src="/team/suvan.jpg" />
           <Description className="center" color="#333" size="18px">
             {" "}
-            <b>Shivansh Kumar</b>
+            <b> Suvan Bhat</b>
           </Description>
           <Description className="center" color="#333" size="16px">
             {" "}
@@ -954,7 +958,7 @@ const Landing = () => (
       </Row>
     </Site>
     <div class="center">
-      <a href="https://twitter.com/sppmakes">
+      <a href="https://twitter.com/makespp">
         <img height="50px" src="/twitter.png" />
       </a>
       <a href="https://instagram.com/sppmakes">
