@@ -988,7 +988,5 @@ const Landing = () => (
   </div>
 );
 
-// Last year-- Must do (state dept. t shirts, video in square)
-// Footer + CoC -- Must do
 
 export default Landing;
