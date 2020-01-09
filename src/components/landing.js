@@ -782,7 +782,7 @@ const Landing = () => (
             Event Experience
           </Description>
         </Col>{" "} */}
-        <Col sm={2} />
+        <Col sm={1} />
         <Col sm={2}>
           <Profile src="/team/tomek.jpg" />
           <Description className="center" color="#333" size="18px">
@@ -831,7 +831,7 @@ const Landing = () => (
           <br />
         </Col>
 
-        {/* <Col sm={2}>
+        <Col sm={2}>
           <Profile src="/team/tyler.jpg" />
           <Description className="center" color="#333" size="18px">
             {" "}
@@ -841,11 +841,10 @@ const Landing = () => (
             {" "}
             Event Experience
           </Description>
-        </Col> */}
+        </Col>
 
       </Row>
       <Row>
-        <Col sm={1} />
         <Col sm={2}>
           <Profile src="/team/jonas.jpg" />
           <Description className="center" color="#333" size="18px">
@@ -870,7 +869,7 @@ const Landing = () => (
           </Description>
           <br />
         </Col>
-        {/* <Col sm={2}>
+        <Col sm={2}>
           <Profile src="/team/liam.jpg" />
           <Description className="center" color="#333" size="18px">
             {" "}
@@ -881,7 +880,7 @@ const Landing = () => (
             Operations
           </Description>
           <br />
-        </Col> */}
+        </Col>
         <Col sm={2}>
           <Profile src="/team/sam.jpg" />
           <Description className="center" color="#333" size="18px">
@@ -951,7 +950,7 @@ const Landing = () => (
 
       <a href="http://2018.makespp.com">
         <b>2018</b>
-      </a>&nbsp; | &nbsp;
+      </a>&nbsp; | 
       <a href="https://2019.makespp.com">
        <b>2019</b>
       </a> &nbsp; | &nbsp;

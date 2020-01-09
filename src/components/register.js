@@ -219,7 +219,7 @@ class Register extends Component {
 
                 <option>Male</option>
                 <option>Female</option>
-                <option>Non-binary</option>
+                <option>Non-Binary</option>
                 <option>Prefer not to say</option>
               </Select>
             </Col>
@@ -240,7 +240,7 @@ class Register extends Component {
 
                 <option>Beginner (never attended a hackathon before)</option>
                 <option>Intermediate (familiar with hackathons)</option>
-                <option>Expert (attended many hackathons before)</option>
+                <option>Expert (frequent hackathon attendee)</option>
               </Select>
             </Col>
           </Row>
@@ -249,7 +249,7 @@ class Register extends Component {
             <Col sm={12}>
               <Label>Why do you want to attend MakeSPP?</Label>
               <SubLabel>
-                Please share a couple sentences on what you'd like to learn or
+                Please share, in a couple sentences, what you'd like to learn or
                 build at MakeSPP.
               </SubLabel>
               <br />
@@ -269,10 +269,9 @@ class Register extends Component {
             <Col sm={2} />
             <Col sm={8}>
               <SubLabel>
-                If you have a team, please enter their names here. Make sure
+                If you have a team, enter their names here. Make sure
                 they sign up too! If you don't have a team yet, don't worry,
-                there will be a team formation session at the beginning of the
-                event.{" "}
+                there will be a team formation session.{" "}
               </SubLabel>
               <Input
                 type="text"

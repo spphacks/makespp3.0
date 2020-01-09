@@ -10,7 +10,7 @@ const Background = styled.header`
   margin: 0;
   color: #fff;
   padding: 0;
-  background: linear-gradient(to right, #c33764, #1d2671);
+  background: linear-gradient(to right, #23074d, #cc5333);
 `;
 
 const LogoContainer = styled.div`
@@ -20,8 +20,8 @@ const LogoContainer = styled.div`
   margin: 0;
 `;
 const Logo = styled.img`
-  padding-top: 30px;
-  height: 75px;
+  padding-top: 35px;
+  height: 80px;
   padding-left: 30px;
   @media only screen and (max-width: 1024px) {
     display: none;
@@ -117,7 +117,7 @@ const Title = styled.h1`
 const Header = ({ siteTitle }) => (
   <Background>
     <div className="video">
-      <Iframe
+      <br /> <br /><Iframe
         url="https://www.youtube.com/embed/_pffiCMj-gw"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         display="initial"
@@ -140,17 +140,15 @@ const Header = ({ siteTitle }) => (
     <LogoContainer>
       <Logo src="/logo.png" />
     </LogoContainer>
-    <Tagline> New Jersey's Premier High School Hackathon </Tagline>
-
+    <Tagline> <br /> New Jersey's Premier High School Hackathon </Tagline>
 
     <SubTagline>
-      {" "}
-      Learn to build & pitch a product with workshops, free food, and thousands in prizes.{" "}
+      <br / ><br />Learn to build & pitch a product with workshops, free food, and thousands in prizes.
     </SubTagline>
 
-    <Date className="font">April 25th, 2020 </Date>
+    <Date>April 25th, 2020</Date>
     {/* <Link to="/register">
-      <Register> Register </Register>
+      <Register> Early Registration </Register>
     </Link> */}
     {/* <Link to="/live">
       <Register> MakeSPP Live </Register>
@@ -161,9 +159,6 @@ const Header = ({ siteTitle }) => (
         particles: {
           number: {
             value: 400,
-            density: {
-              enable: false
-            }
           },
           size: {
             value: 3,
@@ -183,30 +178,6 @@ const Header = ({ siteTitle }) => (
             out_mode: "out"
           }
         },
-        interactivity: {
-          events: {
-            onhover: {
-              enable: false,
-              mode: "bubble"
-            },
-            onclick: {
-              enable: false,
-              mode: "repulse"
-            }
-          },
-          modes: {
-            bubble: {
-              distance: 250,
-              duration: 2,
-              size: 0,
-              opacity: 0
-            },
-            repulse: {
-              distance: 25,
-              duration: 1
-            }
-          }
-        }
       }}
     />
   </Background>

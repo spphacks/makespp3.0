@@ -78,7 +78,7 @@ const Header = ({ siteTitle }) => (
           },
           size: {
             value: 3,
-            random: true,
+            random: false,
             anim: {
               speed: 4,
               size_min: 0.3
@@ -89,35 +89,11 @@ const Header = ({ siteTitle }) => (
           },
           move: {
             random: true,
-            speed: 1,
+            speed: 1.5,
             direction: "top",
             out_mode: "out"
           }
         },
-        interactivity: {
-          events: {
-            onhover: {
-              enable: false,
-              mode: "bubble"
-            },
-            onclick: {
-              enable: false,
-              mode: "repulse"
-            }
-          },
-          modes: {
-            bubble: {
-              distance: 250,
-              duration: 2,
-              size: 0,
-              opacity: 0
-            },
-            repulse: {
-              distance: 25,
-              duration: 1
-            }
-          }
-        }
       }}
     />
   </Background>
