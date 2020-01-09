@@ -78,7 +78,7 @@ const Header = ({ siteTitle }) => (
           },
           size: {
             value: 3,
-            random: false,
+            random: true,
             anim: {
               speed: 4,
               size_min: 0.3

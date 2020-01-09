@@ -950,7 +950,7 @@ const Landing = () => (
 
       <a href="http://2018.makespp.com">
         <b>2018</b>
-      </a>&nbsp; | 
+      </a>&nbsp; | &nbsp;
       <a href="https://2019.makespp.com">
        <b>2019</b>
       </a> &nbsp; | &nbsp;

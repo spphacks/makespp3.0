@@ -22,7 +22,7 @@ const LogoContainer = styled.div`
 const Logo = styled.img`
   padding-top: 35px;
   height: 80px;
-  padding-left: 30px;
+  padding-left: 565px;
   @media only screen and (max-width: 1024px) {
     display: none;
   }
