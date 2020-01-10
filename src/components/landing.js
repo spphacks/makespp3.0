@@ -79,7 +79,7 @@ const Landing = () => (
           challenging problems with technology.{" "}
           <b>
             <u>
-              <Link to="/register">Join Us.</Link>
+              {/* <Link to="/register">Join Us.</Link> */}
             </u>{" "}
           </b>
         </Description>
