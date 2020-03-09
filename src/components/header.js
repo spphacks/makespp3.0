@@ -10,7 +10,7 @@ const Background = styled.header`
   margin: 0;
   color: #fff;
   padding: 0;
-  background: linear-gradient(to right, #23074d, #cc5333);
+  background: linear-gradient(to right, #485563, #29323c);
 `;
 
 const LogoContainer = styled.div`
@@ -20,28 +20,28 @@ const LogoContainer = styled.div`
   margin: 0;
 `;
 const Logo = styled.img`
-  padding-top: 35px;
-  height: 80px;
+  padding-top: 30px;
+  height: 75px;
   padding-left: 30px;
+  filter: drop-shadow(0px 0px 5px #ca043f);
   @media only screen and (max-width: 1024px) {
     display: none;
   }
-
 `;
 const Tagline = styled.h1`
   position: absolute;
-  top: 110px;
+  top: 100px;
   max-width: 500px;
-  font-size: 3.5rem;
+  font-size: 3rem;
   padding-left: 5%;
   color: #fff;
-
   @media only screen and (max-width: 1024px) {
     font-size: 48px;
     top: 80px;
     padding-left: 3%;
   }
   @media only screen and (max-width: 600px) {
+    top: 30px;
     font-size: 36px;
     padding-left: 3%;
   }
@@ -49,20 +49,19 @@ const Tagline = styled.h1`
 
 const SubTagline = styled.h1`
   position: absolute;
-  top: 450px;
+  top: 320px;
   max-width: 500px;
   font-size: 24px;
   padding-left: 5%;
   color: #fff;
-
   @media only screen and (max-width: 1024px) {
     font-size: 24px;
     top: 350px;
     padding-left: 3%;
   }
   @media only screen and (max-width: 600px) {
-    top: 250px;
-    font-size: 24px;
+    top: 230px;
+    font-size: 20px;
     padding-left: 3%;
   }
 `;
@@ -70,7 +69,7 @@ const SubTagline = styled.h1`
 const Date = styled.h1`
   position: absolute;
   bottom: 10px;
-  border-bottom: 5px solid #f15f5e;
+  border-bottom: 5px solid #ca043f;
   margin-left: 5%;
 `;
 
@@ -148,7 +147,7 @@ const Header = ({ siteTitle }) => (
 
     <Date>April 25th, 2020</Date>
     <Link to="/register">
-      <Register> Early Registration </Register>
+      <Register> Register </Register>
     </Link>
     {/* <Link to="/live">
       <Register> MakeSPP Live </Register>
