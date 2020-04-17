@@ -188,9 +188,7 @@ const Landing = () => (
         Location
       </Call>
       <Description color="#333" className="center" size="28px">
-        <b>April 25th, 2020</b>
-        <br />
-        <b>8AM - 8PM</b>
+        <b>September 2020</b>
         <br />
         Saint Peter's Preparatory High School <br />
         144 Grand St, Jersey City, NJ 07302
