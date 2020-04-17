@@ -791,7 +791,7 @@ const Landing = () => (
           </Description>
           <Description className="center" color="#333" size="16px">
             {" "}
-            Operations
+            Director
           </Description>
           <br />
         </Col>
@@ -803,7 +803,7 @@ const Landing = () => (
           </Description>
           <Description className="center" color="#333" size="16px">
             {" "}
-            Marketing
+             Marketing & Event Lead
           </Description>
         </Col>
         <Col sm={2}>
@@ -814,7 +814,7 @@ const Landing = () => (
           </Description>
           <Description className="center" color="#333" size="16px">
             {" "}
-            Event Experience
+            Experience Lead
           </Description>
           <br />
         </Col>
@@ -826,7 +826,7 @@ const Landing = () => (
           </Description>
           <Description className="center" color="#333" size="16px">
             {" "}
-            Finance
+            Finance Lead
           </Description>
           <br />
         </Col>
