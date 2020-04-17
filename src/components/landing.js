@@ -803,7 +803,7 @@ const Landing = () => (
           </Description>
           <Description className="center" color="#333" size="16px">
             {" "}
-             Marketing & Event Lead
+             Marketing Lead
           </Description>
         </Col>
         <Col sm={2}>
@@ -814,7 +814,7 @@ const Landing = () => (
           </Description>
           <Description className="center" color="#333" size="16px">
             {" "}
-            Experience Lead
+            Event Lead
           </Description>
           <br />
         </Col>
