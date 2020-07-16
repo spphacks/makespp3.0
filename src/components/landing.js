@@ -724,7 +724,7 @@ const Landing = () => (
         </Col>{" "} */}
         <Col sm={1.5} />
         <Col sm={3}>
-          <Profile src="/team/tomek.jpg" />
+          <Profile src="/team/tomek.jpg"/>
           <Description className="center" color="#333" size="18px">
             {" "}
             <b> Tomek Botwicz</b>
