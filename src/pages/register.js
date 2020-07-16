@@ -9,7 +9,7 @@ import SEO from "../components/seo";
 const Register = () => (
   <Layout>
     <SEO
-      title="Register | MakeSPP 3.0"
+      title="Register | MakeSPP 2020"
       keywords={[`MakeSPP`, `Saint Peter's Prep`, `hackathon`]}
     />
     <Header />
