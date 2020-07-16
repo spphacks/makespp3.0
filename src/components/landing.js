@@ -177,7 +177,7 @@ const Landing = () => (
               With delicious food and awesome swag from the hottest tech
               companies, you'll have a <b>great time</b>.
               <br /> <br />
-              Whether you're working on a marketing pitch or coding up a new AI
+              Whether you're working on a marketing pitch or coding up an AI
               algorithm, MakeSPP is a place for everyone to thrive.{" "}
             </Description>
           </Card>
@@ -477,8 +477,8 @@ const Landing = () => (
           </Call>
           <Description className="center" color="#333" size="16px">
             {" "}
-            Email us at <a href="mailto:team@makespp.com">
-              team@makespp.com.
+            Reach out to the director at <a href="mailto:botwiczt21@students.spprep.org">
+              botwiczt21@students.spprep.org.
             </a>{" "}
             <br />
           </Description>
@@ -695,34 +695,30 @@ const Landing = () => (
       <Call color="#333" className="center" size="48px">
         Leadership
       </Call>
-      <br /> <br /> <br />
+      <br /> <br />
       {/* <Row>
         <Col sm={2}>
-          <Profile src="/team/dan.jpg" />
+          <Profile src="/team/samay.jpg" />
           <Description className="center" color="#333" size="18px">
             {" "}
-            <b> Daniel Ambrosio</b>
+            <b> Samay</b>
           </Description>
           <Description className="center" color="#333" size="16px">
             {" "}
-            Event Experience Lead
+            Event Lead
           </Description>
           <br />
         </Col>
       </Row> */}
       <Row>
-        {/* <Col sm={2}>
-          <Profile src="/team/owen.jpg" />
-          <Description className="center" color="#333" size="18px">
-            {" "}
-            <b> Owen Kealey</b>
-          </Description>
-          <Description className="center" color="#333" size="16px">
-            {" "}
-            Event Experience
-          </Description>
-        </Col>{" "} */}
         <Col sm={1.5} />
+        <Col sm={3}>
+        <Profile src="/team/eli.jpg" />
+        <Description className="center" color="#333" size="18px">
+          {" "}
+          <b> Eli Blumenfeld</b>
+        </Description>
+        </Col>
         <Col sm={3}>
           <Profile src="/team/tomek.jpg"/>
           <Description className="center" color="#333" size="18px">
@@ -736,25 +732,10 @@ const Landing = () => (
           <br />
         </Col>
         <Col sm={3}>
-          <Profile src="/team/eli.jpg" />
-          <Description className="center" color="#333" size="18px">
-            {" "}
-            <b> Eli Blumenfeld</b>
-          </Description>
-          <Description className="center" color="#333" size="16px">
-            {" "}
-             Marketing Lead
-          </Description>
-        </Col>
-        <Col sm={3}>
           <Profile src="/team/shivansh.jpg" />
           <Description className="center" color="#333" size="18px">
             {" "}
             <b>Shivansh Kumar</b>
-          </Description>
-          <Description className="center" color="#333" size="16px">
-            {" "}
-            Event Lead
           </Description>
           <br />
         </Col>
@@ -785,12 +766,11 @@ const Landing = () => (
           </Description>
           <br />
         </Col>
-        <Col sm={5} />
       </Row>
     </Site>
     <div class="center">
       <a href="https://twitter.com/makespp">
-        <img height="50px" src="/twitter.png" alt="twitter icon."/>
+        <img height="52px" src="/twitter.png" alt="twitter icon."/>
       </a>
       <a href="https://instagram.com/sppmakes">
         <img height="50px" src="/instagram.png" alt="instagram icon."/>
@@ -802,7 +782,6 @@ const Landing = () => (
     </Description>
 
 <div class="center">
-
       <a href="http://2018.makespp.com">
         <b>2018</b>
       </a>&nbsp; | &nbsp;
@@ -815,6 +794,4 @@ const Landing = () => (
     </div>
   </div>
 );
-
-
 export default Landing;
