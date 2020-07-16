@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `MakeSPP`,
-    description: `North Jersey's Premier High School Hackathon`,
+    description: `New Jersey's Premier High School Hackathon`,
     author: `Saint Peter's Prep MakeSPP Team`
   },
   plugins: [
@@ -31,11 +31,8 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/logo.png` // This path is relative to the root of the site.
+        icon: `src/images/logo.png`
       }
     }
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
   ]
 };
