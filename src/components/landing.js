@@ -188,7 +188,7 @@ const Landing = () => (
         Location
       </Call>
       <Description color="#333" className="center" size="28px">
-        <b>September 2020</b>
+        <b>October 2020</b>
         <br />
         Saint Peter's Preparatory High School <br />
         144 Grand St, Jersey City, NJ 07302
@@ -698,64 +698,6 @@ const Landing = () => (
       <br /> <br /> <br />
       {/* <Row>
         <Col sm={2}>
-          <Profile src="/team/samay.jpg" />
-          <Description className="center" color="#333" size="18px">
-            {" "}
-            <b> Samay Shamdasani</b>
-          </Description>
-          <Description className="center" color="#333" size="16px">
-            {" "}
-            Director
-          </Description>
-        </Col>
-        <Col sm={2}>
-          <Profile src="/team/nathan.jpg" />
-          <Description className="center" color="#333" size="18px">
-            {" "}
-            <b> Nathan Blumenfeld</b>
-          </Description>
-          <Description className="center" color="#333" size="16px">
-            {" "}
-            Finance Lead
-          </Description>
-        </Col>
-        <Col sm={2}>
-          <Profile src="/team/max.jpg" />
-          <Description className="center" color="#333" size="18px">
-            {" "}
-            <b> Maxim Geller</b>
-          </Description>
-          <Description className="center" color="#333" size="16px">
-            {" "}
-            Operations Lead
-          </Description>
-          <br />
-        </Col>
-        <Col sm={2}>
-          <Profile src="/team/shash.jpg" />
-          <Description className="center" color="#333" size="18px">
-            {" "}
-            <b> Shashwat Punjani</b>
-          </Description>
-          <Description className="center" color="#333" size="16px">
-            {" "}
-            Operations Lead
-          </Description>
-          <br />
-        </Col>
-        <Col sm={2}>
-          <Profile src="/team/thomas.jpg" />
-          <Description className="center" color="#333" size="18px">
-            {" "}
-            <b> Thomas Narramore</b>
-          </Description>
-          <Description className="center" color="#333" size="16px">
-            {" "}
-            Marketing Lead
-          </Description>
-          <br />
-        </Col>
-        <Col sm={2}>
           <Profile src="/team/dan.jpg" />
           <Description className="center" color="#333" size="18px">
             {" "}
@@ -780,8 +722,8 @@ const Landing = () => (
             Event Experience
           </Description>
         </Col>{" "} */}
-        <Col sm={1} />
-        <Col sm={2}>
+        <Col sm={1.5} />
+        <Col sm={3}>
           <Profile src="/team/tomek.jpg" />
           <Description className="center" color="#333" size="18px">
             {" "}
@@ -793,7 +735,7 @@ const Landing = () => (
           </Description>
           <br />
         </Col>
-        <Col sm={2}>
+        <Col sm={3}>
           <Profile src="/team/eli.jpg" />
           <Description className="center" color="#333" size="18px">
             {" "}
@@ -804,7 +746,7 @@ const Landing = () => (
              Marketing Lead
           </Description>
         </Col>
-        <Col sm={2}>
+        <Col sm={3}>
           <Profile src="/team/shivansh.jpg" />
           <Description className="center" color="#333" size="18px">
             {" "}
@@ -816,34 +758,9 @@ const Landing = () => (
           </Description>
           <br />
         </Col>
-        <Col sm={2}>
-          <Profile src="/team/victor.jpg" />
-          <Description className="center" color="#333" size="18px">
-            {" "}
-            <b> Victor Tyne</b>
-          </Description>
-          <Description className="center" color="#333" size="16px">
-            {" "}
-            Finance Lead
-          </Description>
-          <br />
-        </Col>
-
-        <Col sm={2}>
-          <Profile src="/team/tyler.jpg" />
-          <Description className="center" color="#333" size="18px">
-            {" "}
-            <b> Tyler Greene</b>
-          </Description>
-          <Description className="center" color="#333" size="16px">
-            {" "}
-            Event Experience
-          </Description>
-        </Col>
-
       </Row>
       <Row>
-        <Col sm={2}>
+        {/*<Col sm={2}>
           <Profile src="/team/jonas.jpg" />
           <Description className="center" color="#333" size="18px">
             {" "}
@@ -855,68 +772,8 @@ const Landing = () => (
           </Description>
           <br />
         </Col>
-        <Col sm={2}>
-          <Profile src="/team/ethan.jpg" />
-          <Description className="center" color="#333" size="18px">
-            {" "}
-            <b> Ethan MacMillan</b>
-          </Description>
-          <Description className="center" color="#333" size="16px">
-            {" "}
-            Operations
-          </Description>
-          <br />
-        </Col>
-        <Col sm={2}>
-          <Profile src="/team/liam.jpg" />
-          <Description className="center" color="#333" size="18px">
-            {" "}
-            <b>Liam Concannon</b>
-          </Description>
-          <Description className="center" color="#333" size="16px">
-            {" "}
-            Operations
-          </Description>
-          <br />
-        </Col>
-        <Col sm={2}>
-          <Profile src="/team/sam.jpg" />
-          <Description className="center" color="#333" size="18px">
-            {" "}
-            <b>Samuel Leonte</b>
-          </Description>
-          <Description className="center" color="#333" size="16px">
-            {" "}
-            Operations
-          </Description>
-          <br />
-        </Col>
-        <Col sm={2}>
-          <Profile src="/team/suvan.jpg" />
-          <Description className="center" color="#333" size="18px">
-            {" "}
-            <b> Suvan Bhat</b>
-          </Description>
-          <Description className="center" color="#333" size="16px">
-            {" "}
-            Marketing
-          </Description>
-          <br />
-        </Col>
-        <Col sm={2}>
-          <Profile src="/team/ben.jpg" />
-          <Description className="center" color="#333" size="18px">
-            {" "}
-            <b>Ben Norris</b>
-          </Description>
-          <Description className="center" color="#333" size="16px">
-            {" "}
-            Marketing
-          </Description>
-          <br />
-        </Col>
-        <Col sm={5} />
-        <Col sm={2}>
+        <Col sm={5} />*/}
+        <Col sm={14}>
           <Profile src="/team/holtm.png" />
           <Description className="center" color="#333" size="18px">
             {" "}
