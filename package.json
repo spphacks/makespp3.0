@@ -1,9 +1,9 @@
 {
   "name": "MakeSPP",
   "private": true,
-  "description": "The landing page for MakeSPP 2.0",
-  "version": "0.0.1",
-  "author": "Samay Shamdasani <samaye@shamdasani.org>",
+  "description": "The landing page for MakeSPP 2020",
+  "version": "3.0",
+  "author": "Tomek Botwicz <botwiczt21@students.spprep.org>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "^2.3.14",

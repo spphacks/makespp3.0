@@ -23,7 +23,7 @@ const Live = () => (
   <Layout>
     <Header />
     <SEO
-      title="Live | MakeSPP 3.0"
+      title="Live | MakeSPP 2020"
       keywords={[`MakeSPP`, `Saint Peter's Prep`, `hackathon`]}
     />
     <div className="center">
