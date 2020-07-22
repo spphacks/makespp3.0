@@ -96,7 +96,6 @@ const Landing = () => (
           <Card bg="#f9e5eb;">
             <Call size="24px" color="#333;">
               {" "}
-              <img height="30px" src="/learn.png" alt="icon of head with turning gears."/>
               <br />
               Beginner oriented.{" "}
             </Call>
@@ -123,7 +122,6 @@ const Landing = () => (
           <Card bg="#deeaf7;">
             <Call color="#333" size="24px">
               {" "}
-              <img height="30px" src="/build.png" alt="icon of coding symbol."/>
               <br />
               Build something amazing.{" "}
             </Call>
@@ -142,7 +140,6 @@ const Landing = () => (
           <Card bg="#f9e5eb;">
             <Call size="24px" color="#333;">
               {" "}
-              <img height="30px" src="/share.png" alt="icon of sharing arrow."/>
               <br />
               Share and win prizes.{" "}
             </Call>
@@ -168,7 +165,6 @@ const Landing = () => (
           <Card bg="#deeaf7;">
             <Call color="#333" size="24px">
               {" "}
-              <img height="30px" src="/fun.png" alt="icon of happy face."/>
               <br />
               Fun, food, and swag.{" "}
             </Call>
