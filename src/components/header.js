@@ -145,8 +145,8 @@ const Header = ({ siteTitle }) => (
       <br / ><br />Learn to build & pitch a product with workshops, free food, and thousands in prizes.
     </SubTagline>
 
-    <Date>October 2020</Date>
-    {/*<Link to="/register">
+    <Date>October 9-11, 2020</Date>
+    <Link to="/register">
       <Register> Register </Register>
     </Link>
     {/* <Link to="/live">
