@@ -22,7 +22,7 @@ const LogoContainer = styled.div`
 const Logo = styled.img`
   padding-top: 30px;
   height: 75px;
-  padding-left: 30px;
+  padding-left: 71px;
   filter: drop-shadow(0px 0px 5px #ca043f);
   @media only screen and (max-width: 1024px) {
     display: none;
@@ -69,7 +69,7 @@ const SubTagline = styled.h1`
 const Date = styled.h1`
   position: absolute;
   bottom: 10px;
-  border-bottom: 5px solid #ca043f;
+  border-bottom: 5px solid #ffffff;
   margin-left: 5%;
 `;
 

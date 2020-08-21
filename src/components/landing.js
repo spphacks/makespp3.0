@@ -67,13 +67,13 @@ const Site = styled.div`
 const Landing = () => (
   <div className="landing">
     <Row>
-      <Col sm={6}>
-        <Call color="#333" size="36px">
+      <Col sm={12}>
+        <Call color="#333" size="36px" className="center">
           {" "}
           Learn. Make. Innovate.
         </Call>
-        <Description color="#333" size="28px">
-          MakeSPP brings together over 100 innovative young minds for an all-day
+        <Description color="#333" size="28px" className="center">
+          MakeSPP brings together over 200 innovative young minds for an all-day
           hackathon and technology conference. We're a diverse and creative
           community of students dedicated to solving some of the most
           challenging problems with technology.{" "}
@@ -84,12 +84,8 @@ const Landing = () => (
           </b>
         </Description>
       </Col>
-      <Col sm={6}>
-        <Img height="300px" src="/4.jpg" />
-        <br />
-        <br />
-      </Col>
     </Row>
+    <br />
     <Site>
       <Row>
         <Col sm={6}>
