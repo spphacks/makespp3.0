@@ -139,7 +139,7 @@ const Header = ({ siteTitle }) => (
     <LogoContainer>
       <Logo src="/logo.png" />
     </LogoContainer>
-    <Tagline> <br /> New Jersey's Premier High School Hackathon </Tagline>
+    <Tagline> <br /> New Jersey's Premier Virtual High School Hackathon </Tagline>
 
     <SubTagline>
       <br / ><br />Learn to build & pitch a product with workshops, free food, and thousands in prizes.
