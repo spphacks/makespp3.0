@@ -2,7 +2,7 @@
   "name": "MakeSPP",
   "private": true,
   "description": "The landing page for MakeSPP 2020",
-  "version": "3.0",
+  "version": "3.0.0",
   "author": "Tomek Botwicz <botwiczt21@students.spprep.org>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",

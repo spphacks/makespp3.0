@@ -162,11 +162,11 @@ const Landing = () => (
             <Call color="#333" size="24px">
               {" "}
               <br />
-              Fun, food, and swag.{" "}
+              Fun and swag.{" "}
             </Call>
             <Description color="#333" size="18px">
               {" "}
-              With delicious food and awesome swag from the hottest tech
+              With an amazing community and awesome swag from the hottest tech
               companies, you'll have a <b>great time</b>.
               <br /> <br />
               Whether you're working on a marketing pitch or coding up an AI
@@ -417,7 +417,7 @@ const Landing = () => (
             {" "}
             A hackathon is where you have the opportunity turn your ideas into
             real projects. We'll provide skilled mentors, speakers, workshops,
-            food, friends, & so much more.
+            friends, & so much more.
           </Description>
         </Col>
         <Col sm={4}>
@@ -449,7 +449,7 @@ const Landing = () => (
           <Description className="center" color="#333" size="16px">
             {" "}
             MakeSPP is completely free thanks to our sponsors. There will be
-            food, snacks, drinks, and thousands of dollars worth of prizes.
+            great events and prizes, thanks to our sponsors.
           </Description>
         </Col>
 
