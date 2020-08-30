@@ -176,6 +176,8 @@ const Landing = () => (
         </Col>
       </Row>
       <br />
+      
+      {/*}
       <Call color="#333" className="center" size="48px">
         Location
       </Call>
@@ -195,6 +197,8 @@ const Landing = () => (
           allowFullScreen
         />
       </Description>
+*/}
+
       {/* <Call color="#333" className="center" size="48px">
         Guests
       </Call>
