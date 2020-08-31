@@ -146,9 +146,14 @@ const Header = ({ siteTitle }) => (
     </SubTagline>
 
     <Date>October 9-11, 2020</Date>
-    <Link to="/register">
+    
+
+    <Link to="https://makespp.typeform.com/to/ZzGcLGKb">
       <Register> Register </Register>
     </Link>
+
+
+
     {/* <Link to="/live">
       <Register> MakeSPP Live </Register>
     </Link> */}
