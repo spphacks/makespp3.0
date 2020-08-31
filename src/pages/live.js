@@ -28,7 +28,7 @@ const Live = () => (
     />
     <div className="center">
       <h1>
-        <Countdown date={`April 25, 2020 17:30:00`} />
+        <Countdown date={`October 11, 2020 17:30:00`} />
       </h1>
     </div>
     <Container>

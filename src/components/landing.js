@@ -176,7 +176,7 @@ const Landing = () => (
         </Col>
       </Row>
       <br />
-      
+
       {/*}
       <Call color="#333" className="center" size="48px">
         Location
@@ -714,6 +714,10 @@ const Landing = () => (
           {" "}
           <b> Eli Blumenfeld</b>
         </Description>
+        <Description className="center" color="#333" size="16px">
+          {" "}
+          Senior Organizer
+        </Description>
         </Col>
         <Col sm={3}>
           <Profile src="/team/tomek.jpg"/>
@@ -733,15 +737,20 @@ const Landing = () => (
             {" "}
             <b>Shivansh Kumar</b>
           </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Senior Organizer
+          </Description>
           <br />
         </Col>
       </Row>
       <Row>
-        {/*<Col sm={2}>
-          <Profile src="/team/jonas.jpg" />
+        <Col sm={1} />
+        <Col sm={2.5}>
+          <Profile src="/team/alyssa.jpg" />
           <Description className="center" color="#333" size="18px">
             {" "}
-            <b> Jonas Eaton</b>
+            <b> Alyssa Fuentes</b>
           </Description>
           <Description className="center" color="#333" size="16px">
             {" "}
@@ -749,9 +758,147 @@ const Landing = () => (
           </Description>
           <br />
         </Col>
-        <Col sm={5} />*/}
+        <Col sm={2.5}>
+          <Profile src="/team/max.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Max Rueda</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Operations
+          </Description>
+          <br />
+        </Col>
+        <Col sm={2.5}>
+          <Profile src="/team/jason.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Jason Schreiber</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Operations
+          </Description>
+          <br />
+        </Col>
+        <Col sm={2.5}>
+          <Profile src="/team/natalie.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Natalie Spiska</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Graphic Designer
+          </Description>
+          <br />
+        </Col>
+        </Row>
+        <Row>
+        <Col sm={1} />
+        <Col sm={2.5}>
+          <Profile src="/team/josh.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Josh Kover</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Outreach
+          </Description>
+          <br />
+        </Col>
+        <Col sm={2.5}>
+          <Profile src="/team/vikram.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Vikram Kadyan</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Outreach
+          </Description>
+          <br />
+        </Col>
+        <Col sm={2.5}>
+          <Profile src="/team/alexa.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Alexa Janeczko</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Social Media Manager
+          </Description>
+          <br />
+        </Col>
+        <Col sm={2.5}>
+          <Profile src="/team/avery.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Avery Aquino</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Social Media Manager
+          </Description>
+          <br />
+        </Col>
+        </Row>
+        <Row>
+        <Col sm={1} />
+        <Col sm={2.5}>
+          <Profile src="/team/eric.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Eric Han</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Tech Crew
+          </Description>
+          <br />
+        </Col>
+        <Col sm={2.5}>
+          <Profile src="/team/kevin.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Kevin Shull</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Tech Crew
+          </Description>
+          <br />
+        </Col>
+        <Col sm={2.5}>
+          <Profile src="/team/andrew.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Andrew Lin</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Tech Crew
+          </Description>
+          <br />
+        </Col>
+        <Col sm={2.5}>
+          <Profile src="/team/chris.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Chris Gliatto</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Tech Crew
+          </Description>
+          <br />
+        </Col>
+        <Col sm={5} />
         <Col sm={14}>
-          <Profile src="/team/holtm.png" />
+          <Profile src="/team/michael.jpg" />
           <Description className="center" color="#333" size="18px">
             {" "}
             <b>Michael Holt</b>

@@ -9,7 +9,7 @@ const Background = styled.header`
   margin: 0;
   color: #fff;
   padding: 0;
-  background: linear-gradient(to right, #c33764, #1d2671);
+  background: linear-gradient(to right, #F11712, #0099F7);
 `;
 
 const LogoContainer = styled.div`
@@ -27,7 +27,22 @@ const Logo = styled.img`
     display: none;
   }
 `;
-
+const LogoText = styled.img`
+  position: auto;
+  padding-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  @media only screen and (max-width: 1024px) {
+    content:url("/logo.png");
+    position: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:10%;
+  }
+`;
 const Title = styled.h1`
   font-size: 64px;
   position: absolute;
@@ -58,9 +73,9 @@ const Header = ({ siteTitle }) => (
       }}
     >
       {" "}
-      <Title className="title">
-        <span className="purple">make</span><span className="orange">spp</span> <span className="two">3.0</span>
-      </Title>
+      <LogoContainer>
+        <LogoText src="/logotext.png" />
+      </LogoContainer>
     </Link>
     <LogoContainer>
       <Logo src="/logo.png" />
