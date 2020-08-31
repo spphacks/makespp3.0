@@ -43,24 +43,6 @@ const LogoText = styled.img`
     width:10%;
   }
 `;
-const Title = styled.h1`
-  font-size: 64px;
-  position: absolute;
-  left: 50%;
-  top: 30px;
-  padding: 0;
-  letter-spacing: -3px;
-  margin: 0;
-  transition: all 300ms ease;
-  transform: translateX(-50%);
-  &:hover {
-    opacity: 0.8;
-  }
-  @media only screen and (max-width: 1024px) {
-    font-size: 56px;
-    top: 0;
-  }
-`;
 
 // temp solution for video --  future use youtube component autoplay
 const Header = ({ siteTitle }) => (

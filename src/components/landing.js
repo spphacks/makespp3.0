@@ -2,7 +2,6 @@ import { Link } from "gatsby";
 import React from "react";
 import styled from "styled-components";
 import { Row, Col } from "react-grid-system";
-import Iframe from "react-iframe";
 
 const Call = styled.h2`
   margin: 0;

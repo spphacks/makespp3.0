@@ -107,33 +107,13 @@ const Register = styled.h3`
   }
 `;
 
-const Title = styled.h1`
-  font-size: 64px;
-  position: absolute;
-  left: 50%;
-  top: 30px;
-  padding: 0;
-  font-weight: 700;
-  letter-spacing: -3px;
-  margin: 0;
-  transition: all 300ms ease;
-  transform: translateX(-50%);
-  &:hover {
-    opacity: 0.8;
-  }
-  @media only screen and (max-width: 1024px) {
-    font-size: 56px;
-    top: 0;
-  }
-`;
-
 // temp solution for video --  future use youtube component autoplay
 const Header = ({ siteTitle }) => (
   <Background>
     <div className="video">
-      <br /> <br /><Iframe
-        url="https://www.youtube.com/embed/_pffiCMj-gw"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      <br/><br/><Iframe
+        url="https://www.youtube-nocookie.com/embed/_pffiCMj-gw?fs=0;color=white;rel=0"
+        allow="accelerometer; encrypted-media; picture-in-picture; gyroscope"
         display="initial"
         position="relative"
         allowFullScreen
