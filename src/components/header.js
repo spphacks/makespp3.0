@@ -41,11 +41,11 @@ const LogoText = styled.img`
     margin-left: auto;
     margin-right: auto;
     width:10%;
-  }
+}
 `;
 const Tagline = styled.h1`
   position: absolute;
-  top: 100px;
+  top: 133px;
   max-width: 500px;
   font-size: 3rem;
   padding-left: 5%;
@@ -56,15 +56,15 @@ const Tagline = styled.h1`
     padding-left: 3%;
   }
   @media only screen and (max-width: 600px) {
-    top: 30px;
-    font-size: 36px;
+    top: 100px;
+    font-size: 33px;
     padding-left: 3%;
   }
 `;
 
 const SubTagline = styled.h1`
   position: absolute;
-  top: 320px;
+  top: 353px;
   max-width: 500px;
   font-size: 24px;
   padding-left: 5%;
@@ -76,7 +76,7 @@ const SubTagline = styled.h1`
   }
   @media only screen and (max-width: 600px) {
     top: 230px;
-    font-size: 20px;
+    font-size: 17px;
     padding-left: 3%;
   }
 `;
@@ -107,7 +107,6 @@ const Register = styled.h3`
   }
 `;
 
-// temp solution for video --  future use youtube component autoplay
 const Header = ({ siteTitle }) => (
   <Background>
     <div className="video">
@@ -142,12 +141,9 @@ const Header = ({ siteTitle }) => (
 
     <Date>October 9-11, 2020</Date>
 
-
     <Link to="https://makespp.typeform.com/to/ZzGcLGKb">
       <Register> Register </Register>
     </Link>
-
-
 
     {/* <Link to="/live">
       <Register> MakeSPP Live </Register>

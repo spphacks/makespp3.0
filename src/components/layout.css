@@ -71,12 +71,6 @@ iframe {
 }
 
 @media only screen and (max-width: 1024px) {
-  .two {
-    display: none;
-  }
-  .title {
-    padding: 5%;
-  }
   .video {
     display: none;
   }
