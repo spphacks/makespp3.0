@@ -25,13 +25,23 @@ const Description = styled.p`
     }
 `;
 
+const CardText = styled.p`
+  font-size: ${props => props.size};
+  font-weight: 400;
+  color: #333;
+  padding: 0;
+  line-height: 1.5;
+  color: ${props => props.color};
+  @media only screen and (max-width: 1024px) {
+      font-size: 16px;
+    }
+  @media only screen and (max-width: 800px) {
+        font-size: 13px;
+    }
+`;
+
 const Card = styled.div`
-  background: ${props => props.bg};
-  padding: 10px;
-  margin-bottom: 20px;
-  height: 230px;
-  box-shadow: rgba(0, 0, 0, 0.125) 0px 8px 16px;
-  border-radius: 10px;
+  max-width: 400px;
   @media only screen and (max-width: 1024px) {
     height: 330px;
   }
@@ -47,10 +57,9 @@ const Sponsor = styled.img`
 const Img = styled.img`
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
   display: block;
   box-shadow: rgba(0, 0, 0, 0.125) 0px 8px 16px;
-  border-radius: 10px;
+  border-radius: px;
   @media only screen and (max-width: 1024px) {
     height: 200px;
     max-width: 100%;
@@ -97,95 +106,97 @@ const Landing = () => (
     <br />
     <Site>
       <Row>
-        <Col sm={6}>
+        <Col sm={2}/>
+        <Col sm={4}>
           <Card bg="#F9BEBE;">
             <Call size="24px" color="#333;">
               {" "}
               <br />
               Beginner oriented.{" "}
             </Call>
-            <Description color="#333" size="18px">
+            <CardText size="18px">
               {" "}
               Learn to code websites and applications with fun project-based
               workshops & skilled mentors. <b>No experience necessary!</b>
               <br /> <br />
               You'll also have the opportunity to attend our entrepreneurship
               session, talks, & panel.
-            </Description>
-          </Card>
+            </CardText>
+          </Card></Col>
+          <Col sm={4}>
+            <Card bg="#BCB1D5;">
+              <Call color="#333" size="24px">
+                {" "}
+                <br />
+                Build something amazing.{" "}
+              </Call>
+              <CardText size="18px">
+                {" "}
+                Regardless if you're a entrepreneur, designer, or engineer, we all
+                have one thing in common: <b>we make things</b>. <br />
+                <br /> Let's use our creativity to make a difference.
+              </CardText>
+            </Card>
+          </Col>
+      </Row>
+      <br />
+      <Row>
+        <Col sm={2}/>
+        <Col sm={3.5}>
+          <Img height="250px" src="/5.jpg" />
         </Col>
-        <Col sm={6}>
+        <Col sm={5.5}>
           <Img height="250px" src="/8.jpg" />
         </Col>
       </Row>
       <br />
       <Row>
-        <Col sm={6}>
-          <Img height="250px" src="/5.jpg" />
+        <Col sm={2}/>
+        <Col sm={3.5}>
+          <Img height="250px" src="/1.jpg" />
         </Col>
-        <Col sm={6}>
-          <Card bg="#BCB1D5;">
-            <Call color="#333" size="24px">
-              {" "}
-              <br />
-              Build something amazing.{" "}
-            </Call>
-            <Description color="#333" size="18px">
-              {" "}
-              Regardless if you're a entepreneur, designer, or engineer, we all
-              have one thing in common: <b>we make things</b>. <br />
-              <br /> Let's use our creativity to make a difference.
-            </Description>
-          </Card>
+        <Col sm={5.5}>
+          <Img height="250px" src="/6.jpg" />
         </Col>
       </Row>
       <br />
       <Row>
-        <Col sm={6}>
+        <Col sm={2}/>
+        <Col sm={4}>
           <Card bg="#F9BEBE;">
             <Call size="24px" color="#333;">
               {" "}
               <br />
               Share and win prizes.{" "}
             </Call>
-            <Description color="#333" size="18px">
+            <CardText size="18px">
               You'll have the opportunity to win prizes worth thousands of
               dollars — AirPods, tablets, drones, Raspberry Pis, software
               subscriptions, and much more! In addition to grand prizes, we also
               have four tracks which you may choose to enter your project in:{" "}
               <b>social justice, education, healthcare, and environment.</b>
-            </Description>
+            </CardText>
           </Card>
         </Col>
-        <Col sm={6}>
-          <Img height="250px" src="/1.jpg" />
-        </Col>
-      </Row>
-      <br />
-      <Row>
-        <Col sm={6}>
-          <Img height="250px" src="/6.jpg" />
-        </Col>
-        <Col sm={6}>
+        <Col sm={4}>
           <Card bg="#BCB1D5;">
             <Call color="#333" size="24px">
               {" "}
               <br />
               Fun and swag.{" "}
             </Call>
-            <Description color="#333" size="18px">
+            <CardText size="18px">
               {" "}
               With an amazing community and awesome swag (shipped to your home!) from the hottest tech
               companies, you'll have a <b>great time</b>.
               <br /> <br />
               Whether you're working on a marketing pitch or coding up an AI
               algorithm, MakeSPP is a place for everyone to thrive.{" "}
-            </Description>
+            </CardText>
           </Card>
         </Col>
       </Row>
       <br />
-
       {/*}
       <Call color="#333" className="center" size="48px">
         Location
@@ -490,71 +501,68 @@ const Landing = () => (
           </Description>
         </Col>
       </Row>
-      {/* <Call color="#333" className="center" size="48px">
+      {/*<Call color="#333" className="center" size="48px">
         Schedule
+      </Call><br/>
+      <Call color="#333" className="center" size="40px">
+        Day 1
       </Call>
       <Row>
         <Col sm={2} />
         <Col sm={8}>
           <div className="schedule">
             <item>
-              <span className="right">7:45 - 8:15 AM</span> Breakfast & Check-In
+              <span className="right">8:00 - 8:40 AM</span> Opening Ceremony
             </item>
-
+            <item>
+              <span className="right">8:45 - 9:00 AM</span> Co-Host Opening: Hestia Academy
+            </item>
             <item>
               {" "}
-              <span className="right">8:15 AM</span> Team Building Sessions
+              <span className="right">9:05 AM</span> Team Formation
             </item>
-
             <item>
               {" "}
-              <span className="right">8:30 AM</span> Opening Ceremony
+              <span className="right">9:20 AM</span> Making Starts
             </item>
-
             <item>
-              {" "}
-              <span className="right">9 AM</span> Making Starts
-            </item>
-
-            <item>
-              <span className="right">9 AM</span> <b>Workshop</b>: Creative
+              <span className="right">10 AM</span> <b>Workshop</b>: TBD {/*Creative
               Coding w/ Upperline Code (Beginner){" "}
             </item>
-
             <item>
-              <span className="right">10 AM</span> <b>Workshop</b>: Build Your
+              <span className="right">10 AM</span> <b>Workshop</b>: TBD{/*Build Your
               First Website (Beginner)
             </item>
             <item>
-              <span className="right">10 AM</span> <b>Workshop</b>: Intro to
+              <span className="right">10 AM</span> <b>Workshop</b>: TBD {/*Intro to
               Python (Beginner){" "}
             </item>
 
             <item>
-              <span className="right">11 AM</span> <b>Workshop</b>: Machine
+              <span className="right">11 AM</span> <b>Workshop</b>: TBD{/*Machine
               Learning w/ Upperline Code (Intermediate){" "}
             </item>
 
             <item>
               {" "}
-              <span className="right">12 PM</span> Lunch
+              <span className="right">12 PM</span> Lunch Break
             </item>
             <item>
-              <span className="right">12:30 PM</span> <b>Workshop</b>: Build a
+              <span className="right">12:30 PM</span> <b>Workshop</b>: {/*Build a
               Web App with Zeit (Intermediate){" "}
             </item>
 
             <item>
-              <span className="right">1 PM</span> <b>Entrepreneurship Panel</b>{" "}
+              <span className="right">1 PM</span> <b>Panel</b>: TBD {/*Entrepreneurship{" "}
             </item>
 
             <item>
               {" "}
-              <span className="right">2 PM</span> <b>Engineering Activity</b>
+              <span className="right">2 PM</span> <b>Activity</b>: TBD {/*Engineering
             </item>
 
             <item>
-              <span className="right">2:30 PM</span> <b>Workshop</b>: Pitching
+              <span className="right">2:30 PM</span> <b>Workshop</b>: TBD {/*Pitching
               Your Project{" "}
             </item>
 
@@ -595,8 +603,18 @@ const Landing = () => (
           </div>
         </Col>
         <Col sm={2} />
-      </Row> */}
-      <br />
+      </Row><br/>
+      <Call color="#333" className="center" size="40px">
+        Day 2
+      </Call><br/>
+      <Call color="#333" className="center" size="30px">
+TBD      </Call><br/>
+      <Call color="#333" className="center" size="40px">
+        Day 3
+      </Call><br/>
+      <Call color="#333" className="center" size="30px">
+TBD      </Call>
+      <br />*/}
       <br />
 <Call color="#333" className="center" size="48px">
         Sponsors
