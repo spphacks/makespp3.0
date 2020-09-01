@@ -8,6 +8,9 @@ const Call = styled.h2`
   padding: 0;
   font-size: ${props => props.size};
   color: ${props => props.color};
+  @media only screen and (max-width: 1024px) {
+      font-size: 25px;
+    }
 `;
 
 const Description = styled.p`
@@ -15,8 +18,11 @@ const Description = styled.p`
   font-weight: 400;
   color: #333;
   padding: 0;
-  line-height: 1.3;
+  line-height: 1.5;
   color: ${props => props.color};
+  @media only screen and (max-width: 1024px) {
+      font-size: 20px;
+    }
 `;
 
 const Card = styled.div`
@@ -26,7 +32,6 @@ const Card = styled.div`
   height: 230px;
   box-shadow: rgba(0, 0, 0, 0.125) 0px 8px 16px;
   border-radius: 10px;
-
   @media only screen and (max-width: 1024px) {
     height: 330px;
   }
@@ -36,11 +41,9 @@ const Img = styled.img`
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
-
   display: block;
   box-shadow: rgba(0, 0, 0, 0.125) 0px 8px 16px;
   border-radius: 10px;
-
   @media only screen and (max-width: 1024px) {
     height: 200px;
     max-width: 100%;

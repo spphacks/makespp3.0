@@ -2,25 +2,22 @@ import { Link } from "gatsby";
 import React from "react";
 import Particles from "react-particles-js";
 import styled from "styled-components";
+import { Container} from "react-grid-system";
 
 const Background = styled.header`
-  width: 100vw;
-  height: 20vh;
   margin: 0;
-  color: #fff;
   padding: 0;
+  color: #fff;
+  margin: 0;
   background: linear-gradient(to right, #200122, #6f0000);
 `;
 
-const LogoContainer = styled.div`
-  margin: 0;
+const ParticleContainer = styled.div`
   position: absolute;
-  padding: 0;
-  margin: 0;
 `;
+
 const LogoText = styled.img`
   position: auto;
-  padding-top: 12px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -36,7 +33,7 @@ const LogoText = styled.img`
 
 const Header = ({ siteTitle }) => (
   <Background>
-    <Link
+    <Container><Link
       to="/"
       style={{
         color: `white`,
@@ -44,13 +41,12 @@ const Header = ({ siteTitle }) => (
       }}
     >
       {" "}
-      <LogoContainer>
-        <LogoText src="/logo.png" />
-      </LogoContainer>
-    </Link>
 
-    <Particles
+        <LogoText src="/logo.png" />
+    </Link></Container>
+    <ParticleContainer><Particles
       height="20vh"
+      width="100vw"
       params={{
         particles: {
           number: {
@@ -78,7 +74,7 @@ const Header = ({ siteTitle }) => (
           }
         },
       }}
-    />
+    /></ParticleContainer>
   </Background>
 );
 

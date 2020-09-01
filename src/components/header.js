@@ -5,11 +5,15 @@ import styled from "styled-components";
 import { Container} from "react-grid-system";
 
 const Background = styled.header`
+  height: 100vh;
   margin: 0;
   padding: 0;
   color: #fff;
   margin: 0;
   background: linear-gradient(to right, #200122, #6f0000);
+  @media only screen and (max-width: 1024px) {
+  height: auto;
+}
 `;
 
 const ParticleContainer = styled.div`
@@ -95,6 +99,12 @@ const Register = styled.h1`
   }
 `;
 
+const ButtonSpacerContainer = styled.div`
+@media only screen and (max-width: 1024px) {
+  ;
+}
+`;
+
 const Header = ({ siteTitle }) => (
   <Background>
   <ParticleContainer>
@@ -144,6 +154,7 @@ const Header = ({ siteTitle }) => (
       <Link to="https://makespp.typeform.com/to/ZzGcLGKb">
         <Register> Register </Register>
       </Link></Container>
+      <ButtonSpacerContainer><br></br></ButtonSpacerContainer>
     {/* <Link to="/live">
       <Register> MakeSPP Live </Register>
     </Link> */}
