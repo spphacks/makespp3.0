@@ -97,6 +97,8 @@ const Register = styled.h1`
   @media only screen and (max-width: 600px) {
     font-size: 20px;
   }
+
+  {/*
   animation: 1s Zoom linear infinite,
   2s Always ease alternate infinite;
   }
@@ -107,6 +109,8 @@ const Register = styled.h1`
   @keyframes Always {
       100% { transform: scale(1.15);}
   }
+  /*}
+  
 `;
 
 const ButtonSpacerContainer = styled.div`
