@@ -20,7 +20,7 @@ const Logo = styled.img`
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 58%;
   @media only screen and (max-width: 1024px) {
     content:url("/logosmall.png");
     position: auto;
@@ -126,7 +126,7 @@ const Header = ({ siteTitle }) => (
       },
     }}
   /></ParticleContainer>
-    <Link
+    <Container><Link
       to="/"
       style={{
         color: `white`,
@@ -135,7 +135,7 @@ const Header = ({ siteTitle }) => (
     >
       {" "}
       <Logo src="/logo.png" />
-    </Link>
+    </Link></Container>
     <Tagline> New Jersey's Premier Virtual High School Hackathon </Tagline>
     <SubTagline>Learn to build & pitch a product with workshops and thousands in prizes.</SubTagline>
     <br></br>
