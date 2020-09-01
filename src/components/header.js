@@ -6,15 +6,14 @@ import Iframe from "react-iframe";
 import { Row, Col } from "react-grid-system";
 
 const Background = styled.header`
-  margin: 0;
   color: #fff;
-  padding: 0;
   background: linear-gradient(to right, #200122, #6f0000);
 `;
 
 const ParticleContainer = styled.div`
   position: absolute;
-  width: 200vh;
+  height: 400vh
+  width: 400vh;
 `;
 
 const Logo = styled.img`
