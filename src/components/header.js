@@ -2,7 +2,7 @@ import { Link } from "gatsby";
 import React from "react";
 import Particles from "react-particles-js";
 import styled from "styled-components";
-import { Row, Col } from "react-grid-system";
+import { Container} from "react-grid-system";
 
 const Background = styled.header`
   margin: 0;
@@ -13,13 +13,10 @@ const Background = styled.header`
 `;
 
 const ParticleContainer = styled.div`
-  height: 200%;
-  width: 200%;
   position: absolute;
 `;
 
 const Logo = styled.img`
-  position: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -35,7 +32,6 @@ const Logo = styled.img`
 `;
 
 const Tagline = styled.h1`
-  position: auto;
   text-align: center;
   max-width: 900px;
   font-size: 3rem;
@@ -51,7 +47,6 @@ const Tagline = styled.h1`
 `;
 
 const SubTagline = styled.h1`
-  position: auto;
   text-align: center;
   max-width: 700px;
   font-size: 24px;
@@ -68,7 +63,6 @@ const SubTagline = styled.h1`
 `;
 
 const Date = styled.h1`
-  position: auto;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -81,14 +75,14 @@ const Date = styled.h1`
 `;
 
 const Register = styled.h1`
-  position: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
   padding: 10px;
   border: 5px solid #fff;
   border-radius: 10px;
   font-size: 40px;
-  text-decoration: none;
   color: #fff;
-  display: inline-block;
   transition: all 300ms ease;
   &:hover {
     background: #ca043f;
@@ -103,7 +97,10 @@ const Register = styled.h1`
 
 const Header = ({ siteTitle }) => (
   <Background>
-  <ParticleContainer><Particles
+  <ParticleContainer>
+  <Particles
+    height="100vh"
+    width="100vw"
     params={{
       particles: {
         number: {
@@ -143,14 +140,10 @@ const Header = ({ siteTitle }) => (
     <SubTagline>Learn to build & pitch a product with workshops and thousands in prizes.</SubTagline>
     <br></br>
       <Date>October 9-11, 2020</Date>
-    <Row>
-      <Col sm={5.2} />
-      <Col sm={0}>
+    <Container>
       <Link to="https://makespp.typeform.com/to/ZzGcLGKb">
         <Register> Register </Register>
-      </Link>
-      </Col>
-      </Row>
+      </Link></Container>
     {/* <Link to="/live">
       <Register> MakeSPP Live </Register>
     </Link> */}
