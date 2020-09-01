@@ -13,9 +13,9 @@ const Background = styled.header`
 `;
 
 const ParticleContainer = styled.div`
+  height: 100%;
+  width: 100%;
   position: absolute;
-  height: 400vh
-  width: 400vh;
 `;
 
 const Logo = styled.img`
@@ -104,7 +104,6 @@ const Register = styled.h1`
 const Header = ({ siteTitle }) => (
   <Background>
   <ParticleContainer><Particles
-    height="100vh"
     params={{
       particles: {
         number: {
