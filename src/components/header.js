@@ -5,7 +5,10 @@ import styled from "styled-components";
 import { Row, Col } from "react-grid-system";
 
 const Background = styled.header`
+  margin: 0;
+  padding: 0;
   color: #fff;
+  margin: 0;
   background: linear-gradient(to right, #200122, #6f0000);
 `;
 
