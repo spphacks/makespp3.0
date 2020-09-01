@@ -41,7 +41,7 @@ const Sponsor = styled.img`
   display: block;
   margin: auto;
   max-width: 70%;
-  padding: 20px;
+  padding: 30px;
 `;
 
 const Img = styled.img`
@@ -607,7 +607,7 @@ const Landing = () => (
       <Row>
         <Col sm={4} />
         <Col sm={4}>
-          <Sponsor src="/sponsors/linode.png" />
+          <Sponsor src="/sponsors/hestia.svg" />
         </Col>
         <Col sm={4} />
       </Row>
@@ -617,7 +617,7 @@ const Landing = () => (
           <Sponsor src="/sponsors/jbg.png" />
         </Col>
         <Col sm={4}>
-          <Sponsor src="/sponsors/balsamiq.png" />
+          <Sponsor src="/sponsors/stickergiant.png" />
         </Col>{" "}
         <Col sm={2} />
       </Row>
@@ -626,47 +626,51 @@ const Landing = () => (
           <Sponsor src="/sponsors/desmos.png" />
         </Col>
         <Col sm={3}>
-          <Sponsor src="/sponsors/hackerearth.png" />
+          <Sponsor src="/sponsors/linode.png" />
         </Col>
         <Col sm={3}>
           <Sponsor src="/sponsors/wolfram.png" />
         </Col>
         <Col sm={3}>
-          <Sponsor src="/sponsors/stickergiant.png" />
-        </Col>
-      </Row>
-      {/*<Row>
-        <Col sm={3}>
-          <br />
-          <Sponsor src="/sponsors/upperline.png" />
-        </Col>
-        <Col sm={3}>
-          <Sponsor src="/sponsors/linode.png" />
-        </Col>
-        <Col sm={3}>
-          <Sponsor src="/sponsors/uworld.png" />
-        </Col>
-        <Col sm={3}>
-          <Sponsor src="/sponsors/jbg.png" />
+          <Sponsor src="/sponsors/balsamiq.png" />
         </Col>
       </Row>
       <Row>
         <Col sm={3}>
-          <Sponsor src="/sponsors/miles.png" />
-        </Col>
-        <Col sm={3}>
-          <br /> <br />
+          <br />
           <Sponsor src="/sponsors/hackerearth.png" />
         </Col>
         <Col sm={3}>
-          <br /> <br />
-          <Sponsor src="/sponsors/jpmorgan.jpg" />
+          <Sponsor src="/sponsors/interviewcake.jpg" />
         </Col>
         <Col sm={3}>
-          <Sponsor className="max" src="/sponsors/yl.png" />
+          <Sponsor src="/sponsors/replit.png" />
+        </Col>
+        <Col sm={3}>
+          <Sponsor src="/sponsors/taskade.png" />
         </Col>
       </Row>
+
       <Row>
+        <Col sm={12}>
+          <Sponsor src="/sponsors/aops.svg" />
+        </Col>
+      </Row>
+      {/*
+      <Row>
+      <Col sm={3}>
+        <br /> <br />
+        <Sponsor src="/sponsors/hackerearth.png" />
+      </Col>
+      <Col sm={3}>
+        <br /> <br />
+        <Sponsor src="/sponsors/jpmorgan.jpg" />
+      </Col>
+      <Col sm={3}>
+        <Sponsor className="max" src="/sponsors/yl.png" />
+      </Col>
+
+
         <Col sm={3} />
         <Col sm={2}>
           <Sponsor className="max" src="/sponsors/insomnia.jpg" />
