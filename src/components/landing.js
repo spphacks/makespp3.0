@@ -88,7 +88,7 @@ const Landing = () => (
     <Site>
       <Row>
         <Col sm={6}>
-          <Card bg="#f9e5eb;">
+          <Card bg="#F9BEBE;">
             <Call size="24px" color="#333;">
               {" "}
               <br />
@@ -114,7 +114,7 @@ const Landing = () => (
           <Img height="250px" src="/5.jpg" />
         </Col>
         <Col sm={6}>
-          <Card bg="#deeaf7;">
+          <Card bg="#BCB1D5;">
             <Call color="#333" size="24px">
               {" "}
               <br />
@@ -132,7 +132,7 @@ const Landing = () => (
       <br />
       <Row>
         <Col sm={6}>
-          <Card bg="#f9e5eb;">
+          <Card bg="#F9BEBE;">
             <Call size="24px" color="#333;">
               {" "}
               <br />
@@ -157,7 +157,7 @@ const Landing = () => (
           <Img height="250px" src="/6.jpg" />
         </Col>
         <Col sm={6}>
-          <Card bg="#deeaf7;">
+          <Card bg="#BCB1D5;">
             <Call color="#333" size="24px">
               {" "}
               <br />

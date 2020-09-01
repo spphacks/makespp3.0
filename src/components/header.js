@@ -6,8 +6,6 @@ import Iframe from "react-iframe";
 import { Row, Col } from "react-grid-system";
 
 const Background = styled.header`
-  width: 100vw;
-  height: 100vh;
   margin: 0;
   color: #fff;
   padding: 0;
