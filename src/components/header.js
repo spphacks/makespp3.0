@@ -2,7 +2,6 @@ import { Link } from "gatsby";
 import React from "react";
 import Particles from "react-particles-js";
 import styled from "styled-components";
-import Iframe from "react-iframe";
 import { Row, Col } from "react-grid-system";
 
 const Background = styled.header`
