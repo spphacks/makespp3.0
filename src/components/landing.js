@@ -37,6 +37,13 @@ const Card = styled.div`
   }
 `;
 
+const Sponsor = styled.img`
+  display: block;
+  margin: auto;
+  max-width: 70%;
+  padding: 20px;
+`;
+
 const Img = styled.img`
   margin-left: auto;
   margin-right: auto;
@@ -483,16 +490,6 @@ const Landing = () => (
           </Description>
         </Col>
       </Row>
-      <br/>
-      <Row><Col sm={12}><Description className="center" size="20px">
-        {" "}
-        For our sponsorship prospectus, please click <Link to = "/prospectus.pdf" style={{
-          color: `black`,
-          textDecoration: `underline`
-        }}>here</Link>.
-        {" "}
-        <br />
-      </Description></Col></Row>
       {/* <Call color="#333" className="center" size="48px">
         Schedule
       </Call>
@@ -601,46 +598,44 @@ const Landing = () => (
       </Row> */}
       <br />
       <br />
-      {/* <Call color="#333" className="center" size="48px">
+<Call color="#333" className="center" size="48px">
         Sponsors
       </Call>
       <br />
       <Row>
-
-
       </Row>
       <Row>
         <Col sm={4} />
         <Col sm={4}>
-          <Sponsor src="/sponsors/GS.jpg" />
+          <Sponsor src="/sponsors/linode.png" />
         </Col>
         <Col sm={4} />
       </Row>
       <Row>
         <Col sm={2} />
         <Col sm={4}>
-          <Sponsor src="/sponsors/jdj.png" />
+          <Sponsor src="/sponsors/jbg.png" />
         </Col>
         <Col sm={4}>
-          <Sponsor src="/sponsors/smp.jpg" />
+          <Sponsor src="/sponsors/balsamiq.png" />
         </Col>{" "}
         <Col sm={2} />
       </Row>
       <Row>
         <Col sm={3}>
-          <Sponsor src="/sponsors/njit.png" />
+          <Sponsor src="/sponsors/desmos.png" />
         </Col>
         <Col sm={3}>
-          <Sponsor src="/sponsors/balsamiq.png" />
+          <Sponsor src="/sponsors/hackerearth.png" />
         </Col>
         <Col sm={3}>
-          <Sponsor src="/sponsors/mongodb.jpg" />
+          <Sponsor src="/sponsors/wolfram.png" />
         </Col>
         <Col sm={3}>
-          <Sponsor src="/sponsors/zeit.svg" />
+          <Sponsor src="/sponsors/stickergiant.png" />
         </Col>
       </Row>
-      <Row>
+      {/*<Row>
         <Col sm={3}>
           <br />
           <Sponsor src="/sponsors/upperline.png" />
@@ -700,25 +695,19 @@ const Landing = () => (
         <Col sm={3}>
           <Sponsor src="/sponsors/hackclub.png" />
         </Col>
-      </Row> */}
+      </Row>*/}
+      <Row><Col sm={12}><Description className="center" size="20px">
+        {" "}
+        For our sponsorship prospectus, please click <Link to = "/prospectus.pdf" style={{
+          color: `black`,
+          textDecoration: `underline`
+        }}>here</Link>.
+        {" "}
+      </Description></Col></Row><br />
       <Call color="#333" className="center" size="48px">
         Leadership
       </Call>
       <br /> <br />
-      {/* <Row>
-        <Col sm={2}>
-          <Profile src="/team/samay.jpg" />
-          <Description className="center" color="#333" size="18px">
-            {" "}
-            <b> Samay</b>
-          </Description>
-          <Description className="center" color="#333" size="16px">
-            {" "}
-            Event Lead
-          </Description>
-          <br />
-        </Col>
-      </Row> */}
       <Row>
         <Col sm={1.5} />
         <Col sm={3}>
