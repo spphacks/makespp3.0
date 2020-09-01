@@ -483,6 +483,16 @@ const Landing = () => (
           </Description>
         </Col>
       </Row>
+      <br/>
+      <Row><Col sm={12}><Description className="center" size="20px">
+        {" "}
+        For our sponsorship prospectus, please click <Link to = "/prospectus.pdf" style={{
+          color: `black`,
+          textDecoration: `underline`
+        }}>here</Link>.
+        {" "}
+        <br />
+      </Description></Col></Row>
       {/* <Call color="#333" className="center" size="48px">
         Schedule
       </Call>
@@ -922,7 +932,13 @@ const Landing = () => (
         <img height="50px" src="/instagram.png" alt="instagram icon."/>
       </a>
     </div>
-
+    <Description className="center" size="16px">
+      <Link to ="https://hackcodeofconduct.org/1819-makespp" style={{
+        color: `black`,
+        fontWeight: `bold`,
+        textDecoration: `underline`
+      }}> Code of Conduct </Link>
+    </Description>
     <Description color="#333" className="center" size="16px">
       © 2020 <a href="https://spprep.org"> Saint Peter's Prep High School</a>
     </Description>
