@@ -72,7 +72,7 @@ const Landing = () => (
           Learn. Make. Innovate.
         </Call>
         <Description color="#333" size="28px" className="center">
-          MakeSPP brings together over 200 innovative young minds for an all-day
+          MakeSPP virtually brings together over 200 innovative young minds for a three-day
           hackathon and technology conference. We're a diverse and creative
           community of students dedicated to solving some of the most
           challenging problems with technology.{" "}
@@ -165,7 +165,7 @@ const Landing = () => (
             </Call>
             <Description color="#333" size="18px">
               {" "}
-              With an amazing community and awesome swag from the hottest tech
+              With an amazing community and awesome swag (shipped to your home!) from the hottest tech
               companies, you'll have a <b>great time</b>.
               <br /> <br />
               Whether you're working on a marketing pitch or coding up an AI
@@ -425,11 +425,12 @@ const Landing = () => (
         </Col>
         <Col sm={4}>
           <Call className="center" color="#333" size="24px">
-            Who can attend?{" "}
+            Who can attend? How is the event conducted?{" "}
           </Call>
           <Description className="center" color="#333" size="16px">
             {" "}
             Any student in grades 7-12 is welcome to apply to attend.
+            We will be conducting the hackathon primarily through Zoom & Discord.
           </Description>
         </Col>
         <Col sm={4}>
@@ -440,7 +441,7 @@ const Landing = () => (
             {" "}
             MakeSPP is the best place to start. We'll have beginner-friendly
             workshops and skilled mentors to help you build something amazing
-            over the day.
+            each day.
           </Description>
         </Col>
       </Row>

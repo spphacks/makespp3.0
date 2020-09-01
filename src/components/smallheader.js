@@ -9,7 +9,7 @@ const Background = styled.header`
   margin: 0;
   color: #fff;
   padding: 0;
-  background: linear-gradient(to right, #F11712, #0099F7);
+  background: linear-gradient(to right, #200122, #6f0000);
 `;
 
 const LogoContainer = styled.div`
@@ -18,33 +18,22 @@ const LogoContainer = styled.div`
   padding: 0;
   margin: 0;
 `;
-const Logo = styled.img`
-  padding-top: 30px;
-  height: 75px;
-  padding-left: 30px;
-  filter: drop-shadow(0px 0px 5px #ca043f);
-  @media only screen and (max-width: 1024px) {
-    display: none;
-  }
-`;
 const LogoText = styled.img`
   position: auto;
-  padding-top: 30px;
+  padding-top: 12px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 25%;
   @media only screen and (max-width: 1024px) {
-    content:url("/logo.png");
+    content:url("/logosmall.png");
     position: auto;
-    display: block;
     margin-left: auto;
     margin-right: auto;
-    width:10%;
+    width:13%;
   }
 `;
 
-// temp solution for video --  future use youtube component autoplay
 const Header = ({ siteTitle }) => (
   <Background>
     <Link
@@ -56,12 +45,9 @@ const Header = ({ siteTitle }) => (
     >
       {" "}
       <LogoContainer>
-        <LogoText src="/logotext.png" />
+        <LogoText src="/logo.png" />
       </LogoContainer>
     </Link>
-    <LogoContainer>
-      <Logo src="/logo.png" />
-    </LogoContainer>
 
     <Particles
       height="20vh"

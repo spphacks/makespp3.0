@@ -28,19 +28,19 @@ const Live = () => (
     />
     <div className="center">
       <h1>
-        <Countdown date={`October 11, 2020 17:30:00`} />
+        <Countdown date={`October 11, 2019 17:30:00`} />
       </h1>
     </div>
     <Container>
       <Row>
-        <Col sm={4}>
+        <Col sm={12}>
           <TwitterTimelineEmbed
             sourceType="profile"
             screenName="makespp"
             options={{ height: 400 }}
           />{" "}
         </Col>
-        <Col className="center" sm={4}>
+        {/*<Col className="center" sm={4}>
           <h2>
             WiFi SSID: SPP-Guest <br /> WiFi Password: makeSPP
           </h2>
@@ -50,13 +50,13 @@ const Live = () => (
             <a className="blue" href="https://makespp.hackerearth.com">
               <u> HackerEarth</u>
             </a>{" "}
-            by 5:30 PM
+            by ___ PM
           </h2>
 
           <h2>
             <a
               className="blue"
-              href="https://discord.gg/raZPeya
+                https://discord.gg/hxYf99
 "
             >
               <u> Discord Signup</u>
@@ -101,9 +101,9 @@ const Live = () => (
             <br />
             Code: BQGSWTKRC040819
           </h2>
-        </Col>
+        </Col>*/}
       </Row>
-      <Row>
+      {/*<Row>
         <Col>
           <div className="schedule">
             <item>
@@ -204,7 +204,7 @@ const Live = () => (
             </item>
           </div>
         </Col>
-      </Row>
+      </Row>*/}
     </Container>
     <Description color="#333" className="center" size="16px">
       © 2020 <a href="https://spprep.org"> Saint Peter's Prep High School</a>
