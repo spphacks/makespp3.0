@@ -5,7 +5,10 @@ import styled from "styled-components";
 import { Container} from "react-grid-system";
 
 const Background = styled.header`
-  height: 100vh;
+{/*
+height: 100vh;
+*/
+}
   margin: 0;
   padding: 0;
   color: #fff;
@@ -81,6 +84,7 @@ const Date = styled.h1`
 const Register = styled.h1`
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: auto;
   width: fit-content;
   padding: 10px;
   border: 5px solid #fff;
@@ -98,7 +102,7 @@ const Register = styled.h1`
     font-size: 20px;
   }
 
-  {/*
+
   animation: 1s Zoom linear infinite,
   2s Always ease alternate infinite;
   }
@@ -109,8 +113,8 @@ const Register = styled.h1`
   @keyframes Always {
       100% { transform: scale(1.15);}
   }
-  /*}
-  
+
+
 `;
 
 const ButtonSpacerContainer = styled.div`
