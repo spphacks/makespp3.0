@@ -89,7 +89,7 @@ const Landing = () => (
           learn. make. innovate.
         </Call>
         <Description color="#333" size="28px" className="center">
-          makespp virtually brings together over 200 innovative young minds for a three-day
+          MakeSPP virtually brings together over 200 innovative young minds for a three-day
           hackathon and technology conference. we're a diverse and creative
           community of students dedicated to solving some of the most
           challenging problems with technology.
@@ -398,7 +398,7 @@ const Landing = () => (
             A hackathon is an event where you'll have the opportunity to turn your ideas into
             real projects. We provide skilled mentors, workshops, exclusive digital tools,
             friends, & so much more.
-            makespp has four tracks which you may choose to enter your project in: <b>social justice, education, healthcare, and environment.</b>
+            MakeSPP has four tracks which you may choose to enter your project in: <b>social justice, education, healthcare, and environment.</b>
           </Description>
         </Col>
         <Col sm={4}>
@@ -416,7 +416,7 @@ const Landing = () => (
           </Call>
           <Description className="center" color="#333" size="16px">
             {" "}
-            makespp is the best place to start. We have beginner-friendly
+            MakeSPP is the best place to start. We have beginner-friendly
             workshops and skilled mentors to help you build something amazing
             each day.
           </Description>
@@ -429,7 +429,7 @@ const Landing = () => (
           </Call>
           <Description className="center" color="#333" size="16px">
             {" "}
-            makespp is completely free thanks to our sponsors. There'll be workshops and thousands in prizes -- AirPods, Raspberry Pis, drones, software and more!
+            MakeSPP is completely free thanks to our sponsors. There'll be workshops and thousands in prizes -- AirPods, Raspberry Pis, drones, software and more!
           </Description>
         </Col>
 

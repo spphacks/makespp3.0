@@ -175,7 +175,7 @@ const Header = ({ siteTitle }) => (
     </Container>
       <ButtonSpacerContainer><br></br></ButtonSpacerContainer>
     {/* <Link to="/live">
-      <Register> makespp Live </Register>
+      <Register> MakeSPP Live </Register>
     </Link> */}
   </Background>
 );
