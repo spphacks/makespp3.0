@@ -31,10 +31,10 @@ const CardText = styled.p`
   line-height: 1.5;
   text-align: center;
   @media only screen and (max-width: 1024px) {
-      font-size: 16px;
+      font-size: 18px;
     }
   @media only screen and (max-width: 800px) {
-        font-size: 13px;
+        font-size: 16px;
     }
 `;
 
@@ -60,7 +60,7 @@ const Img = styled.img`
   box-shadow: rgba(0, 0, 0, 0.125) 0px 8px 16px;
   border-radius: 10px;
   @media only screen and (max-width: 1024px) {
-    height: 200px;
+    height: 250px;
     max-width: 100%;
   }
 `;
@@ -79,6 +79,18 @@ const Profile = styled.img`
 const Site = styled.div`
   max-width: 75em;
   margin: 0 auto;
+`;
+
+const CardSpacerContainer = styled.div`
+@media only screen and (max-width: 768px) {
+  ;
+}
+`;
+
+const FAQSpacerContainer = styled.div`
+@media only screen and (min-width: 102px) {
+  ;
+}
 `;
 
 const Landing = () => (
@@ -108,15 +120,16 @@ const Landing = () => (
           <Img height="250px" src="/1.jpg" />
         </Col>
         <Col sm={4}>
+        <CardSpacerContainer><br/></CardSpacerContainer>
           <Card bg="#F9BEBE;">
             <Call size="24px" color="#333">
-              beginner oriented. expert welcomed.
+              beginner focused. expert welcomed.
             </Call>
             <CardText size="18px" color="#333">
-              Learn to code websites and applications with fun project-based
-              workshops & skilled mentors. <b>No experience necessary!</b>
+              learn to code websites and applications with fun project-based
+              workshops & skilled mentors. <b>no experience necessary!</b>
               <br/><br/>
-              Regardless if you're a entrepreneur, designer, or engineer, we all
+              regardless if you're a entrepreneur, designer, or engineer, we all
               have one thing in common: <b>we make things</b>.
             </CardText>
           </Card></Col>
@@ -124,6 +137,7 @@ const Landing = () => (
             <Img height="250px" src="/2.jpg" />
           </Col>
       </Row>
+      <CardSpacerContainer><br/></CardSpacerContainer>
       <br/>
       <Row>
       <Col sm={4}>
@@ -132,8 +146,8 @@ const Landing = () => (
             share your solutions. win prizes.
           </Call>
           <CardText size="18px" color="#333">
-          Whether you're working on your first <i>Hello World</i> or coding up an AI
-          algorithm, makespp is a place for you to share your <b>vision with the world</b>.
+          whether you're working on your first <i>Hello World</i> or coding up an AI
+          algorithm, makespp is a place for you to share your <b>vision with the world</b>. <br/><br/>you'll come away with your own app, website, or other project, even if you know <b>nothing going in</b>.
           </CardText>
         </Card>
       </Col>
@@ -141,18 +155,21 @@ const Landing = () => (
           <Img height="250px" src="/3.jpg" />
         </Col>
         <Col sm={4}>
+        <CardSpacerContainer><br></br></CardSpacerContainer>
           <Card>
             <Call color="#333" size="24px">
                come for the swag. stay for the fun.
             </Call>
             <CardText size="18px" color="#333">
-              With an amazing community and awesome swag (shipped to your home!) from the hottest tech
+              with an amazing community and awesome swag (shipped to your home!) from the hottest tech
               companies, you'll have a <b>great time</b>.
+<br/><br/>
+              that's enough for now. so what are you doing waiting, <b><i>register now</i></b>!
             </CardText>
           </Card>
         </Col>
       </Row>
-      <br/><br/>
+      <FAQSpacerContainer><br/><br/></FAQSpacerContainer>
       {/*}
       <Call color="#333" className="center" size="48px">
         Location

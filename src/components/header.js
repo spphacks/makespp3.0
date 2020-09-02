@@ -11,15 +11,36 @@ const Background = styled.header`
   color: #fff;
   margin: 0;
   background: linear-gradient(to right, #200122, #6f0000);
+  @media only screen and (max-width: 1280px) {
+  height: 105vh;
+  }
   @media only screen and (max-width: 1024px) {
-  height: 90vh;
-}
+  height: 55vh;
+  }
   @media only screen and (max-width: 768px) {
-    height: 70vh;
-}
-@media only screen and (max-width: 400px) {
+    height: 65vh;
+  }
+  @media only screen and (max-width: 540px) {
+  height: 80vh;
+  }
+  @media only screen and (max-width: 414px) {
+  height: 73vh;
+  }
+  @media only screen and (max-width: 411px) {
+  height: 72vh;
+  }
+  @media only screen and (max-width: 400px) {
   height: 90vh;
-}
+  }
+  @media only screen and (max-width: 375px) {
+  height: 83vh;
+  }
+  @media only screen and (max-width: 320px) {
+  height: 125vh;
+  }
+  @media only screen and (max-width: 280px) {
+  height: 92vh;
+  }
 `;
 
 const ParticleContainer = styled.div`
@@ -31,7 +52,7 @@ const Logo = styled.img`
   margin-left: auto;
   margin-right: auto;
   width: 58%;
-  @media only screen and (max-width: 1024px) {
+  @media only screen and (max-width: 767px) {
     content:url("/logosmall.png");
     position: auto;
     display: block;
@@ -51,6 +72,10 @@ const Tagline = styled.h1`
   @media only screen and (max-width: 1024px) {
     font-size: 48px;
   }
+  @media only screen and (max-width: 768px) {
+    font-size: 33px;
+    padding: 16px;
+  }
   @media only screen and (max-width: 600px) {
     font-size: 33px;
     padding: 14px;
@@ -66,6 +91,9 @@ const SubTagline = styled.h1`
   color: #fff;
   @media only screen and (max-width: 1024px) {
     max-width: 600px;
+  }
+  @media only screen and (max-width: 768px) {
+    padding: 16px;
   }
   @media only screen and (max-width: 600px) {
     font-size: 17px;
