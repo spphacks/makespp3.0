@@ -577,57 +577,58 @@ TBD      </Call>
       <Row>
       </Row>
       <Row>
-        <Col sm={4} />
-        <Col sm={4}>
-          <Sponsor src="/sponsors/hestia.svg" />
+        <Col sm={2.5} />
+        <Col sm={7}>
+            <a href="https://www.hestia.academy" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/hestia.svg" /></a>
         </Col>
-        <Col sm={4} />
+        <Col sm={2.5} />
       </Row>
       <Row>
         <Col sm={4}>
-          <Sponsor src="/sponsors/jbg.png" />
+            <a href="https://www.thejillbiggsgroup.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/jbg.png" /></a>
         </Col>
         <Col sm={4}>
-          <Sponsor src="/sponsors/jdj.png" />
+          <a href="https://www.jdjfoundation.org" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/jdj.png" /></a>
         </Col>
         <Col sm={4}>
-          <Sponsor src="/sponsors/linode.png" />
+          <a href="https://www.linode.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/linode.png" /></a>
         </Col>
       </Row>
       <Row>
         <Col sm={3}>
-          <Sponsor src="/sponsors/desmos.png" />
+          <a href="https://www.desmos.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/desmos.png" /></a>
         </Col>
         <Col sm={3}>
-          <Sponsor src="/sponsors/aops.svg" />
+          <a href="https://www.artofproblemsolving.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/aops.svg" /></a>
         </Col>
         <Col sm={3}>
-          <Sponsor src="/sponsors/wolfram.png" />
+          <a href="https://www.wolfram.com/language" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/wolfram.png" /></a>
         </Col>
         <Col sm={3}>
-          <Sponsor src="/sponsors/balsamiq.png" />
+          <a href="https://www.balsamiq.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/balsamiq.png" /></a>
         </Col>
       </Row>
       <Row>
         <Col sm={3}>
           <br />
-          <Sponsor src="/sponsors/hackerearth.png" />
+          <a href="https://www.hackerearth.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/hackerearth.png" /></a>
         </Col>
         <Col sm={3}>
-          <Sponsor src="/sponsors/interviewcake.jpg" />
+          <a href="https://www.interviewcake.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/interviewcake.jpg" /></a>
         </Col>
         <Col sm={3}>
-          <Sponsor src="/sponsors/replit.png" />
+          <a href="https://www.repl.it" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/replit.png" /></a>
         </Col>
         <Col sm={3}>
-          <Sponsor src="/sponsors/taskade.png" />
+          <a href="https://www.taskade.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/taskade.png" /></a>
         </Col>
       </Row>
-
       <Row>
-        <Col sm={12}>
-          <Sponsor src="/sponsors/stickergiant.png" />
+        <Col sm={4.5}/>
+        <Col sm={3}>
+          <a href="https://www.stickergiant.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/stickergiant.png" /></a>
         </Col>
+        <Col sm={4.5}/>
       </Row>
       {/*
       <Row>

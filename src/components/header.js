@@ -5,17 +5,20 @@ import styled from "styled-components";
 import { Container} from "react-grid-system";
 
 const Background = styled.header`
-{/*
-height: 100vh;
-*/
-}
+  height: 100vh;
   margin: 0;
   padding: 0;
   color: #fff;
   margin: 0;
   background: linear-gradient(to right, #200122, #6f0000);
   @media only screen and (max-width: 1024px) {
-  height: auto;
+  height: 90vh;
+}
+  @media only screen and (max-width: 768px) {
+    height: 70vh;
+}
+@media only screen and (max-width: 400px) {
+  height: 90vh;
 }
 `;
 
@@ -34,7 +37,7 @@ const Logo = styled.img`
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 25%;
 }
 `;
 
@@ -50,6 +53,7 @@ const Tagline = styled.h1`
   }
   @media only screen and (max-width: 600px) {
     font-size: 33px;
+    padding: 14px;
   }
 `;
 
@@ -66,6 +70,7 @@ const SubTagline = styled.h1`
   @media only screen and (max-width: 600px) {
     font-size: 17px;
     max-width: 500px;
+    padding: 14px;
   }
 `;
 
@@ -82,10 +87,12 @@ const Date = styled.h1`
 `;
 
 const Register = styled.h1`
+  display: flex;
+  justify-content: center;
+  width: 200px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: auto;
-  width: fit-content;
+  margin-bottom: 0px;
   padding: 10px;
   border: 5px solid #fff;
   border-radius: 10px;
@@ -164,7 +171,7 @@ const Header = ({ siteTitle }) => (
       {" "}
       <Logo src="/logo.png" />
     </Link></Container>
-    <Tagline> United States Premier Virtual High School Hackathon </Tagline>
+    <Tagline> The Premier Virtual High School Hackathon </Tagline>
     <SubTagline>Learn to build & pitch a product with workshops and thousands in prizes.</SubTagline>
     <br></br>
       <Date>October 9-11, 2020</Date>
