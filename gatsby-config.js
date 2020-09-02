@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `MakeSPP`,
+    title: `makespp`,
     description: `New Jersey's Premier High School Hackathon`,
     author: `Saint Peter's Prep makespp team`
   },
