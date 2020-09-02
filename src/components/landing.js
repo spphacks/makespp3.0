@@ -622,8 +622,7 @@ TBD      </Call>
           <a href="https://www.stickergiant.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/stickergiant.png" /></a>
         </Col>
       </Row>
-      <Call color="#333" className="center" size="48px">
-              Support
+      <Call color="#333" className="center" size="48px">Support
             </Call>
       <Row>
         <Col sm={2}>
@@ -633,25 +632,27 @@ TBD      </Call>
           <a href="https://www.wolfram.com/language" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/wolfram.png" /></a>
         </Col>
         <Col sm={2}>
-          <br />
           <a href="https://www.hackerearth.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/hackerearth.png" /></a>
         </Col>
         <Col sm={3}>
-          <a href="https://www.interviewcake.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/interviewcake.jpg" /></a>
+          <a href="https://www.interviewcake.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/interviewcake.svg" /></a>
         </Col>
         <Col sm={3}>
           <a href="https://www.artofproblemsolving.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/aops.svg" /></a>
         </Col>
       </Row>
       <Row>
-        <Col sm={4}/>
+        <Col sm={2.25}/>
         <Col sm={2.5}>
           <a href="https://www.taskade.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/taskade.png" /></a>
         </Col>
-        <Col sm={1.5}>
+        <Col sm={2.5}>
+          <a href="https://www.1password.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/1password.svg" /></a>
+        </Col>
+        <Col sm={1.25}>
           <a href="https://www.bugsee.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/bugsee.svg" /></a>
         </Col>
-        <Col sm={4}/>
+        <Col sm={3.5}/>
       </Row>
       {/*
       <Row>
