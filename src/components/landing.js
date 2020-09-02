@@ -105,7 +105,7 @@ const Landing = () => (
     <Site>
       <Row>
         <Col sm={4}>
-          <Img height="250px" src="/5.jpg" />
+          <Img height="250px" src="/1.jpg" />
         </Col>
         <Col sm={4}>
           <Card bg="#F9BEBE;">
@@ -121,7 +121,7 @@ const Landing = () => (
             </CardText>
           </Card></Col>
           <Col sm={4}>
-            <Img height="250px" src="/1.jpg" />
+            <Img height="250px" src="/2.jpg" />
           </Col>
       </Row>
       <br/>
@@ -138,7 +138,7 @@ const Landing = () => (
         </Card>
       </Col>
         <Col sm={4}>
-          <Img height="250px" src="/6.jpg" />
+          <Img height="250px" src="/3.jpg" />
         </Col>
         <Col sm={4}>
           <Card>
