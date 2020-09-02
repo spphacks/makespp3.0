@@ -133,7 +133,7 @@ const Landing = () => (
           </Call>
           <CardText size="18px" color="#333">
           Whether you're working on your first <i>Hello World</i> or coding up an AI
-          algorithm, makespp is a place for you to share your <b>vision for the world</b>.
+          algorithm, makespp is a place for you to share your <b>vision with the world</b>.
           </CardText>
         </Card>
       </Col>

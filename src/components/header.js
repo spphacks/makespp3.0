@@ -164,7 +164,7 @@ const Header = ({ siteTitle }) => (
       {" "}
       <Logo src="/logo.png" />
     </Link></Container>
-    <Tagline> New Jersey's Premier Virtual High School Hackathon </Tagline>
+    <Tagline> United States Premier Virtual High School Hackathon </Tagline>
     <SubTagline>Learn to build & pitch a product with workshops and thousands in prizes.</SubTagline>
     <br></br>
       <Date>October 9-11, 2020</Date>
