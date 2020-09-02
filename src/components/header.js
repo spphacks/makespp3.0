@@ -15,10 +15,10 @@ const Background = styled.header`
   height: 105vh;
   }
   @media only screen and (max-width: 1024px) {
-  height: 65vh;
+  height: 78vh;
   }
   @media only screen and (max-width: 768px) {
-    height: 65vh;
+    height: 75vh;
   }
   @media only screen and (max-width: 540px) {
   height: 80vh;

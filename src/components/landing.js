@@ -920,11 +920,11 @@ TBD      </Call>
       </a>
     </div>
     <Description className="center" size="16px">
-      <Link to ="https://hackcodeofconduct.org/1819-makespp" style={{
+      <Link to ="http://mlh.io/code-of-conduct" style={{
         color: `black`,
         fontWeight: `bold`,
         textDecoration: `underline`
-      }}> Code of Conduct </Link>
+      }}> MLH Code of Conduct </Link>
     </Description>
     <Description color="#333" className="center" size="16px">
       © 2020 <a href="https://spprep.org"> Saint Peter's Prep High School</a>
