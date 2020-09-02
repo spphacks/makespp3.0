@@ -169,7 +169,7 @@ const Header = ({ siteTitle }) => (
     <br></br>
       <Date>October 9-11, 2020</Date>
     <Container>
-      <a href="https://makespp.typeform.com/to/ZzGcLGKb" target="_blank">
+      <a href="https://makespp.typeform.com/to/ZzGcLGKb" target="_blank" rel="noreferrer">
       <Register> Register </Register>
       </a>
     </Container>

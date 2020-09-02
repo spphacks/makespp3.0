@@ -28,10 +28,8 @@ const Description = styled.p`
 const CardText = styled.p`
   font-size: ${props => props.size};
   font-weight: 400;
-  color: #333;
-  padding: 0;
   line-height: 1.5;
-  color: ${props => props.color};
+  text-align: center;
   @media only screen and (max-width: 1024px) {
       font-size: 16px;
     }
@@ -42,6 +40,7 @@ const CardText = styled.p`
 
 const Card = styled.div`
   max-width: 400px;
+  text-align: center;
   @media only screen and (max-width: 1024px) {
     height: 330px;
   }
@@ -59,7 +58,7 @@ const Img = styled.img`
   margin-right: auto;
   display: block;
   box-shadow: rgba(0, 0, 0, 0.125) 0px 8px 16px;
-  border-radius: px;
+  border-radius: 10px;
   @media only screen and (max-width: 1024px) {
     height: 200px;
     max-width: 100%;
@@ -87,18 +86,17 @@ const Landing = () => (
     <Row>
       <Col sm={12}>
         <Call color="#333" size="36px" className="center">
-          {" "}
           learn. make. innovate.
         </Call>
         <Description color="#333" size="28px" className="center">
           makespp virtually brings together over 200 innovative young minds for a three-day
           hackathon and technology conference. we're a diverse and creative
           community of students dedicated to solving some of the most
-          challenging problems with technology.{" "}
+          challenging problems with technology.
           <b>
             <u>
-              <a href="https://makespp.typeform.com/to/ZzGcLGKb" target="_blank">join us.</a>
-            </u>{" "}
+              <a href="https://makespp.typeform.com/to/ZzGcLGKb" target="_blank" rel="noreferrer"> join us.</a>
+            </u>
           </b>
         </Description>
       </Col>
@@ -106,97 +104,55 @@ const Landing = () => (
     <br />
     <Site>
       <Row>
-        <Col sm={2}/>
+        <Col sm={4}>
+          <Img height="250px" src="/5.jpg" />
+        </Col>
         <Col sm={4}>
           <Card bg="#F9BEBE;">
-            <Call size="24px" color="#333;">
-              {" "}
-              <br />
-              beginner oriented.{" "}
+            <Call size="24px" color="#333">
+              beginner oriented. expert welcomed.
             </Call>
-            <CardText size="18px">
-              {" "}
+            <CardText size="18px" color="#333">
               Learn to code websites and applications with fun project-based
               workshops & skilled mentors. <b>No experience necessary!</b>
-              <br /> <br />
-              You'll also have the opportunity to attend our entrepreneurship
-              session, talks, & panel.
+              <br/><br/>
+              Regardless if you're a entrepreneur, designer, or engineer, we all
+              have one thing in common: <b>we make things</b>.
             </CardText>
           </Card></Col>
           <Col sm={4}>
-            <Card bg="#BCB1D5;">
-              <Call color="#333" size="24px">
-                {" "}
-                <br />
-                build something amazing.{" "}
-              </Call>
-              <CardText size="18px">
-                {" "}
-                Regardless if you're a entrepreneur, designer, or engineer, we all
-                have one thing in common: <b>we make things</b>. <br />
-                <br /> Let's use our creativity to make a difference.
-              </CardText>
-            </Card>
+            <Img height="250px" src="/1.jpg" />
           </Col>
       </Row>
-      <br />
+      <br/>
       <Row>
-        <Col sm={2}/>
-        <Col sm={3.5}>
-          <Img height="250px" src="/5.jpg" />
-        </Col>
-        <Col sm={5.5}>
-          <Img height="250px" src="/8.jpg" />
-        </Col>
-      </Row>
-      <br />
-      <Row>
-        <Col sm={2}/>
-        <Col sm={3.5}>
-          <Img height="250px" src="/1.jpg" />
-        </Col>
-        <Col sm={5.5}>
+      <Col sm={4}>
+        <Card bg="#F9BEBE;">
+          <Call size="24px" color="#333">
+            share your solutions. win prizes.
+          </Call>
+          <CardText size="18px" color="#333">
+          Whether you're working on your first <i>Hello World</i> or coding up an AI
+          algorithm, makespp is a place for you to share your <b>vision for the world</b>.
+          </CardText>
+        </Card>
+      </Col>
+        <Col sm={4}>
           <Img height="250px" src="/6.jpg" />
         </Col>
-      </Row>
-      <br />
-      <Row>
-        <Col sm={2}/>
         <Col sm={4}>
-          <Card bg="#F9BEBE;">
-            <Call size="24px" color="#333;">
-              {" "}
-              <br />
-              share and win prizes.{" "}
-            </Call>
-            <CardText size="18px">
-              You'll have the opportunity to win prizes worth thousands of
-              dollars — AirPods, tablets, drones, Raspberry Pis, software
-              subscriptions, and much more! In addition to grand prizes, we also
-              have four tracks which you may choose to enter your project in:{" "}
-              <b>social justice, education, healthcare, and environment.</b>
-            </CardText>
-          </Card>
-        </Col>
-        <Col sm={4}>
-          <Card bg="#BCB1D5;">
+          <Card>
             <Call color="#333" size="24px">
-              {" "}
-              <br />
-              fun and swag.{" "}
+               come for the swag. stay for the fun.
             </Call>
-            <CardText size="18px">
-              {" "}
+            <CardText size="18px" color="#333">
               With an amazing community and awesome swag (shipped to your home!) from the hottest tech
               companies, you'll have a <b>great time</b>.
-              <br /> <br />
-              Whether you're working on a marketing pitch or coding up an AI
-              algorithm, makespp is a place for everyone to thrive.{" "}
             </CardText>
           </Card>
         </Col>
       </Row>
-      <br />
+      <br/><br/>
       {/*}
       <Call color="#333" className="center" size="48px">
         Location
@@ -439,9 +395,10 @@ const Landing = () => (
           </Call>
           <Description className="center" color="#333" size="16px">
             {" "}
-            A hackathon is where you have the opportunity turn your ideas into
-            real projects. We'll provide skilled mentors, speakers, workshops,
+            A hackathon is an event where you'll have the opportunity to turn your ideas into
+            real projects. We provide skilled mentors, workshops, exclusive digital tools,
             friends, & so much more.
+            makespp has four tracks which you may choose to enter your project in: <b>social justice, education, healthcare, and environment.</b>
           </Description>
         </Col>
         <Col sm={4}>
@@ -450,8 +407,7 @@ const Landing = () => (
           </Call>
           <Description className="center" color="#333" size="16px">
             {" "}
-            Any student in grades 7-12 is welcome to apply to attend.
-            We will be conducting the hackathon primarily through Zoom & Discord.
+            Any student in grades 7-12 is welcome to register. We will be conducting the hackathon primarily through Zoom & Discord.
           </Description>
         </Col>
         <Col sm={4}>
@@ -460,7 +416,7 @@ const Landing = () => (
           </Call>
           <Description className="center" color="#333" size="16px">
             {" "}
-            makespp is the best place to start. We'll have beginner-friendly
+            makespp is the best place to start. We have beginner-friendly
             workshops and skilled mentors to help you build something amazing
             each day.
           </Description>
@@ -473,8 +429,7 @@ const Landing = () => (
           </Call>
           <Description className="center" color="#333" size="16px">
             {" "}
-            makespp is completely free thanks to our sponsors. There will be
-            great events and prizes, thanks to our sponsors.
+            makespp is completely free thanks to our sponsors. There'll be workshops and thousands in prizes -- AirPods, Raspberry Pis, drones, software and more!
           </Description>
         </Col>
 
@@ -494,8 +449,7 @@ const Landing = () => (
           </Call>
           <Description className="center" color="#333" size="16px">
             {" "}
-            Reach out to the director at <a href="mailto:botwiczt21@students.spprep.org">
-              botwiczt21@students.spprep.org.
+            Reach out to us at <a href="mailto:team@makespp.com">team@makespp.com.
             </a>{" "}
             <br />
           </Description>
