@@ -62,6 +62,17 @@ const Logo = styled.img`
 }
 `;
 
+const Img = styled.img`
+  display:block;
+  max-width:100px;
+  min-width:60px;
+  position:fixed;
+  right:50px;
+  top:0;
+  width:7%;
+  z-index:10000;
+`;
+
 const Tagline = styled.h1`
   text-align: center;
   max-width: 900px;
@@ -160,6 +171,10 @@ const ButtonSpacerContainer = styled.div`
 
 const Header = ({ siteTitle }) => (
   <Background>
+  <a id="mlh-trust-badge"
+  href="https://mlh.io/seasons/na-2021/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2021-season&utm_content=black"
+  target="_blank">
+  <Img src="https://s3.amazonaws.com/logged-assets/trust-badge/2021/mlh-trust-badge-2021-black.svg" alt="Major League Hacking 2021 Hackathon Season"></Img></a>
 
   <ParticleContainer>
   <Particles
