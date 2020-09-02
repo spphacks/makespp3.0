@@ -15,7 +15,7 @@ const Background = styled.header`
   height: 105vh;
   }
   @media only screen and (max-width: 1024px) {
-  height: 55vh;
+  height: 65vh;
   }
   @media only screen and (max-width: 768px) {
     height: 65vh;
@@ -160,6 +160,7 @@ const ButtonSpacerContainer = styled.div`
 
 const Header = ({ siteTitle }) => (
   <Background>
+
   <ParticleContainer>
   <Particles
     height="100vh"
