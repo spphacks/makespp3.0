@@ -12,19 +12,19 @@ const Background = styled.header`
   margin: 0;
   background: linear-gradient(to right, #200122, #6f0000);
   @media only screen and (max-width: 1280px) {
-  height: 105vh;
+  height: 110vh;
   }
   @media only screen and (max-width: 1024px) {
-  height: 78vh;
+  height: 80vh;
   }
   @media only screen and (max-width: 768px) {
-    height: 75vh;
+    height: 80vh;
   }
   @media only screen and (max-width: 540px) {
   height: 80vh;
   }
   @media only screen and (max-width: 414px) {
-  height: 73vh;
+  height: 80vh;
   }
   @media only screen and (max-width: 411px) {
   height: 72vh;
