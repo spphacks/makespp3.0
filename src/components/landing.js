@@ -101,15 +101,15 @@ const Landing = () => (
           learn. make. innovate.
         </Call>
         <Description color="#333" size="28px" className="center">
-          MakeSPP virtually brings together over 200 innovative young minds for a three-day
+          MakeSPP virtually brings together over 400 innovative young minds for a three-day
           hackathon and technology conference. we're a diverse and creative
           community of students dedicated to solving some of the most
-          challenging problems with technology.
+          challenging problems with technology.{" "}
           <b>
             <u>
-              <a href="https://makespp.typeform.com/to/ZzGcLGKb" target="_blank" rel="noreferrer"> join us.</a>
+              <a href="https://makespp.typeform.com/to/ZzGcLGKb" target="_blank" rel="noreferrer">join us</a>
             </u>
-          </b>
+          </b>.
         </Description>
       </Col>
     </Row>
@@ -612,21 +612,27 @@ TBD      </Call>
         </Col>
       </Row>
       <Row>
-        <Col sm={3}>
-          <a href="https://www.desmos.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/desmos.png" /></a>
-        </Col>
-        <Col sm={3}>
-          <a href="https://www.artofproblemsolving.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/aops.svg" /></a>
-        </Col>
-        <Col sm={3}>
-          <a href="https://www.wolfram.com/language" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/wolfram.png" /></a>
-        </Col>
-        <Col sm={3}>
+        <Col sm={4}>
           <a href="https://www.balsamiq.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/balsamiq.png" /></a>
         </Col>
-      </Row>
-      <Row>
+        <Col sm={4}>
+          <a href="https://www.repl.it" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/replit.png" /></a>
+        </Col>
         <Col sm={3}>
+          <a href="https://www.stickergiant.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/stickergiant.png" /></a>
+        </Col>
+      </Row>
+      <Call color="#333" className="center" size="48px">
+              Support
+            </Call>
+      <Row>
+        <Col sm={2}>
+          <a href="https://www.desmos.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/desmos.png" /></a>
+        </Col>
+        <Col sm={2}>
+          <a href="https://www.wolfram.com/language" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/wolfram.png" /></a>
+        </Col>
+        <Col sm={2}>
           <br />
           <a href="https://www.hackerearth.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/hackerearth.png" /></a>
         </Col>
@@ -634,18 +640,15 @@ TBD      </Call>
           <a href="https://www.interviewcake.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/interviewcake.jpg" /></a>
         </Col>
         <Col sm={3}>
-          <a href="https://www.repl.it" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/replit.png" /></a>
-        </Col>
-        <Col sm={3}>
-          <a href="https://www.taskade.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/taskade.png" /></a>
+          <a href="https://www.artofproblemsolving.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/aops.svg" /></a>
         </Col>
       </Row>
       <Row>
-        <Col sm={4.5}/>
-        <Col sm={3}>
-          <a href="https://www.stickergiant.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/stickergiant.png" /></a>
+        <Col sm={4.75}/>
+        <Col sm={2.5}>
+          <a href="https://www.taskade.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/taskade.png" /></a>
         </Col>
-        <Col sm={4.5}/>
+        <Col sm={4.75}/>
       </Row>
       {/*
       <Row>
