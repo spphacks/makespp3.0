@@ -1,7 +1,7 @@
 {
   "name": "MakeSPP",
   "private": true,
-  "description": "The landing page for MakeSPP 2020",
+  "description": "The landing page for makespp 2020",
   "version": "3.0.0",
   "author": "Tomek Botwicz <botwiczt21@students.spprep.org>",
   "dependencies": {

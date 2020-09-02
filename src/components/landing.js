@@ -88,16 +88,16 @@ const Landing = () => (
       <Col sm={12}>
         <Call color="#333" size="36px" className="center">
           {" "}
-          Learn. Make. Innovate.
+          learn. make. innovate.
         </Call>
         <Description color="#333" size="28px" className="center">
-          MakeSPP virtually brings together over 200 innovative young minds for a three-day
-          hackathon and technology conference. We're a diverse and creative
+          makespp virtually brings together over 200 innovative young minds for a three-day
+          hackathon and technology conference. we're a diverse and creative
           community of students dedicated to solving some of the most
           challenging problems with technology.{" "}
           <b>
             <u>
-              <Link to="https://makespp.typeform.com/to/ZzGcLGKb">Join Us.</Link>
+              <a href="https://makespp.typeform.com/to/ZzGcLGKb" target="_blank">join us.</a>
             </u>{" "}
           </b>
         </Description>
@@ -112,7 +112,7 @@ const Landing = () => (
             <Call size="24px" color="#333;">
               {" "}
               <br />
-              Beginner oriented.{" "}
+              beginner oriented.{" "}
             </Call>
             <CardText size="18px">
               {" "}
@@ -128,7 +128,7 @@ const Landing = () => (
               <Call color="#333" size="24px">
                 {" "}
                 <br />
-                Build something amazing.{" "}
+                build something amazing.{" "}
               </Call>
               <CardText size="18px">
                 {" "}
@@ -167,7 +167,7 @@ const Landing = () => (
             <Call size="24px" color="#333;">
               {" "}
               <br />
-              Share and win prizes.{" "}
+              share and win prizes.{" "}
             </Call>
             <CardText size="18px">
               You'll have the opportunity to win prizes worth thousands of
@@ -183,7 +183,7 @@ const Landing = () => (
             <Call color="#333" size="24px">
               {" "}
               <br />
-              Fun and swag.{" "}
+              fun and swag.{" "}
             </Call>
             <CardText size="18px">
               {" "}
@@ -191,7 +191,7 @@ const Landing = () => (
               companies, you'll have a <b>great time</b>.
               <br /> <br />
               Whether you're working on a marketing pitch or coding up an AI
-              algorithm, MakeSPP is a place for everyone to thrive.{" "}
+              algorithm, makespp is a place for everyone to thrive.{" "}
             </CardText>
           </Card>
         </Col>
@@ -460,7 +460,7 @@ const Landing = () => (
           </Call>
           <Description className="center" color="#333" size="16px">
             {" "}
-            MakeSPP is the best place to start. We'll have beginner-friendly
+            makespp is the best place to start. We'll have beginner-friendly
             workshops and skilled mentors to help you build something amazing
             each day.
           </Description>
@@ -473,7 +473,7 @@ const Landing = () => (
           </Call>
           <Description className="center" color="#333" size="16px">
             {" "}
-            MakeSPP is completely free thanks to our sponsors. There will be
+            makespp is completely free thanks to our sponsors. There will be
             great events and prizes, thanks to our sponsors.
           </Description>
         </Col>
@@ -630,21 +630,22 @@ TBD      </Call>
         <Col sm={4} />
       </Row>
       <Row>
-        <Col sm={2} />
         <Col sm={4}>
           <Sponsor src="/sponsors/jbg.png" />
         </Col>
         <Col sm={4}>
-          <Sponsor src="/sponsors/stickergiant.png" />
-        </Col>{" "}
-        <Col sm={2} />
+          <Sponsor src="/sponsors/jdj.png" />
+        </Col>
+        <Col sm={4}>
+          <Sponsor src="/sponsors/linode.png" />
+        </Col>
       </Row>
       <Row>
         <Col sm={3}>
           <Sponsor src="/sponsors/desmos.png" />
         </Col>
         <Col sm={3}>
-          <Sponsor src="/sponsors/linode.png" />
+          <Sponsor src="/sponsors/aops.svg" />
         </Col>
         <Col sm={3}>
           <Sponsor src="/sponsors/wolfram.png" />
@@ -671,7 +672,7 @@ TBD      </Call>
 
       <Row>
         <Col sm={12}>
-          <Sponsor src="/sponsors/aops.svg" />
+          <Sponsor src="/sponsors/stickergiant.png" />
         </Col>
       </Row>
       {/*

@@ -23,8 +23,8 @@ const Live = () => (
   <Layout>
     <Header />
     <SEO
-      title="Live | MakeSPP 2020"
-      keywords={[`MakeSPP`, `Saint Peter's Prep`, `hackathon`]}
+      title="Live | makespp 2020"
+      keywords={[`MakeSPP`, `makespp`, `Saint Peter's Prep`, `hackathon`]}
     />
     <div className="center">
       <h1>
@@ -42,7 +42,7 @@ const Live = () => (
         </Col>
         {/*<Col className="center" sm={4}>
           <h2>
-            WiFi SSID: SPP-Guest <br /> WiFi Password: makeSPP
+            WiFi SSID: SPP-Guest <br /> WiFi Password: makespp
           </h2>
 
           <h2>
