@@ -169,9 +169,10 @@ const Header = ({ siteTitle }) => (
     <br></br>
       <Date>October 9-11, 2020</Date>
     <Container>
-      <Link to="https://makespp.typeform.com/to/ZzGcLGKb">
-        <Register> Register </Register>
-      </Link></Container>
+      <a href="https://makespp.typeform.com/to/ZzGcLGKb" target="_blank">
+      <Register> Register </Register>
+      </a>
+    </Container>
       <ButtonSpacerContainer><br></br></ButtonSpacerContainer>
     {/* <Link to="/live">
       <Register> MakeSPP Live </Register>
