@@ -1,5 +1,4 @@
 import React from "react";
-// import { Link } from "gatsby";
 import Header from "../components/header";
 import Landing from "../components/landing";
 import Layout from "../components/layout";
