@@ -5,42 +5,11 @@ import styled from "styled-components";
 import { Container} from "react-grid-system";
 
 const Background = styled.header`
-  height: 100vh;
   margin: 0;
   padding: 0;
   color: #fff;
   margin: 0;
   background: linear-gradient(to right, #200122, #6f0000);
-  @media only screen and (max-width: 1280px) {
-  height: 110vh;
-  }
-  @media only screen and (max-width: 1024px) {
-  height: 80vh;
-  }
-  @media only screen and (max-width: 768px) {
-    height: 80vh;
-  }
-  @media only screen and (max-width: 540px) {
-  height: 80vh;
-  }
-  @media only screen and (max-width: 414px) {
-  height: 80vh;
-  }
-  @media only screen and (max-width: 411px) {
-  height: 72vh;
-  }
-  @media only screen and (max-width: 400px) {
-  height: 90vh;
-  }
-  @media only screen and (max-width: 375px) {
-  height: 83vh;
-  }
-  @media only screen and (max-width: 320px) {
-  height: 125vh;
-  }
-  @media only screen and (max-width: 280px) {
-  height: 92vh;
-  }
 `;
 
 const ParticleContainer = styled.div`
@@ -51,7 +20,8 @@ const Logo = styled.img`
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 58%;
+  max-height: 200px;
+  padding: 16px;
   @media only screen and (max-width: 767px) {
     content:url("/logosmall.png");
     position: auto;
@@ -77,40 +47,20 @@ const Tagline = styled.h1`
   text-align: center;
   max-width: 900px;
   font-size: 3rem;
+  padding: 16px;
   margin-left: auto;
   margin-right: auto;
   color: #fff;
-  @media only screen and (max-width: 1024px) {
-    font-size: 48px;
-  }
-  @media only screen and (max-width: 768px) {
-    font-size: 33px;
-    padding: 16px;
-  }
-  @media only screen and (max-width: 600px) {
-    font-size: 33px;
-    padding: 14px;
-  }
 `;
 
 const SubTagline = styled.h1`
   text-align: center;
   max-width: 700px;
+  padding: 12px;
   font-size: 24px;
   margin-left: auto;
   margin-right: auto;
   color: #fff;
-  @media only screen and (max-width: 1024px) {
-    max-width: 600px;
-  }
-  @media only screen and (max-width: 768px) {
-    padding: 16px;
-  }
-  @media only screen and (max-width: 600px) {
-    font-size: 17px;
-    max-width: 500px;
-    padding: 14px;
-  }
 `;
 
 const Date = styled.h1`
@@ -157,17 +107,18 @@ const Register = styled.h1`
   }
 
   @keyframes Always {
-      100% { transform: scale(1.15);}
+      100% { transform: scale(1.05);}
   }
 
 
 `;
 
-const ButtonSpacerContainer = styled.div`
-@media only screen and (max-width: 1024px) {
-  ;
-}
-`;
+
+const RegisterContainer = styled.div` 
+  padding-bottom: 48px;
+`
+
+
 
 const Header = ({ siteTitle }) => (
   <Background>
@@ -219,12 +170,12 @@ const Header = ({ siteTitle }) => (
     <SubTagline>Learn to build & pitch a product with workshops and thousands in prizes.</SubTagline>
     <br></br>
       <Date>October 9-11, 2020</Date>
-    <Container>
+    <RegisterContainer>
       <a href="https://makespp.typeform.com/to/ZzGcLGKb" target="_blank" rel="noreferrer">
       <Register> Register </Register>
       </a>
-    </Container>
-      <ButtonSpacerContainer><br></br></ButtonSpacerContainer>
+    </RegisterContainer>
+      {/* <ButtonSpacerContainer><br></br></ButtonSpacerContainer> */}
     {/* <Link to="/live">
       <Register> MakeSPP Live </Register>
     </Link> */}
