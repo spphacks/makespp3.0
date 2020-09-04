@@ -594,11 +594,11 @@ TBD      </Call>
       <Row>
       </Row>
       <Row>
-        <Col sm={2.5} />
-        <Col sm={7}>
+        <Col sm={2} />
+        <Col sm={8}>
             <a href="https://www.hestia.academy" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/hestia.svg" /></a>
         </Col>
-        <Col sm={2.5} />
+        <Col sm={2} />
       </Row>
       <Row>
         <Col sm={4}>
@@ -608,18 +608,18 @@ TBD      </Call>
           <a href="https://www.jdjfoundation.org" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/jdj.png" /></a>
         </Col>
         <Col sm={4}>
-          <a href="https://www.linode.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/linode.png" /></a>
+          <a href="https://www.repl.it" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/replit.png" /></a>
         </Col>
       </Row>
       <Row>
         <Col sm={4}>
-          <a href="https://www.balsamiq.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/balsamiq.png" /></a>
+          <a href="https://www.balsamiq.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/balsamiq.svg" /></a>
         </Col>
         <Col sm={4}>
-          <a href="https://www.repl.it" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/replit.png" /></a>
+          <a href="https://www.linode.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/linode.svg" /></a>
         </Col>
-        <Col sm={3}>
-          <a href="https://www.stickergiant.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/stickergiant.png" /></a>
+        <Col sm={4}>
+          <a href="https://www.stickermule.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/stickermule.svg" /></a>
         </Col>
       </Row>
       <Call color="#333" className="center" size="48px">Support
@@ -642,61 +642,30 @@ TBD      </Call>
         </Col>
       </Row>
       <Row>
-        <Col sm={2.25}/>
+        <Col sm={0.625}/>
         <Col sm={2.5}>
           <a href="https://www.taskade.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/taskade.png" /></a>
         </Col>
         <Col sm={2.5}>
           <a href="https://www.1password.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/1password.svg" /></a>
         </Col>
-        <Col sm={1.25}>
+        <Col sm={2.5}>
+          <a href="https://www.hackclub.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/hackclub.png" /></a>
+        </Col>
+        <Col sm={1.5}>
           <a href="https://www.bugsee.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/bugsee.svg" /></a>
         </Col>
-        <Col sm={3.5}/>
+        <Col sm={1.75}>
+          <a href="https://www.stickergiant.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/stickergiant.png" /></a>
+        </Col>
+        <Col sm={0.625}/>
       </Row>
-      {/*
-      <Row>
-      <Col sm={3}>
-        <br /> <br />
-        <Sponsor src="/sponsors/hackerearth.png" />
-      </Col>
-      <Col sm={3}>
-        <br /> <br />
-        <Sponsor src="/sponsors/jpmorgan.jpg" />
-      </Col>
-      <Col sm={3}>
-        <Sponsor className="max" src="/sponsors/yl.png" />
-      </Col>
-
-
-        <Col sm={3} />
-        <Col sm={2}>
-          <Sponsor className="max" src="/sponsors/insomnia.jpg" />
-        </Col>
-
-        <Col sm={2}>
-          <Sponsor className="max" src="/sponsors/stickergiant.png" />
-        </Col>
-
+      {/*<Row>
+        <Col sm={4.5}/>
         <Col sm={3}>
-          <Sponsor className="max" src="/sponsors/basiles.png" />
+          <a href="https://www.datacamp.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/datacamp.svg" /></a>
         </Col>
-        <Col sm={2} />
-      </Row>
-      <Row>
-        <Col sm={3}>
-          <Sponsor src="/sponsors/desmos.png" />
-        </Col>
-        <Col sm={3}>
-          <Sponsor src="/sponsors/sketch.png" />
-        </Col>
-        <Col sm={3}>
-          <Sponsor src="/sponsors/1password.png" />
-        </Col>
-
-        <Col sm={3}>
-          <Sponsor src="/sponsors/hackclub.png" />
-        </Col>
+        <Col sm={4.5}/>
       </Row>*/}
       <Row><Col sm={12}><Description className="center" size="20px">
         {" "}
