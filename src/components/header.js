@@ -114,7 +114,7 @@ const Register = styled.h1`
 `;
 
 
-const RegisterContainer = styled.div` 
+const RegisterContainer = styled.div`
   padding-bottom: 48px;
 `
 
@@ -123,7 +123,7 @@ const RegisterContainer = styled.div`
 const Header = ({ siteTitle }) => (
   <Background>
   <a id="mlh-trust-badge"
-  href="https://mlh.io/seasons/na-2021/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2021-season&utm_content=black"
+  href="https://mlh.io/seasons/2021/events"
   target="_blank">
   <Img src="https://s3.amazonaws.com/logged-assets/trust-badge/2021/mlh-trust-badge-2021-black.svg" alt="Major League Hacking 2021 Hackathon Season"></Img></a>
 
