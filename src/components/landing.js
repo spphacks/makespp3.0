@@ -619,7 +619,7 @@ TBD      </Call>
           <a href="https://www.linode.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/linode.svg" /></a>
         </Col>
         <Col sm={4}>
-          <a href="https://www.stickermule.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/stickermule.svg" /></a>
+          <a href="http://hackp.ac/mlh-stickermule-hackathons" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/stickermule.svg" /></a>
         </Col>
       </Row>
       <Call color="#333" className="center" size="48px">Support
