@@ -415,7 +415,7 @@ const Landing = () => (
             A hackathon is an event where you'll have the opportunity to turn your ideas into
             real projects. We provide skilled mentors, workshops, exclusive digital tools,
             friends, & so much more.
-            MakeSPP has four tracks which you may choose to enter your project in: <b>social justice, education, healthcare, and environment.</b>
+            MakeSPP has four main tracks which you may choose to enter your project in: <b>social justice, education, healthcare, and environment</b> -- along with a sponsor-specific EchoAR track.
           </Description>
         </Col>
         <Col sm={4}>
@@ -650,7 +650,7 @@ TBD      </Call>
           <a href="https://www.1password.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/1password.svg" /></a>
         </Col>
         <Col sm={2.5}>
-          <a href="https://www.hackclub.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/hackclub.png" /></a>
+          <a href="https://hackathons.hackclub.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/hackclub.png" /></a>
         </Col>
         <Col sm={1.5}>
           <a href="https://www.bugsee.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/bugsee.svg" /></a>
