@@ -158,13 +158,13 @@ const Landing = () => (
         <CardSpacerContainer><br></br></CardSpacerContainer>
           <Card>
             <Call color="#333" size="24px">
-               come for the swag. stay for the fun.
+               come for the fun. stay for the swag.
             </Call>
             <CardText size="18px" color="#333">
               with an amazing community and awesome swag (shipped to your home!) from the hottest tech
               companies, you'll have a <b>great time</b>.
 <br/><br/>
-              that's enough for now. so what are you doing waiting, <b><i>register now</i></b>!
+              that's enough for now. so what are you doing waiting, <b><i><a href="https://makespp.typeform.com/to/ZzGcLGKb" target="_blank" rel="noreferrer">register now</a></i></b>!
             </CardText>
           </Card>
         </Col>
@@ -415,7 +415,7 @@ const Landing = () => (
             A hackathon is an event where you'll have the opportunity to turn your ideas into
             real projects. We provide skilled mentors, workshops, exclusive digital tools,
             friends, & so much more.
-            MakeSPP has four main tracks which you may choose to enter your project in: <b>social justice, education, healthcare, and environment</b> -- along with a sponsor-specific EchoAR track.
+            MakeSPP has four main tracks which you may choose to enter your project in: <b>education, environment, website and Google Cloud</b> -- along with a sponsor-specific EchoAR track.
           </Description>
         </Col>
         <Col sm={4}>
@@ -446,7 +446,7 @@ const Landing = () => (
           </Call>
           <Description className="center" color="#333" size="16px">
             {" "}
-            MakeSPP is completely free thanks to our sponsors. There'll be workshops and thousands in prizes -- AirPods, Raspberry Pis, drones, software and more!
+            MakeSPP is completely free thanks to our sponsors. There'll be workshops and thousands in prizes -- Xbox Series S, AirPods, MX Master mice, Google Home Minis, software and more!
           </Description>
         </Col>
 
@@ -472,6 +472,83 @@ const Landing = () => (
           </Description>
         </Col>
       </Row>
+      <Call color="#333" className="center" size="48px">
+        Prizes
+      </Call>
+      <Row>
+      <Col sm={3}/>
+      <Col sm={6}>
+          <Sponsor src="/prizes/xbox.jpg" />
+      </Col>
+      </Row>
+      <Row>
+        <Col sm={12}>
+        <Call className="center" color="#333" size="24px">
+          First Place: <i>Xbox Series S</i>{" "}
+        </Call>
+        </Col>
+      </Row>
+      <Row>
+      <Col sm={1}/>
+      <Col sm={4}>
+          <Sponsor src="/prizes/airpods.jpg" />
+      </Col>
+      <Col sm={1}/>
+      <Col sm={6}>
+          <Sponsor src="/prizes/mouse.jpg" />
+      </Col>
+      </Row>
+      <Row>
+        <Col sm={6}>
+        <Call className="center" color="#333" size="24px">
+          Second Place: <i>AirPods</i>
+        </Call>
+        </Col>
+        <Col sm={6}>
+        <Call className="center" color="#333" size="24px">
+          Third Place: <i>MX Master Mouse</i>{" "}
+        </Call>
+        </Col>
+      </Row>
+      <br/>
+      <Row>
+      <Col sm={3.2}>
+          <Sponsor src="/prizes/rocketbook.jpg" />
+      </Col>
+      <Col sm={2.5}>
+          <Sponsor src="/prizes/speaker.jpg" />
+      </Col>
+      <Col sm={0.15}/>
+      <Col sm={3}>
+          <Sponsor src="/prizes/mini.jpg" />
+      </Col>
+      <Col sm={3}>
+          <Sponsor src="/prizes/amazon.png" />
+      </Col>
+      </Row>
+      <Row>
+        <Col sm={3}>
+        <h3 className="center" color="#333">
+          <b>Environment Track: <i>House of Marley Speaker</i></b>
+        </h3>
+        </Col>
+        <Col sm={3}>
+        <h3 className="center" color="#333">
+          <b>Education Track: <i>RocketBook</i>{" "}</b>
+        </h3>
+        </Col>
+        <Col sm={3}>
+        <h3 className="center" color="#333">
+          <b>Google Cloud Track: <i>Google Home Mini</i></b>
+        </h3>
+        </Col>
+        <Col sm={3}>
+        <h3 className="center" color="#333">
+          <b>EchoAR Track: <i>$50 Amazon Gift Card</i>{" "}</b>
+        </h3>
+        </Col>
+      </Row>
+      <br/><br/>
       {/*<Call color="#333" className="center" size="48px">
         Schedule
       </Call><br/>
@@ -608,7 +685,7 @@ TBD      </Call>
           <a href="https://www.jdjfoundation.org" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/jdj.png" /></a>
         </Col>
         <Col sm={4}>
-          <a href="https://www.repl.it" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/replit.png" /></a>
+          <a href="https://www.repl.it" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/miles.png" /></a>
         </Col>
       </Row>
       <Row>
@@ -632,7 +709,7 @@ TBD      </Call>
           <a href="https://www.wolfram.com/language" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/wolfram.png" /></a>
         </Col>
         <Col sm={2}>
-          <a href="https://www.hackerearth.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/hackerearth.png" /></a>
+          <a href="https://www.hackerearth.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/replit.png" /></a>
         </Col>
         <Col sm={3}>
           <a href="https://www.interviewcake.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/interviewcake.svg" /></a>
