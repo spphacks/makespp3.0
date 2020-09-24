@@ -489,12 +489,12 @@ const Landing = () => (
         </Col>
       </Row>
       <Row>
-      <Col sm={1}/>
-      <Col sm={4}>
+      <Col sm={1.5}/>
+      <Col sm={3}>
           <Sponsor src="/prizes/airpods.jpg" />
       </Col>
-      <Col sm={1}/>
-      <Col sm={6}>
+      <Col sm={2}/>
+      <Col sm={5}>
           <Sponsor src="/prizes/mouse.jpg" />
       </Col>
       </Row>
