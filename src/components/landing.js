@@ -475,6 +475,9 @@ const Landing = () => (
       <Call color="#333" className="center" size="48px">
         Prizes
       </Call>
+      <Call color="#333" className="center" size="25px">
+        <i>All team members will receive a prize.</i>
+      </Call>
       <Row>
       <Col sm={3}/>
       <Col sm={6}>
