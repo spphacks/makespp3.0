@@ -532,12 +532,12 @@ const Landing = () => (
       <Row>
         <Col sm={3}>
         <h3 className="center" color="#333">
-          <b>Environment Track: <i>House of Marley Speaker</i></b>
+          <b>Environment Track: <i>RocketBook</i></b>
         </h3>
         </Col>
         <Col sm={3}>
         <h3 className="center" color="#333">
-          <b>Education Track: <i>RocketBook</i>{" "}</b>
+          <b>Education Track: <i>House of Marley Speaker</i>{" "}</b>
         </h3>
         </Col>
         <Col sm={3}>
