@@ -449,15 +449,13 @@ const Landing = () => (
             MakeSPP is completely free thanks to our sponsors. There'll be workshops and thousands in prizes -- Xbox Series S, AirPods, MX Master mice, Google Home Minis, software and more!
           </Description>
         </Col>
-
         <Col sm={4}>
           <Call className="center" color="#333" size="24px">
             What if I don’t have a team or idea?
           </Call>
           <Description className="center" color="#333" size="16px">
-            {" "}
             Don't worry! There will be team formation & brainstorming sessions
-            at the beginning of the event.
+            at the beginning of the event. Teams are limited to <b>4 people</b>.
           </Description>
         </Col>
         <Col sm={4}>
@@ -465,10 +463,9 @@ const Landing = () => (
             I have another question!
           </Call>
           <Description className="center" color="#333" size="16px">
-            {" "}
             Reach out to us at <a href="mailto:team@makespp.com">team@makespp.com.
-            </a>{" "}
-            <br />
+            </a>
+            <br/>
           </Description>
         </Col>
       </Row>
@@ -515,157 +512,167 @@ const Landing = () => (
       </Row>
       <br/>
       <Row>
-      <Col sm={3.2}>
+      <Col sm={1.075}/>
+      <Col sm={2.7}>
           <Sponsor src="/prizes/rocketbook.jpg" />
       </Col>
-      <Col sm={2.5}>
+      <Col sm={2}>
           <Sponsor src="/prizes/speaker.jpg" />
       </Col>
-      <Col sm={0.15}/>
-      <Col sm={3}>
+      <Col sm={0.1}/>
+      <Col sm={2.5}>
           <Sponsor src="/prizes/mini.jpg" />
       </Col>
-      <Col sm={3}>
+      <Col sm={2.5}>
           <Sponsor src="/prizes/amazon.png" />
       </Col>
       </Row>
       <Row>
-        <Col sm={3}>
+        <Col sm={1}/>
+        <Col sm={2.5}>
         <h3 className="center" color="#333">
           <b>Environment Track: <i>RocketBook</i></b>
         </h3>
         </Col>
-        <Col sm={3}>
+        <Col sm={2.5}>
         <h3 className="center" color="#333">
           <b>Education Track: <i>House of Marley Speaker</i>{" "}</b>
         </h3>
         </Col>
-        <Col sm={3}>
+        <Col sm={2.5}>
         <h3 className="center" color="#333">
           <b>Google Cloud Track: <i>Google Home Mini</i></b>
         </h3>
         </Col>
-        <Col sm={3}>
+        <Col sm={2.5}>
         <h3 className="center" color="#333">
           <b>EchoAR Track: <i>$50 Amazon Gift Card</i>{" "}</b>
         </h3>
         </Col>
       </Row>
       <br/><br/>
-      {/*<Call color="#333" className="center" size="48px">
-        Schedule
+      <Call color="#333" className="center" size="48px">
+        Schedule (EST)
+      </Call>
+      <Call color="#333" className="center" size="20px">
+        <u>Subject to Change</u>
+      </Call>
+      <Call color="#333" className="center" size="20px">
+        Note: All activities/workshops/lectures are <i>optional</i>.
       </Call><br/>
       <Call color="#333" className="center" size="40px">
-        Day 1
+        October 9th
       </Call>
       <Row>
         <Col sm={2} />
         <Col sm={8}>
           <div className="schedule">
             <item>
-              <span className="right">8:00 - 8:40 AM</span> Opening Ceremony
+              <span className="right">5 PM</span> Opening Ceremony
             </item>
             <item>
-              <span className="right">8:45 - 9:00 AM</span> Co-Host Opening: Hestia Academy
+              <span className="right">5:15 PM</span> Platforms & Schedule Overview
             </item>
             <item>
-              {" "}
-              <span className="right">9:05 AM</span> Team Formation
+              <span className="right">5:25 PM</span> Hestia Academy Keynote
             </item>
             <item>
-              {" "}
-              <span className="right">9:20 AM</span> Making Starts
+              <span className="right">5:55 PM</span> Team Formation
             </item>
             <item>
-              <span className="right">10 AM</span> <b>Workshop</b>: TBD {/*Creative
-              Coding w/ Upperline Code (Beginner){" "}
+              <span className="right">6:20 PM</span> Icebreakers
             </item>
             <item>
-              <span className="right">10 AM</span> <b>Workshop</b>: TBD{/*Build Your
-              First Website (Beginner)
+              <span className="right">6:40-8 PM</span> Dinner Break
             </item>
             <item>
-              <span className="right">10 AM</span> <b>Workshop</b>: TBD {/*Intro to
-              Python (Beginner){" "}
-            </item>
-
-            <item>
-              <span className="right">11 AM</span> <b>Workshop</b>: TBD{/*Machine
-              Learning w/ Upperline Code (Intermediate){" "}
-            </item>
-
-            <item>
-              {" "}
-              <span className="right">12 PM</span> Lunch Break
+              <span className="right">8 PM</span> <b>Activity</b>: Minecraft Competition
             </item>
             <item>
-              <span className="right">12:30 PM</span> <b>Workshop</b>: {/*Build a
-              Web App with Zeit (Intermediate){" "}
-            </item>
-
-            <item>
-              <span className="right">1 PM</span> <b>Panel</b>: TBD {/*Entrepreneurship{" "}
-            </item>
-
-            <item>
-              {" "}
-              <span className="right">2 PM</span> <b>Activity</b>: TBD {/*Engineering
-            </item>
-
-            <item>
-              <span className="right">2:30 PM</span> <b>Workshop</b>: TBD {/*Pitching
-              Your Project{" "}
-            </item>
-
-            <item>
-              {" "}
-              <span className="right">4:00 PM</span> Snack
-            </item>
-
-            <item>
-              {" "}
-              <span className="right">5:30 PM</span> Making Ends & Expo Begins
-            </item>
-
-            <item>
-              {" "}
-              <span className="right">6:30 PM</span> Judging Ends
+              <span className="right">8 PM</span> <b>Activity</b>: Skribbl.io
             </item>
             <item>
-              {" "}
-              <span className="right">6:30 PM</span> Dinner
-            </item>
-
-            <item>
-              {" "}
-              <span className="right">6:50 PM</span> Expo Ends
-            </item>
-
-            <item>
-              {" "}
-              <span className="right">7 PM</span> Top 5 Teams Demo & Q/A
-            </item>
-
-            <item>
-              {" "}
-              <span className="right">8 PM</span> Winners Announced & Closing
-              Remarks{" "}
+              <span className="right">9 PM</span> Begin Projects (Good Planning Time!)
             </item>
           </div>
         </Col>
-        <Col sm={2} />
+        <Col sm={2}/>
       </Row><br/>
       <Call color="#333" className="center" size="40px">
-        Day 2
+        October 10th
       </Call><br/>
-      <Call color="#333" className="center" size="30px">
-TBD      </Call><br/>
+      <Row>
+        <Col sm={2}/>
+        <Col sm={8}>
+          <div className="schedule">
+            <item>
+              <span className="right">9 AM</span> Morning Keynote
+            </item>
+            <item>
+              <span className="right">10 AM</span> <b>Workshop</b>: Intro to Python
+            </item>
+            <item>
+              <span className="right">11 AM</span> <b>Workshop</b>: Intro to HTML/CSS
+            </item>
+            <item>
+              <span className="right">1 PM</span> <b>Workshop</b>: Intro to JavaScript
+            </item>
+            <item>
+              <span className="right">3 PM</span> <b>Panel</b>: Entrepreneurship
+            </item>
+            <item>
+              <span className="right">3 PM</span> <b>Activity</b>: Among Us
+            </item>
+            <item>
+              <span className="right">4 PM</span> <b>Lecture</b>: Machine Learning
+            </item>
+            <item>
+              <span className="right">5 PM</span> <b>Lecture</b>: Future of E-Learning
+            </item>
+            <item>
+              <span className="right">7 PM</span> <b>Lecture</b>: AI & Society
+            </item>
+            <item>
+              <span className="right">8 PM</span> Conclusion of Official Programming
+            </item>
+          </div>
+        </Col>
+        <Col sm={2}/>
+      </Row><br/>
       <Call color="#333" className="center" size="40px">
-        Day 3
+        October 11th
       </Call><br/>
-      <Call color="#333" className="center" size="30px">
-TBD      </Call>
-      <br />*/}
+      <Row>
+        <Col sm={2}/>
+        <Col sm={8}>
+          <div className="schedule">
+              <item>
+                <span className="right">12 PM</span> <b>Workshop</b>: Pitching Your Product
+              </item>
+              <item>
+                <span className="right">2 PM</span> Final Projects Due
+              </item>
+              <item>
+                <span className="right">2 PM</span> <b>Activity</b>: TBD
+              </item>
+              <item>
+                <span className="right">3 PM</span> <b>Activity</b>: TBD
+              </item>
+              <item>
+                <span className="right">4 PM</span> <b>Activity</b>: TBD
+              </item>
+              <item>
+                <span className="right">2-5 PM</span> Judging
+              </item>
+              <item>
+                <span className="right">5-6 PM</span> Winners Announced & Closing
+                Remarks
+              </item>
+          </div>
+        </Col>
+        <Col sm={2} />
+      </Row>
+      <br />
       <br />
 <Call color="#333" className="center" size="48px">
         Sponsors
@@ -742,18 +749,13 @@ TBD      </Call>
       </Row>
       {/*<Row>
         <Col sm={4.5}/>
-        <Col sm={3}>
+        <Col sm={2}>
           <a href="https://www.datacamp.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/datacamp.svg" /></a>
         </Col>
         <Col sm={4.5}/>
       </Row>*/}
       <Row><Col sm={12}><Description className="center" size="20px">
-        {" "}
-        For our sponsorship prospectus, please click <Link to = "/prospectus.pdf" style={{
-          color: `black`,
-          textDecoration: `underline`
-        }}>here</Link>.
-        {" "}
+        For our sponsorship prospectus, please click <Link to = "/prospectus.pdf" style={{color: `black`, textDecoration: `underline`}}>here</Link>.
       </Description></Col></Row><br />
       <Call color="#333" className="center" size="48px">
         Leadership
@@ -978,6 +980,9 @@ TBD      </Call>
       </Row>
     </Site>
     <div class="center">
+      <a href="https://discord.gg/mxmsaSK">
+        <img height="52px" src="/discord.png" alt="discord icon."/>
+      </a>
       <a href="https://twitter.com/makespp">
         <img height="52px" src="/twitter.png" alt="twitter icon."/>
       </a>
