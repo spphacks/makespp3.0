@@ -949,8 +949,8 @@ TBD      </Call>
           </Description>
           <br />
         </Col>
-        <Col sm={3} />
-        <Col sm={3}>
+        <Col sm={3.5} />
+        <Col sm={2.5}>
           <Profile src="/team/tyler.jpg" />
           <Description className="center" color="#333" size="18px">
             {" "}
@@ -962,7 +962,7 @@ TBD      </Call>
           </Description>
           <br />
         </Col>
-        <Col sm={3}>
+        <Col sm={2.5}>
           <Profile src="/team/michael.jpg" />
           <Description className="center" color="#333" size="18px">
             {" "}
@@ -974,6 +974,7 @@ TBD      </Call>
           </Description>
           <br />
         </Col>
+        <Col sm={3.5} />
       </Row>
     </Site>
     <div class="center">
