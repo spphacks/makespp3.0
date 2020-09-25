@@ -949,8 +949,20 @@ TBD      </Call>
           </Description>
           <br />
         </Col>
-        <Col sm={5} />
-        <Col sm={14}>
+        <Col sm={3} />
+        <Col sm={3}>
+          <Profile src="/team/tyler.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b>Tyler Kay</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Tech Crew
+          </Description>
+          <br />
+        </Col>
+        <Col sm={3}>
           <Profile src="/team/michael.jpg" />
           <Description className="center" color="#333" size="18px">
             {" "}
