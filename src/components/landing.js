@@ -586,7 +586,7 @@ const Landing = () => (
               <span className="right">6:40-8 PM</span> Dinner Break
             </item>
             <item>
-              <span className="right">8 PM</span> <b>Activity</b>: Minecraft Competition
+              <span className="right">8 PM</span> <b>Workshop</b>: Intro to HTML/CSS
             </item>
             <item>
               <span className="right">8 PM</span> <b>Activity</b>: Skribbl.io
@@ -612,7 +612,10 @@ const Landing = () => (
               <span className="right">10 AM</span> <b>Workshop</b>: Intro to Python
             </item>
             <item>
-              <span className="right">11 AM</span> <b>Workshop</b>: Intro to HTML/CSS
+              <span className="right">10:30 AM</span> <b>Workshop</b>: Build an echoAR App
+            </item>
+            <item>
+              <span className="right">11 AM</span> <b>Activity</b>: Minecraft Competition
             </item>
             <item>
               <span className="right">1 PM</span> <b>Workshop</b>: Intro to JavaScript
@@ -621,7 +624,7 @@ const Landing = () => (
               <span className="right">3 PM</span> <b>Panel</b>: Entrepreneurship
             </item>
             <item>
-              <span className="right">3 PM</span> <b>Activity</b>: Among Us
+              <span className="right">3 PM</span> <b>Activity</b>: Makey Makeoff
             </item>
             <item>
               <span className="right">4 PM</span> <b>Lecture</b>: Machine Learning
@@ -630,8 +633,11 @@ const Landing = () => (
               <span className="right">5 PM</span> <b>Lecture</b>: Future of E-Learning
             </item>
             <item>
-              <span className="right">7 PM</span> <b>Lecture</b>: AI & Society
+              <span className="right">7 PM</span> <b>Activity</b>: Among Us
             </item>
+            {/*<item>
+              <span className="right">7 PM</span> <b>Lecture</b>: AI & Society
+            </item>*/}
             <item>
               <span className="right">8 PM</span> Conclusion of Official Programming
             </item>
@@ -653,13 +659,13 @@ const Landing = () => (
                 <span className="right">2 PM</span> Final Projects Due
               </item>
               <item>
-                <span className="right">2 PM</span> <b>Activity</b>: TBD
+                <span className="right">2 PM</span> <b>Activity</b>: Codenames
               </item>
               <item>
-                <span className="right">3 PM</span> <b>Activity</b>: TBD
+                <span className="right">3 PM</span> <b>Activity</b>: Minecraft Competition
               </item>
               <item>
-                <span className="right">4 PM</span> <b>Activity</b>: TBD
+                <span className="right">4 PM</span> <b>MLH Activity</b>: Painting with Bob Ross
               </item>
               <item>
                 <span className="right">2-5 PM</span> Judging
@@ -695,7 +701,7 @@ const Landing = () => (
           <a href="https://www.jdjfoundation.org" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/jdj.png" /></a>
         </Col>
         <Col sm={4}>
-          <a href="https://www.repl.it" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/miles.png" /></a>
+          <a href="https://milesquareinsurance.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/miles.png" /></a>
         </Col>
       </Row>
       <Row>
@@ -719,7 +725,7 @@ const Landing = () => (
           <a href="https://www.wolfram.com/language" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/wolfram.png" /></a>
         </Col>
         <Col sm={2}>
-          <a href="https://www.hackerearth.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/replit.png" /></a>
+          <a href="https://www.repl.it" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/replit.png" /></a>
         </Col>
         <Col sm={3}>
           <a href="https://www.interviewcake.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/interviewcake.svg" /></a>
