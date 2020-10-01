@@ -712,6 +712,13 @@ const Landing = () => (
           <a href="http://hackp.ac/mlh-stickermule-hackathons" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/stickermule.svg" /></a>
         </Col>
       </Row>
+      <Row>
+        <Col sm={4.75}/>
+        <Col sm={2.5}>
+          <a href="https://www.stickergiant.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/stickergiant.png" /></a>
+        </Col>
+        <Col sm={4.75}/>
+      </Row>
       <Call color="#333" className="center" size="48px">Support
             </Call>
       <Row>
@@ -732,7 +739,7 @@ const Landing = () => (
         </Col>
       </Row>
       <Row>
-        <Col sm={0.625}/>
+        <Col sm={1.5}/>
         <Col sm={2.5}>
           <a href="https://www.taskade.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/taskade.png" /></a>
         </Col>
@@ -745,10 +752,7 @@ const Landing = () => (
         <Col sm={1.5}>
           <a href="https://www.bugsee.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/bugsee.svg" /></a>
         </Col>
-        <Col sm={1.75}>
-          <a href="https://www.stickergiant.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/stickergiant.png" /></a>
-        </Col>
-        <Col sm={0.625}/>
+        <Col sm={1.5}/>
       </Row>
       {/*<Row>
         <Col sm={4.5}/>
