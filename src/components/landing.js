@@ -555,9 +555,6 @@ const Landing = () => (
         Schedule (EST)
       </Call>
       <Call color="#333" className="center" size="20px">
-        <u>Subject to Change</u>
-      </Call>
-      <Call color="#333" className="center" size="20px">
         Note: All activities/workshops/lectures are <i>optional</i>.
       </Call><br/>
       <Call color="#333" className="center" size="40px">
