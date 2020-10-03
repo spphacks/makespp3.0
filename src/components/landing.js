@@ -630,6 +630,9 @@ const Landing = () => (
               <span className="right">5 PM</span> <b>Lecture</b>: Future of E-Learning
             </item>
             <item>
+              <span className="right">6 PM</span> <b>MLH Activity</b>: Capture the Flag
+            </item>
+            <item>
               <span className="right">7 PM</span> <b>Activity</b>: Among Us
             </item>
             {/*<item>
@@ -650,10 +653,16 @@ const Landing = () => (
         <Col sm={8}>
           <div className="schedule">
               <item>
+                <span className="right">11 AM</span> <b>Reminder</b>: Prepare Presentation
+              </item>
+              <item>
                 <span className="right">12 PM</span> <b>Workshop</b>: Pitching Your Product
               </item>
               <item>
-                <span className="right">2 PM</span> Final Projects Due
+                <span className="right">1 PM</span> <b>Reminder</b>: Submissions Due Soon
+              </item>
+              <item>
+                <span className="right">2 PM</span> Submissions Due
               </item>
               <item>
                 <span className="right">2 PM</span> <b>Activity</b>: Codenames
@@ -668,8 +677,7 @@ const Landing = () => (
                 <span className="right">2-5 PM</span> Judging
               </item>
               <item>
-                <span className="right">5-6 PM</span> Winners Announced & Closing
-                Remarks
+                <span className="right">5-6 PM</span> Winners Announced/Presentations & Closing Ceremony
               </item>
           </div>
         </Col>
@@ -713,14 +721,20 @@ const Landing = () => (
         </Col>
       </Row>
       <Row>
-        <Col sm={4.75}/>
+        <Col sm={1.125}/>
+        <Col sm={3.75}>
+          <a href="https://www.enlight.nyc" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/enlight.png" /></a>
+        </Col>
         <Col sm={2.5}>
           <a href="https://www.stickergiant.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/stickergiant.png" /></a>
         </Col>
-        <Col sm={4.75}/>
+        <Col sm={3.5}>
+          <a href="https://echoar.xyz" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/echoar.png" /></a>
+        </Col>
+        <Col sm={1.125}/>
       </Row>
       <Call color="#333" className="center" size="48px">Support
-            </Call>
+      </Call>
       <Row>
         <Col sm={2}>
           <a href="https://www.desmos.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/desmos.png" /></a>
