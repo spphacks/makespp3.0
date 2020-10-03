@@ -10,18 +10,18 @@ const Background = styled.header`
   color: #fff;
   margin: 0;
   background: linear-gradient(to right, #200122, #6f0000);
-`;
+  `;
 
 const ParticleContainer = styled.div`
   position: absolute;
 `;
 
 const LogoText = styled.img`
-  position: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
+  max-height: 150px;
+  padding: 25px;
   @media only screen and (max-width: 1024px) {
     content:url("/logosmall.png");
     position: auto;
@@ -33,6 +33,34 @@ const LogoText = styled.img`
 
 const Header = ({ siteTitle }) => (
   <Background>
+  <ParticleContainer><Particles
+  height="100vh"
+  width="100vw"
+  params={{
+    particles: {
+      number: {
+        value: 400,
+      },
+      size: {
+        value: 3,
+        random: true,
+        anim: {
+          speed: 5,
+          size_min: 0.3
+        }
+      },
+      line_linked: {
+        enable: false
+      },
+      move: {
+        random: true,
+        speed: 1,
+        direction: "right",
+        out_mode: "out"
+      }
+    },
+  }}
+  /></ParticleContainer>
     <Container><Link
       to="/"
       style={{
@@ -44,37 +72,6 @@ const Header = ({ siteTitle }) => (
 
         <LogoText src="/logo.png" />
     </Link></Container>
-    <ParticleContainer><Particles
-      height="20vh"
-      width="100vw"
-      params={{
-        particles: {
-          number: {
-            value: 300,
-            density: {
-              enable: false
-            }
-          },
-          size: {
-            value: 3,
-            random: true,
-            anim: {
-              speed: 4,
-              size_min: 0.3
-            }
-          },
-          line_linked: {
-            enable: false
-          },
-          move: {
-            random: true,
-            speed: 1.5,
-            direction: "top",
-            out_mode: "out"
-          }
-        },
-      }}
-    /></ParticleContainer>
   </Background>
 );
 

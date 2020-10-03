@@ -19,6 +19,16 @@ const Description = styled.p`
   color: ${props => props.color};
 `;
 
+const Call = styled.h2`
+  margin: 0;
+  padding: 0;
+  font-size: ${props => props.size};
+  color: ${props => props.color};
+  @media only screen and (max-width: 1024px) {
+      font-size: 25px;
+    }
+`;
+
 const Live = () => (
   <Layout>
     <Header />
@@ -28,51 +38,44 @@ const Live = () => (
     />
     <div className="center">
       <h1>
-        <Countdown date={`October 11, 2019 17:30:00`} />
+        <Countdown date={`October 11, 2020 2:00:00`} />
       </h1>
     </div>
     <Container>
       <Row>
-        <Col sm={12}>
+        <Col sm={3}>
           <TwitterTimelineEmbed
             sourceType="profile"
             screenName="makespp"
             options={{ height: 400 }}
           />{" "}
         </Col>
-        {/*<Col className="center" sm={4}>
-          <h2>
-            WiFi SSID: SPP-Guest <br /> WiFi Password: MakeSPP
-          </h2>
-
-          <h2>
-            Projects must be submitted on
-            <a className="blue" href="https://makespp.hackerearth.com">
-              <u> HackerEarth</u>
-            </a>{" "}
-            by ___ PM
-          </h2>
-
-          <h2>
-            <a
-              className="blue"
-                https://discord.gg/hxYf99
-"
-            >
-              <u> Discord Signup</u>
-            </a>{" "}
-          </h2>
-
-          <h2>
-            <a
-              className="blue"
-              href="https://hackcodeofconduct.org/676-makespp"
-            >
-              <u> Code of Conduct</u>
-            </a>{" "}
-          </h2>
+        <Col sm={1}/>
+        <Col sm={3}>
+        <iframe src="https://discordapp.com/widget?id=731656931411755140&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
         </Col>
-
+        <Col sm={1.5}/>
+        <Col sm={3.5}>
+        <h2>
+          Projects must be submitted on
+          <a className="blue" href="https://makespp2020.devpost.com">
+            <u> Devpost</u>
+          </a>
+          by 2 PM
+        </h2>
+        <h2>
+          <a
+            href="https://discord.gg/mxmsaSK">
+            <u> Join the Discord!</u>
+          </a>
+        </h2>
+        <h2>
+          <a className="blue" href="http://mlh.io/code-of-conduct">
+          <u>MLH Code of Conduct</u>
+          </a>
+        </h2>
+        </Col>
+{/*
         <Col className="center" sm={4}>
           <h2>
             <u> Pitch your Project Workshop @ 4 PM</u>
@@ -103,108 +106,43 @@ const Live = () => (
           </h2>
         </Col>*/}
       </Row>
-      {/*<Row>
+      <br/><br/>
+      <Call color="#333" className="center" size="40px">
+        Today's Schedule
+      </Call>
+      <Row>
         <Col>
-          <div className="schedule">
-            <item>
-              <span className="right">7:45 - 8:15 AM</span> Breakfast & Check-In
-            </item>
-
-            <item>
-              {" "}
-              <span className="right">8:15 AM</span> Team Building Sessions
-            </item>
-
-            <item>
-              {" "}
-              <span className="right">8:30 AM</span> Opening Ceremony
-            </item>
-
-            <item>
-              {" "}
-              <span className="right">9 AM</span> Making Starts
-            </item>
-
-            <item>
-              <span className="right">9 AM</span> <b>Workshop</b>: Creative
-              Coding w/ Upperline Code (Beginner){" "}
-            </item>
-
-            <item>
-              <span className="right">10 AM</span> <b>Workshop</b>: Build Your
-              First Website (Beginner)
-            </item>
-            <item>
-              <span className="right">10 AM</span> <b>Workshop</b>: Intro to
-              Python (Beginner){" "}
-            </item>
-
-            <item>
-              <span className="right">11 AM</span> <b>Workshop</b>: Machine
-              Learning w/ Upperline Code (Intermediate){" "}
-            </item>
-
-            <item>
-              {" "}
-              <span className="right">12 PM</span> Lunch
-            </item>
-            <item>
-              <span className="right">12:30 PM</span> <b>Workshop</b>: Build a
-              Web App with Zeit (Intermediate){" "}
-            </item>
-
-            <item>
-              <span className="right">1:30 PM</span>{" "}
-              <b>Entrepreneurship Panel</b>{" "}
-            </item>
-
-            <item>
-              {" "}
-              <span className="right">2:30 PM</span> <b>Engineering Activity</b>
-            </item>
-
-            <item>
-              <span className="right">4:00 PM</span> <b>Workshop</b>: Pitching
-              Your Project{" "}
-            </item>
-
-            <item>
-              {" "}
-              <span className="right">4:00 PM</span> Snack
-            </item>
-
-            <item>
-              {" "}
-              <span className="right">5:30 PM</span> Making Ends & Expo Begins
-            </item>
-
-            <item>
-              {" "}
-              <span className="right">6:30 PM</span> Judging Ends
-            </item>
-            <item>
-              {" "}
-              <span className="right">6:30 PM</span> Dinner
-            </item>
-
-            <item>
-              {" "}
-              <span className="right">6:50 PM</span> Expo Ends
-            </item>
-
-            <item>
-              {" "}
-              <span className="right">7 PM</span> Top 5 Teams Demo & Q/A
-            </item>
-
-            <item>
-              {" "}
-              <span className="right">8 PM</span> Winners Announced & Closing
-              Remarks{" "}
-            </item>
-          </div>
+        <div className="schedule">
+          <item>
+            <span className="right">5 PM</span> Opening Ceremony
+          </item>
+          <item>
+            <span className="right">5:15 PM</span> Platforms & Schedule Overview
+          </item>
+          <item>
+            <span className="right">5:25 PM</span> Hestia Academy Keynote
+          </item>
+          <item>
+            <span className="right">5:55 PM</span> Team Formation
+          </item>
+          <item>
+            <span className="right">6:20 PM</span> Icebreakers
+          </item>
+          <item>
+            <span className="right">6:40-8 PM</span> Dinner Break
+          </item>
+          <item>
+            <span className="right">8 PM</span> <b>Workshop</b>: Intro to HTML/CSS
+          </item>
+          <item>
+            <span className="right">8 PM</span> <b>Activity</b>: Skribbl.io
+          </item>
+          <item>
+            <span className="right">9 PM</span> Begin Projects (Good Planning Time!)
+          </item>
+        </div>
         </Col>
-      </Row>*/}
+      </Row>
     </Container>
     <Description color="#333" className="center" size="16px">
       © 2020 <a href="https://spprep.org"> Saint Peter's Prep High School</a>

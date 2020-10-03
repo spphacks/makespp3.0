@@ -175,10 +175,11 @@ const Header = ({ siteTitle }) => (
       <Register> Register </Register>
       </a>
     </RegisterContainer>
-      {/* <ButtonSpacerContainer><br></br></ButtonSpacerContainer> */}
-    {/* <Link to="/live">
-      <Register> MakeSPP Live </Register>
-    </Link> */}
+    {/*<RegisterContainer>
+      <a href="/live" target="_blank" rel="noreferrer">
+      <Register> Live </Register>
+      </a>
+    </RegisterContainer>*/}
   </Background>
 );
 
