@@ -59,7 +59,7 @@ const Live = () => (
         <h2>
           Projects must be submitted on
           <a className="blue" href="https://makespp2020.devpost.com">
-            <u> Devpost</u>
+            {" "}<u>Devpost</u>{" "}
           </a>
           by 2 PM
         </h2>
