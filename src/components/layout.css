@@ -20,37 +20,12 @@ body {
   overflow-x: hidden;
 }
 
-.video {
-  position: absolute;
-  top: 200px;
-  width: 600px;
-  height: 330px;
-  right: 5%;
-}
-
 iframe {
   border: none;
 }
 
-.video iframe {
-  width: 600px;
-  height: 330px;
-}
- 
 .max {
   max-height: 100px;
-}
-
-.dots {
-  font-size: 24px;
-  padding: 0;
-  margin: 0;
-}
-
-@media only screen and (max-width: 1024px) {
-  .video {
-    display: none;
-  }
 }
 
 .landing {
@@ -66,6 +41,7 @@ iframe {
   color: #333;
   line-height: 2;
 }
+
 .schedule item {
   display: block;
   border-bottom: 1px dotted #333;
@@ -76,28 +52,41 @@ iframe {
   font-weight: bold;
 }
 
-.coc {
-  color: #ca043f;
+.countdown-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.Countdown {
-  margin: 10px auto;
-  padding-bottom: 20px;
+.countdown-item {
+    color: #111;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 27px;
+    margin: 10px;
+    padding-top: 5px;
+    position: relative;
+    width: 100px;
+    height: 100px;
 }
 
-.Countdown-col {
-  display: inline-block;
+.countdown-item span {
+    color: #333;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
-.Countdown-col-element {
-  display: inline-block;
-  margin: 0 20px;
-  display: flex;
-  flex-direction: column;
-}
-
-.Countdown-col-element strong {
-  font-size: 100px;
+.countdown-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
 }
 
 textarea:focus,

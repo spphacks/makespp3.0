@@ -124,7 +124,7 @@ const Header = ({ siteTitle }) => (
   <Background>
   <a id="mlh-trust-badge"
   href="https://mlh.io/seasons/2021/events"
-  target="_blank">
+  target="_blank" rel="noreferrer">
   <Img src="https://s3.amazonaws.com/logged-assets/trust-badge/2021/mlh-trust-badge-2021-black.svg" alt="Major League Hacking 2021 Hackathon Season"></Img></a>
 
   <ParticleContainer>

@@ -29,6 +29,13 @@ const Call = styled.h2`
     }
 `;
 
+const Counter = styled.h1`
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+    }
+`;
+
 const Live = () => (
   <Layout>
     <Header />
@@ -36,14 +43,15 @@ const Live = () => (
       title="Live | MakeSPP 2020"
       keywords={[`MakeSPP`, `makespp`, `Saint Peter's Prep`, `hackathon`]}
     />
-    <div className="center">
-      <h1>
-        <Countdown date={`October 11, 2020 2:00:00`} />
-      </h1>
+    <br/>
+    <div>
+      <Counter>
+        <Countdown timeTillDate="10 11 2020, 2:00 pm" timeFormat="MM DD YYYY, h:mm a" />
+      </Counter>
     </div>
     <Container>
       <Row>
-        <Col sm={3}>
+        <Col sm={3} className="center">
           <TwitterTimelineEmbed
             sourceType="profile"
             screenName="makespp"
@@ -51,17 +59,14 @@ const Live = () => (
           />{" "}
         </Col>
         <Col sm={1}/>
-        <Col sm={3}>
-        <iframe src="https://discordapp.com/widget?id=731656931411755140&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-        </Col>
-        <Col sm={1.5}/>
-        <Col sm={3.5}>
+        <Col sm={4} className="center">
+        <br/><br/><br/>
         <h2>
-          Projects must be submitted on
-          <a className="blue" href="https://makespp2020.devpost.com">
+          Submissions are due on
+          <a href="https://makespp2020.devpost.com">
             {" "}<u>Devpost</u>{" "}
           </a>
-          by 2 PM
+          by <br/> 2 PM on October 11th
         </h2>
         <h2>
           <a
@@ -70,10 +75,14 @@ const Live = () => (
           </a>
         </h2>
         <h2>
-          <a className="blue" href="http://mlh.io/code-of-conduct">
+          <a href="http://mlh.io/code-of-conduct">
           <u>MLH Code of Conduct</u>
           </a>
         </h2>
+        </Col>
+        <Col sm={1}/>
+        <Col sm={3} className="center">
+        <iframe title="Discord Widget" src="https://discordapp.com/widget?id=731656931411755140&theme=light" width="350" height="400" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
         </Col>
 {/*
         <Col className="center" sm={4}>

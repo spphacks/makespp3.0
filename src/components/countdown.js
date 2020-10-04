@@ -1,117 +1,133 @@
-import React, { Component } from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import moment from 'moment';
 
-class Countdown extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      days: 0,
-      hours: 0,
-      min: 0,
-      sec: 0
-    };
-  }
-
-  componentDidMount() {
-    // update every second
-    this.interval = setInterval(() => {
-      const date = this.calculateCountdown(this.props.date);
-      date ? this.setState(date) : this.stop();
-    }, 1000);
-  }
-
-  componentWillUnmount() {
-    this.stop();
-  }
-
-  calculateCountdown(endDate) {
-    let diff = (Date.parse(new Date(endDate)) - Date.parse(new Date())) / 1000;
-
-    // clear countdown when date is reached
-    if (diff <= 0) return false;
-
-    const timeLeft = {
-      years: 0,
-      days: 0,
-      hours: 0,
-      min: 0,
-      sec: 0
+class Countdown extends React.Component {
+    state = {
+        days: undefined,
+        hours: undefined,
+        minutes: undefined,
+        seconds: undefined
     };
 
-    // calculate time difference between now and expected date
-    if (diff >= 365.25 * 86400) {
-      // 365.25 * 24 * 60 * 60
-      timeLeft.years = Math.floor(diff / (365.25 * 86400));
-      diff -= timeLeft.years * 365.25 * 86400;
+    componentDidMount() {
+        this.interval = setInterval(() => {
+            const { timeTillDate, timeFormat } = this.props;
+            const then = moment(timeTillDate, timeFormat);
+            const now = moment();
+            const countdown = moment(then - now);
+            const days = countdown.format('D');
+            const hours = countdown.format('HH');
+            const minutes = countdown.format('mm');
+            const seconds = countdown.format('ss');
+
+            this.setState({ days, hours, minutes, seconds });
+        }, 1000);
     }
-    if (diff >= 86400) {
-      // 24 * 60 * 60
-      timeLeft.days = Math.floor(diff / 86400);
-      diff -= timeLeft.days * 86400;
+
+    componentWillUnmount() {
+        if (this.interval) {
+            clearInterval(this.interval);
+        }
     }
-    if (diff >= 3600) {
-      // 60 * 60
-      timeLeft.hours = Math.floor(diff / 3600);
-      diff -= timeLeft.hours * 3600;
+
+    render() {
+        const { days, hours, minutes, seconds } = this.state;
+
+        const daysRadius = mapNumber(days, 30, 0, 0, 360);
+        const hoursRadius = mapNumber(hours, 24, 0, 0, 360);
+        const minutesRadius = mapNumber(minutes, 60, 0, 0, 360);
+        const secondsRadius = mapNumber(seconds, 60, 0, 0, 360);
+
+        if (!seconds) {
+            return null;
+        }
+
+        return (
+            <div>
+                <div className="countdown-wrapper">
+                    {days && (
+                        <div className="countdown-item">
+                            <SVGCircle radius={daysRadius} />
+                            {days}
+                            <span>days</span>
+                        </div>
+                    )}
+                    {hours && (
+                        <div className="countdown-item">
+                            <SVGCircle radius={hoursRadius} />
+                            {hours}
+                            <span>hours</span>
+                        </div>
+                    )}
+                    {minutes && (
+                        <div className="countdown-item">
+                            <SVGCircle radius={minutesRadius} />
+                            {minutes}
+                            <span>minutes</span>
+                        </div>
+                    )}
+                    {seconds && (
+                        <div className="countdown-item">
+                            <SVGCircle radius={secondsRadius} />
+                            {seconds}
+                            <span>seconds</span>
+                        </div>
+                    )}
+                </div>
+            </div>
+        );
     }
-    if (diff >= 60) {
-      timeLeft.min = Math.floor(diff / 60);
-      diff -= timeLeft.min * 60;
-    }
-    timeLeft.sec = diff;
-
-    return timeLeft;
-  }
-
-  stop() {
-    clearInterval(this.interval);
-  }
-
-  addLeadingZeros(value) {
-    value = String(value);
-    while (value.length < 2) {
-      value = "0" + value;
-    }
-    return value;
-  }
-
-  render() {
-    const countDown = this.state;
-
-    return (
-      <div className="Countdown">
-        <span className="Countdown-col">
-          <span className="Countdown-col-element">
-            <strong>{this.addLeadingZeros(countDown.hours)}</strong>
-            <span>Hours</span>
-          </span>
-        </span>
-
-        <span className="Countdown-col">
-          <span className="Countdown-col-element">
-            <strong>{this.addLeadingZeros(countDown.min)}</strong>
-            <span>Min</span>
-          </span>
-        </span>
-
-        <span className="Countdown-col">
-          <span className="Countdown-col-element">
-            <strong>{this.addLeadingZeros(countDown.sec)}</strong>
-            <span>Sec</span>
-          </span>
-        </span>
-      </div>
-    );
-  }
 }
 
-Countdown.propTypes = {
-  date: PropTypes.string.isRequired
-};
+const SVGCircle = ({ radius }) => (
+    <svg className="countdown-svg">
+        <path
+            fill="none"
+            stroke="#333"
+            stroke-width="5"
+            d={describeArc(49.7, 49.9, 48, 0, radius)}
+        />
+    </svg>
+);
 
-Countdown.defaultProps = {
-  date: new Date()
-};
+// StackOverflow: https://stackoverflow.com/questions/5736398/how-to-calculate-the-svg-path-for-an-arc-of-a-circle
+function polarToCartesian(centerX, centerY, radius, angleInDegrees) {
+    var angleInRadians = ((angleInDegrees - 90) * Math.PI) / 180.0;
+
+    return {
+        x: centerX + radius * Math.cos(angleInRadians),
+        y: centerY + radius * Math.sin(angleInRadians)
+    };
+}
+
+function describeArc(x, y, radius, startAngle, endAngle) {
+    var start = polarToCartesian(x, y, radius, endAngle);
+    var end = polarToCartesian(x, y, radius, startAngle);
+
+    var largeArcFlag = endAngle - startAngle <= 180 ? '0' : '1';
+
+    var d = [
+        'M',
+        start.x,
+        start.y,
+        'A',
+        radius,
+        radius,
+        0,
+        largeArcFlag,
+        0,
+        end.x,
+        end.y
+    ].join(' ');
+
+    return d;
+}
+
+// StackOverflow: https://stackoverflow.com/questions/10756313/javascript-jquery-map-a-range-of-numbers-to-another-range-of-numbers
+function mapNumber(number, in_min, in_max, out_min, out_max) {
+    return (
+        ((number - in_min) * (out_max - out_min)) / (in_max - in_min) + out_min
+    );
+}
 
 export default Countdown;

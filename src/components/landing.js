@@ -415,7 +415,7 @@ const Landing = () => (
             A hackathon is an event where you'll have the opportunity to turn your ideas into
             real projects. We provide skilled mentors, workshops, exclusive digital tools,
             friends, & so much more.
-            MakeSPP has four main tracks which you may choose to enter your project in: <b>education, environment, website and Google Cloud</b> -- along with a sponsor-specific EchoAR track.
+            MakeSPP has four main tracks which you may choose to enter your project in: <b>education, environment, creative website, and Google Cloud</b> -- along with a sponsor-specific echoAR track.
           </Description>
         </Col>
         <Col sm={4}>
@@ -424,7 +424,7 @@ const Landing = () => (
           </Call>
           <Description className="center" color="#333" size="16px">
             {" "}
-            Any student in grades 7-12 is welcome to register. We will be conducting the hackathon primarily through Zoom & Discord.
+            Any student in grades 7-12 is welcome to register. We will be conducting the hackathon through Zoom & Discord.
           </Description>
         </Col>
         <Col sm={4}>
@@ -454,7 +454,7 @@ const Landing = () => (
             What if I don’t have a team or idea?
           </Call>
           <Description className="center" color="#333" size="16px">
-            Don't worry! There will be team formation & brainstorming sessions
+            Don't worry! There will be team formation session
             at the beginning of the event. Teams are limited to <b>4 people</b>.
           </Description>
         </Col>
@@ -694,42 +694,42 @@ const Landing = () => (
       <Row>
         <Col sm={2} />
         <Col sm={8}>
-            <a href="https://www.hestia.academy" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/hestia.svg" /></a>
+            <a href="https://www.hestia.academy" target="_blank" rel="noreferrer" aria-label="Hestia Academy"><Sponsor src="/sponsors/hestia.svg" /></a>
         </Col>
         <Col sm={2} />
       </Row>
       <Row>
         <Col sm={4}>
-            <a href="https://www.thejillbiggsgroup.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/jbg.png" /></a>
+            <a href="https://www.thejillbiggsgroup.com" target="_blank" rel="noreferrer" aria-label="Jill Biggs Group"><Sponsor src="/sponsors/jbg.png" /></a>
         </Col>
         <Col sm={4}>
-          <a href="https://www.jdjfoundation.org" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/jdj.png" /></a>
+          <a href="https://www.jdjfoundation.org" target="_blank" rel="noreferrer" aria-label="JDJ Foundation"><Sponsor src="/sponsors/jdj.png" /></a>
         </Col>
         <Col sm={4}>
-          <a href="https://milesquareinsurance.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/miles.png" /></a>
+          <a href="https://milesquareinsurance.com" target="_blank" rel="noreferrer" aria-label="Mile Square Insurance"><Sponsor src="/sponsors/miles.png" /></a>
         </Col>
       </Row>
       <Row>
         <Col sm={4}>
-          <a href="https://www.balsamiq.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/balsamiq.svg" /></a>
+          <a href="https://www.balsamiq.com" target="_blank" rel="noreferrer" aria-label="Balsamiq"><Sponsor src="/sponsors/balsamiq.svg" /></a>
         </Col>
         <Col sm={4}>
-          <a href="https://www.linode.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/linode.svg" /></a>
+          <a href="https://www.linode.com" target="_blank" rel="noreferrer" aria-label="Linode"><Sponsor src="/sponsors/linode.svg" /></a>
         </Col>
         <Col sm={4}>
-          <a href="http://hackp.ac/mlh-stickermule-hackathons" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/stickermule.svg" /></a>
+          <a href="http://hackp.ac/mlh-stickermule-hackathons" target="_blank" rel="noreferrer" aria-label="Sticker Mule"><Sponsor src="/sponsors/stickermule.svg" /></a>
         </Col>
       </Row>
       <Row>
         <Col sm={1.125}/>
         <Col sm={3.75}>
-          <a href="https://www.enlight.nyc" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/enlight.png" /></a>
+          <a href="https://www.enlight.nyc" target="_blank" rel="noreferrer" aria-label="Enlight"><Sponsor src="/sponsors/enlight.png" /></a>
         </Col>
         <Col sm={2.5}>
-          <a href="https://www.stickergiant.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/stickergiant.png" /></a>
+          <a href="https://www.stickergiant.com" target="_blank" rel="noreferrer" aria-label="StickerGiant"><Sponsor src="/sponsors/stickergiant.png" /></a>
         </Col>
         <Col sm={3.5}>
-          <a href="https://echoar.xyz" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/echoar.png" /></a>
+          <a href="https://echoar.xyz" target="_blank" rel="noreferrer" aria-label="echoAR"><Sponsor src="/sponsors/echoar.png" /></a>
         </Col>
         <Col sm={1.125}/>
       </Row>
@@ -737,34 +737,34 @@ const Landing = () => (
       </Call>
       <Row>
         <Col sm={2}>
-          <a href="https://www.desmos.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/desmos.png" /></a>
+          <a href="https://www.desmos.com" target="_blank" rel="noreferrer" aria-label="Desmos"><Sponsor src="/sponsors/desmos.png" /></a>
         </Col>
         <Col sm={2}>
-          <a href="https://www.wolfram.com/language" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/wolfram.png" /></a>
+          <a href="https://www.wolfram.com/language" target="_blank" rel="noreferrer" aria-label="Wolfram"><Sponsor src="/sponsors/wolfram.png" /></a>
         </Col>
         <Col sm={2}>
-          <a href="https://www.repl.it" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/replit.png" /></a>
+          <a href="https://www.repl.it" target="_blank" rel="noreferrer" aria-label="Replit"><Sponsor src="/sponsors/replit.png" /></a>
         </Col>
         <Col sm={3}>
-          <a href="https://www.interviewcake.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/interviewcake.svg" /></a>
+          <a href="https://www.interviewcake.com" target="_blank" rel="noreferrer" aria-label="Interview Cake"><Sponsor src="/sponsors/interviewcake.svg" /></a>
         </Col>
         <Col sm={3}>
-          <a href="https://www.artofproblemsolving.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/aops.svg" /></a>
+          <a href="https://www.artofproblemsolving.com" target="_blank" rel="noreferrer" aria-label="Art of Problem Solving"><Sponsor src="/sponsors/aops.svg" /></a>
         </Col>
       </Row>
       <Row>
         <Col sm={1.5}/>
         <Col sm={2.5}>
-          <a href="https://www.taskade.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/taskade.png" /></a>
+          <a href="https://www.taskade.com" target="_blank" rel="noreferrer" aria-label="Taskade"><Sponsor src="/sponsors/taskade.png" /></a>
         </Col>
         <Col sm={2.5}>
-          <a href="https://www.1password.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/1password.svg" /></a>
+          <a href="https://www.1password.com" target="_blank" rel="noreferrer" aria-label="1Password"><Sponsor src="/sponsors/1password.svg" /></a>
         </Col>
         <Col sm={2.5}>
-          <a href="https://hackathons.hackclub.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/hackclub.png" /></a>
+          <a href="https://hackathons.hackclub.com" target="_blank" rel="noreferrer" aria-label="Hack Club"><Sponsor src="/sponsors/hackclub.png" /></a>
         </Col>
         <Col sm={1.5}>
-          <a href="https://www.bugsee.com" target="_blank" rel="noreferrer"><Sponsor src="/sponsors/bugsee.svg" /></a>
+          <a href="https://www.bugsee.com" target="_blank" rel="noreferrer" aria-label="Bugsee"><Sponsor src="/sponsors/bugsee.svg" /></a>
         </Col>
         <Col sm={1.5}/>
       </Row>
@@ -1001,11 +1001,11 @@ const Landing = () => (
       </Row>
     </Site>
     <div class="center">
-      <a href="https://discord.gg/mxmsaSK">
-        <img height="52px" src="/discord.png" alt="discord icon."/>
-      </a>
       <a href="https://twitter.com/makespp">
         <img height="52px" src="/twitter.png" alt="twitter icon."/>
+      </a>
+      <a href="https://discord.gg/mxmsaSK">
+        <img height="52px" src="/discord.png" alt="discord icon."/>
       </a>
       <a href="https://instagram.com/sppmakes">
         <img height="50px" src="/instagram.png" alt="instagram icon."/>
