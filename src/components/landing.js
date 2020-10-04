@@ -2,6 +2,7 @@ import { Link } from "gatsby";
 import React from "react";
 import styled from "styled-components";
 import { Row, Col } from "react-grid-system";
+import Flip from 'react-reveal/Zoom';
 
 const Call = styled.h2`
   margin: 0;
@@ -132,7 +133,8 @@ const Landing = () => (
               regardless if you're a entrepreneur, designer, or engineer, we all
               have one thing in common: <b>we make things</b>.
             </CardText>
-          </Card></Col>
+          </Card>
+          </Col>
           <Col sm={4}>
             <Img height="250px" src="/2.jpg" />
           </Col>
@@ -150,7 +152,7 @@ const Landing = () => (
           algorithm, makespp is a place for you to share your <b>vision with the world</b>. <br/><br/>you'll come away with your own app, website, or other project, even if you know <b>nothing going in</b>.
           </CardText>
         </Card>
-      </Col>
+        </Col>
         <Col sm={4}>
           <Img height="250px" src="/3.jpg" />
         </Col>
@@ -163,7 +165,7 @@ const Landing = () => (
             <CardText size="18px" color="#333">
               with an amazing community and awesome swag (shipped to your home!) from the hottest tech
               companies, you'll have a <b>great time</b>.
-<br/><br/>
+              <br/><br/>
               that's enough for now. so what are you doing waiting, <b><i><a href="https://makespp.typeform.com/to/ZzGcLGKb" target="_blank" rel="noreferrer">register now</a></i></b>!
             </CardText>
           </Card>

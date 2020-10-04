@@ -26,6 +26,7 @@
     "react-iframe": "^1.8.0",
     "react-image-carousel": "^2.0.18",
     "react-particles-js": "^3.3.0",
+    "react-reveal": "^1.2.2",
     "react-transition-group": "^4.4.1",
     "react-twitter-embed": "^3.0.3",
     "react-youtube": "^7.12.0",
