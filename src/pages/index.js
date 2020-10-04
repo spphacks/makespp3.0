@@ -12,6 +12,7 @@ const IndexPage = () => (
     />
     <Header />
     <Landing />
+    <img className="right" height="100px" src="/makey.jpg"/>
   </Layout>
 );
 

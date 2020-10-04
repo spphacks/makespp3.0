@@ -1021,8 +1021,7 @@ const Landing = () => (
       }}> MLH Code of Conduct </Link>
     </Description>
     <Description color="#333" className="center" size="16px">
-      © 2020 <a href="https://spprep.org"> Saint Peter's Prep High School</a>
-    </Description>
+      © 2020 <a href="https://spprep.org"> Saint Peter's Prep High School</a></Description>
 
 <div class="center">
       <a href="http://2018.makespp.com">
