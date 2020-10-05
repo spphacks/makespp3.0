@@ -102,7 +102,7 @@ const Landing = () => (
           learn. make. innovate.
         </Call>
         <Description color="#333" size="28px" className="center">
-          MakeSPP virtually brings together over 400 innovative young minds for a three-day
+          MakeSPP virtually brings together over 450 innovative young minds for a three-day
           hackathon and technology conference. we're a diverse and creative
           community of students dedicated to solving some of the most
           challenging problems with technology.{" "}
