@@ -538,7 +538,7 @@ const Landing = () => (
         </Col>
         <Col sm={2.5}>
         <h3 className="center" color="#333">
-          <b>Education Track: <i>House of Marley Speaker</i>{" "}</b>
+          <b>Education Track: {" "}<i>House of Marley Speaker</i>{" "}</b>
         </h3>
         </Col>
         <Col sm={2.5}>
@@ -1021,7 +1021,7 @@ const Landing = () => (
       }}> MLH Code of Conduct </Link>
     </Description>
     <Description color="#333" className="center" size="16px">
-      © 2020 <a href="https://spprep.org"> Saint Peter's Prep High School</a></Description>
+      © 2020 <a href="https://spprep.org"> St. Peter's Prep High School</a></Description>
 
 <div class="center">
       <a href="http://2018.makespp.com">
