@@ -787,15 +787,16 @@ const Landing = () => (
       <Row>
         <Col sm={1.5} />
         <Col sm={3}>
-        <Profile src="/team/eli.jpg" />
-        <Description className="center" color="#333" size="18px">
-          {" "}
-          <b> Eli Blumenfeld</b>
-        </Description>
-        <Description className="center" color="#333" size="16px">
-          {" "}
-          Senior Organizer
-        </Description>
+          <Profile src="/team/shivansh.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b>Shivansh Kumar</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Senior Organizer
+          </Description>
+          <br />
         </Col>
         <Col sm={3}>
           <Profile src="/team/tomek.jpg"/>
@@ -810,16 +811,15 @@ const Landing = () => (
           <br />
         </Col>
         <Col sm={3}>
-          <Profile src="/team/shivansh.jpg" />
-          <Description className="center" color="#333" size="18px">
-            {" "}
-            <b>Shivansh Kumar</b>
-          </Description>
-          <Description className="center" color="#333" size="16px">
-            {" "}
-            Senior Organizer
-          </Description>
-          <br />
+        <Profile src="/team/eli.jpg" />
+        <Description className="center" color="#333" size="18px">
+          {" "}
+          <b> Eli Blumenfeld</b>
+        </Description>
+        <Description className="center" color="#333" size="16px">
+          {" "}
+          Senior Organizer
+        </Description>
         </Col>
       </Row>
       <Row>
