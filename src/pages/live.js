@@ -115,6 +115,38 @@ const Live = () => (
           </h2>
         </Col>*/}
       </Row>
+      <Row>
+      <Col sm={1}/>
+      <Col sm={5} className="center">
+      <h2>
+        24/7 Minecraft Server:<br/>
+        <i>Java IP:</i> 51.81.29.22:25610
+        {" "}
+        <i>Bedrock IP:</i> 51.81.29.22
+        {" "}
+        <i>Bedrock Port:</i> 25610
+      </h2>
+      <h2>
+        The Minecraft Server includes <i>two minigames</i>: Village Defense & Build Battles
+        + Survival Mode
+      </h2>
+      </Col>
+      <Col sm={5} className="center">
+      <h2>
+        <a
+          href="UNKNOWN">
+          <u> If you do NOT have a team, click me!</u>
+        </a>
+      </h2>
+      <h2>
+          All activites are on <i>Discord</i>.
+          <br/><br/>
+          All other events are on <i>YouTube Live</i>.
+      </h2>
+      </Col>
+      <Col sm={1}/>
+      </Row>
+
       <br/><br/>
       <Call color="#333" className="center" size="40px">
         Today's Schedule
