@@ -23,7 +23,7 @@ const LogoText = styled.img`
   max-height: 150px;
   padding: 25px;
   @media only screen and (max-width: 1024px) {
-    content:url("/logosmall.png");
+    content:url("/logosmall.svg");
     position: auto;
     margin-left: auto;
     margin-right: auto;
@@ -70,7 +70,7 @@ const Header = ({ siteTitle }) => (
     >
       {" "}
 
-        <LogoText src="/logo.png" />
+        <LogoText src="/logo.svg" />
     </Link></Container>
   </Background>
 );

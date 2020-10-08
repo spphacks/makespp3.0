@@ -23,7 +23,7 @@ const Logo = styled.img`
   max-height: 200px;
   padding: 16px;
   @media only screen and (max-width: 767px) {
-    content:url("/logosmall.png");
+    content:url("/logosmall.svg");
     position: auto;
     display: block;
     margin-left: auto;
@@ -163,7 +163,7 @@ const Header = ({ siteTitle }) => (
       }}
     >
       {" "}
-      <Logo src="/logo.png" />
+      <Logo src="/logo.svg" />
     </Link></Container>
     <Tagline> The Premier Virtual High School Hackathon </Tagline>
     <SubTagline>Learn to build & pitch a product with workshops and thousands in prizes.</SubTagline>

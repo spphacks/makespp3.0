@@ -1029,10 +1029,10 @@ const Landing = () => (
     </Site>
     <div class="center">
       <a href="https://twitter.com/makespp">
-        <img height="52px" src="/twitter.png" alt="twitter icon."/>
+        <img height="52px" src="/twitter.svg" alt="twitter icon."/>
       </a>
       <a href="https://discord.gg/mxmsaSK">
-        <img height="52px" src="/discord.png" alt="discord icon."/>
+        <img height="52px" src="/discord.svg" alt="discord icon."/>
       </a>
       <a href="https://instagram.com/sppmakes">
         <img height="50px" src="/instagram.png" alt="instagram icon."/>
