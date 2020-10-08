@@ -591,7 +591,7 @@ const Landing = () => (
               <span className="right">8 PM</span> <b>Game</b>: Skribbl.io
             </item>
             <item>
-              <span className="right">9 PM</span> Begin Projects (Good Planning Time!)
+              <span className="right">9 PM</span> Worktime
             </item>
           </div>
         </Col>
@@ -614,7 +614,7 @@ const Landing = () => (
               <span className="right">10:30 AM</span> <b>Workshop</b>: Build an echoAR App
             </item>
             <item>
-              <span className="right">11 AM</span> <b>Game</b>: Minecraft Competition
+              <span className="right">11 AM</span> <b>Game</b>: Minecraft Build Battles
             </item>
             <item>
               <span className="right">1 PM</span> <b>Workshop</b>: Intro to JavaScript
@@ -670,7 +670,7 @@ const Landing = () => (
                 <span className="right">2 PM</span> <b>Game</b>: Codenames
               </item>
               <item>
-                <span className="right">3 PM</span> <b>Game</b>: Minecraft Competition
+                <span className="right">3 PM</span> <b>Game</b>: Minecraft Village Defense
               </item>
               <item>
                 <span className="right">4 PM</span> <b>MLH Activity</b>: Painting with Bob Ross
