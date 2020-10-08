@@ -139,7 +139,7 @@ const Live = () => (
         </a>
       </h2>
       <h2>
-          All activites are on <i>Discord</i>.
+          All games are on <i>Discord</i>.
           <br/><br/>
           All other events are on <i>YouTube Live</i>.
       </h2>
