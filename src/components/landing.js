@@ -508,7 +508,7 @@ const Landing = () => (
       <Row>
         <Col sm={12}>
         <Call className="center" color="#333" size="24px">
-          First Place: <i>Xbox Series S</i>{" "}<br/><i>$250 Bugsee Credits</i><br/><i>6 Months Free of 1Password Premium</i>
+          First Place: <i>Xbox Series S</i>{" "}<br/><i>6 Months Free of 1Password Premium</i><br/><i>$250 Bugsee Credits</i>
         </Call>
         </Col>
       </Row>
@@ -777,7 +777,7 @@ const Landing = () => (
         </Col>
       </Row>
       <Row>
-        <Col sm={1.5}/>
+        <Col sm={0.5}/>
         <Col sm={2.5}>
           <a href="https://www.taskade.com" target="_blank" rel="noreferrer" aria-label="Taskade"><Sponsor src="/sponsors/taskade.png" /></a>
         </Col>
@@ -790,7 +790,10 @@ const Landing = () => (
         <Col sm={1.5}>
           <a href="https://www.bugsee.com" target="_blank" rel="noreferrer" aria-label="Bugsee"><Sponsor src="/sponsors/bugsee.svg" /></a>
         </Col>
-        <Col sm={1.5}/>
+        <Col sm={2}>
+          <a href="https://www.datacamp.com" target="_blank" rel="noreferrer" aria-label="DataCamp"><Sponsor src="/sponsors/datacamp.eps" /></a>
+        </Col>
+        <Col sm={0.5}/>
       </Row>
       {/*<Row>
         <Col sm={4.5}/>
