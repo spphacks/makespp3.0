@@ -133,15 +133,15 @@ const Live = () => (
       </Col>
       <Col sm={5} className="center">
       <h2>
-        <a
+        {/*}<a
           href="UNKNOWN">
           <u> If you do NOT have a team, click me!</u>
-        </a>
+        </a>*/}
       </h2>
       <h2>
           All games are on <i>Discord</i>.
           <br/><br/>
-          All other events are on <i>YouTube Live</i>.
+          All other events are on <i>Zoom/YouTube Live</i>.
       </h2>
       </Col>
       <Col sm={1}/>
@@ -149,7 +149,7 @@ const Live = () => (
 
       <br/><br/>
       <Call color="#333" className="center" size="40px">
-        Today's Schedule
+        Friday Schedule
       </Call>
       <Row>
         <Col>

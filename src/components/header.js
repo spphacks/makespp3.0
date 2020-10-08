@@ -174,11 +174,11 @@ const Header = ({ siteTitle }) => (
       <Register> Register </Register>
       </a>
     </RegisterContainer>*/}
-    {/*<RegisterContainer>
+    <RegisterContainer>
       <a href="/live" target="_blank" rel="noreferrer">
       <Register> Live </Register>
       </a>
-    </RegisterContainer>*/}
+    </RegisterContainer>
   </Background>
 );
 
