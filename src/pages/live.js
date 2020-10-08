@@ -179,7 +179,7 @@ const Live = () => (
             <span className="right">8 PM</span> <b>Game</b>: Skribbl.io
           </item>
           <item>
-            <span className="right">9 PM</span> Begin Projects (Good Planning Time!)
+            <span className="right">9 PM</span> Worktime
           </item>
         </div>
         </Col>
