@@ -169,11 +169,11 @@ const Header = ({ siteTitle }) => (
     <SubTagline>Learn to build & pitch a product with workshops and thousands in prizes.</SubTagline>
     <br></br>
       <Date>October 9-11, 2020</Date>
-    <RegisterContainer>
+    {/*<RegisterContainer>
       <a href="https://makespp.typeform.com/to/ZzGcLGKb" target="_blank" rel="noreferrer">
       <Register> Register </Register>
       </a>
-    </RegisterContainer>
+    </RegisterContainer>*/}
     {/*<RegisterContainer>
       <a href="/live" target="_blank" rel="noreferrer">
       <Register> Live </Register>
