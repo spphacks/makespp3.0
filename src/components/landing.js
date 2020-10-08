@@ -52,16 +52,29 @@ const Sponsor = styled.img`
   margin: auto;
   max-width: 70%;
   padding: 30px;
+  @media only screen and (max-width: 580px) {
+    max-width: 50%;
+   }
 `;
 
 const Prize = styled.img`
   margin: 0;
   display: block;
-   max-width: 70%;
+  max-width: 70%;
+  @media only screen and (max-width: 580px) {
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+`;
+
+const PrizeSub = styled.img`
+    display: block;
+    margin: auto;
+    max-width: 70%;
+    padding: 30px;
    @media only screen and (max-width: 580px) {
-     max-width: 40%;
-     margin-left: auto;
-     margin-right: auto;
+     max-width: 30%;
     }
 `;
 
@@ -515,11 +528,11 @@ const Landing = () => (
       <Row>
       <Col sm={1.5}/>
       <Col sm={3}>
-          <Sponsor src="/prizes/airpods.jpg" />
+          <PrizeSub src="/prizes/airpods.jpg" />
       </Col>
       <Col sm={2}/>
       <Col sm={5}>
-          <Sponsor src="/prizes/mouse.jpg" />
+          <PrizeSub src="/prizes/mouse.jpg" />
       </Col>
       </Row>
       <Row>
@@ -538,17 +551,17 @@ const Landing = () => (
       <Row>
       <Col sm={1.075}/>
       <Col sm={2.7}>
-          <Sponsor src="/prizes/rocketbook.jpg" />
+          <PrizeSub src="/prizes/rocketbook.jpg" />
       </Col>
       <Col sm={2}>
-          <Sponsor src="/prizes/speaker.jpg" />
+          <PrizeSub src="/prizes/speaker.jpg" />
       </Col>
       <Col sm={0.1}/>
       <Col sm={2.5}>
-          <Sponsor src="/prizes/mini.jpg" />
+          <PrizeSub src="/prizes/mini.jpg" />
       </Col>
       <Col sm={2.5}>
-          <Sponsor src="/prizes/amazon.png" />
+          <PrizeSub src="/prizes/amazon.png" />
       </Col>
       </Row>
       <Row>
