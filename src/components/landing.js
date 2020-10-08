@@ -54,6 +54,17 @@ const Sponsor = styled.img`
   padding: 30px;
 `;
 
+const Prize = styled.img`
+  margin: 0;
+  display: block;
+   max-width: 70%;
+   @media only screen and (max-width: 580px) {
+     max-width: 40%;
+     margin-left: auto;
+     margin-right: auto;
+    }
+`;
+
 const Img = styled.img`
   margin-left: auto;
   margin-right: auto;
@@ -482,11 +493,22 @@ const Landing = () => (
       <Col sm={6}>
           <Sponsor src="/prizes/xbox.jpg" />
       </Col>
+      <Col sm={3}/>
+      </Row>
+      <Row>
+      <Col sm={3.5}/>
+      <Col sm={2.5}>
+        <Prize src="/prizes/1password.png" />
+      </Col>
+      <Col sm={2.5}>
+        <Prize src="/sponsors/bugsee.svg" />
+      </Col>
+      <Col sm={3.5}/>
       </Row>
       <Row>
         <Col sm={12}>
         <Call className="center" color="#333" size="24px">
-          First Place: <i>Xbox Series S</i>{" "}
+          First Place: <i>Xbox Series S</i>{" "}<br/><i>$250 Bugsee Credits</i><br/><i>6 Months Free of 1Password Premium</i>
         </Call>
         </Col>
       </Row>
