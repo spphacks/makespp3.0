@@ -557,7 +557,7 @@ const Landing = () => (
         Schedule (EST)
       </Call>
       <Call color="#333" className="center" size="20px">
-        Note: All activities/workshops/lectures are <i>optional</i>.
+        Note: All games/workshops/lectures are <i>optional</i>.
       </Call><br/>
       <Call color="#333" className="center" size="40px">
         October 9th
@@ -588,7 +588,7 @@ const Landing = () => (
               <span className="right">8 PM</span> <b>Workshop</b>: Intro to HTML/CSS
             </item>
             <item>
-              <span className="right">8 PM</span> <b>Activity</b>: Skribbl.io
+              <span className="right">8 PM</span> <b>Game</b>: Skribbl.io
             </item>
             <item>
               <span className="right">9 PM</span> Begin Projects (Good Planning Time!)
@@ -614,7 +614,7 @@ const Landing = () => (
               <span className="right">10:30 AM</span> <b>Workshop</b>: Build an echoAR App
             </item>
             <item>
-              <span className="right">11 AM</span> <b>Activity</b>: Minecraft Competition
+              <span className="right">11 AM</span> <b>Game</b>: Minecraft Competition
             </item>
             <item>
               <span className="right">1 PM</span> <b>Workshop</b>: Intro to JavaScript
@@ -623,7 +623,7 @@ const Landing = () => (
               <span className="right">3 PM</span> <b>Panel</b>: Entrepreneurship
             </item>
             <item>
-              <span className="right">3 PM</span> <b>Activity</b>: Makey Makeoff
+              <span className="right">3 PM</span> <b>Game</b>: Makey Makeoff
             </item>
             <item>
               <span className="right">4 PM</span> <b>Lecture</b>: Machine Learning
@@ -635,7 +635,7 @@ const Landing = () => (
               <span className="right">6 PM</span> <b>MLH Activity</b>: Capture the Flag
             </item>
             <item>
-              <span className="right">7 PM</span> <b>Activity</b>: Among Us
+              <span className="right">7 PM</span> <b>Game</b>: Among Us
             </item>
             {/*<item>
               <span className="right">7 PM</span> <b>Lecture</b>: AI & Society
@@ -667,10 +667,10 @@ const Landing = () => (
                 <span className="right">2 PM</span> Submissions Due
               </item>
               <item>
-                <span className="right">2 PM</span> <b>Activity</b>: Codenames
+                <span className="right">2 PM</span> <b>Game</b>: Codenames
               </item>
               <item>
-                <span className="right">3 PM</span> <b>Activity</b>: Minecraft Competition
+                <span className="right">3 PM</span> <b>Game</b>: Minecraft Competition
               </item>
               <item>
                 <span className="right">4 PM</span> <b>MLH Activity</b>: Painting with Bob Ross
