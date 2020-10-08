@@ -791,7 +791,7 @@ const Landing = () => (
           <a href="https://www.bugsee.com" target="_blank" rel="noreferrer" aria-label="Bugsee"><Sponsor src="/sponsors/bugsee.svg" /></a>
         </Col>
         <Col sm={2}>
-          <a href="https://www.datacamp.com" target="_blank" rel="noreferrer" aria-label="DataCamp"><Sponsor src="/sponsors/datacamp.eps" /></a>
+          <a href="https://www.datacamp.com" target="_blank" rel="noreferrer" aria-label="DataCamp"><Sponsor src="/sponsors/datacamp.svg" /></a>
         </Col>
         <Col sm={0.5}/>
       </Row>
