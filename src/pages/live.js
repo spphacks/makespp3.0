@@ -78,104 +78,6 @@ const Live = () => (
       </Counter>
     </div>
     <Container>
-      <Row>
-        <Col sm={3} className="center">
-          <TwitterTimelineEmbed
-            sourceType="profile"
-            screenName="makespp"
-            options={{ height: 400 }}
-          />{" "}
-        </Col>
-        <Col sm={1}/>
-        <Col sm={4} className="center">
-        <br/><br/><br/>
-        <h2>
-          Submissions are due on
-          <a href="https://makespp2020.devpost.com">
-            {" "}<u>Devpost</u>{" "}
-          </a>
-          by <br/> 2 PM on October 11th
-        </h2>
-        <h2>
-          <a
-            href="https://discord.gg/mxmsaSK">
-            <u> Join the Discord!</u>
-          </a>
-        </h2>
-        <h2>
-          <a href="http://mlh.io/code-of-conduct">
-          <u>MLH Code of Conduct</u>
-          </a>
-        </h2>
-        </Col>
-        <Col sm={1}/>
-        <Col sm={3} className="center">
-        <iframe title="Discord Widget" src="https://discordapp.com/widget?id=731656931411755140&theme=light" width="350" height="400" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-        </Col>
-{/*
-        <Col className="center" sm={4}>
-          <h2>
-            <u> Pitch your Project Workshop @ 4 PM</u>
-          </h2>
-
-          <h2>
-            <a className="blue" href="https://enlight.nyc">
-              <u> Enlight Projects</u>
-            </a>
-            : Web Development & Machine Learning
-          </h2>
-
-          <h2>
-            <a className="blue" href="https://repl.it">
-              <u> Repl.it Cloud IDE</u>
-            </a>
-          </h2>
-
-          <h2>
-            <a
-              className="blue"
-              href="https://support.balsamiq.com/sales/cloudpromo/"
-            >
-              <u> Balsamiq Cloud Free Trial</u>
-            </a>
-            <br />
-            Code: BQGSWTKRC040819
-          </h2>
-        </Col>*/}
-      </Row>
-      <Row>
-      <Col sm={1}/>
-      <Col sm={5} className="center">
-      <h2>
-        24/7 Minecraft Server:<br/>
-        <i>Java IP:</i> 51.81.29.22:25610
-        {" "}
-        <i>Bedrock IP:</i> 51.81.29.22
-        {" "}
-        <i>Bedrock Port:</i> 25610
-      </h2>
-      <h2>
-        The Minecraft Server includes <i>two minigames</i>: Village Defense & Build Battles
-        + Survival Mode
-      </h2>
-      </Col>
-      <Col sm={5} className="center">
-      <h2>
-        {/*}<a
-          href="UNKNOWN">
-          <u> If you do NOT have a team, click me!</u>
-        </a>*/}
-      </h2>
-      <h2>
-          All games are on <i>Discord</i>.
-          <br/><br/>
-          All other events are on <i>Zoom/YouTube Live</i>.
-      </h2>
-      </Col>
-      <Col sm={1}/>
-      </Row>
-
-      <br/><br/>
       <Call color="#333" className="center" size="40px">
         Friday Schedule
       </Call>
@@ -220,7 +122,100 @@ const Live = () => (
         </div>
         </Col>
       </Row>
-    </Container>
+      <br/>
+      <Row>
+        <Col sm={0.5}/>
+        <Col sm={6} className="center">
+        <h2>
+          Submissions are due on
+          <a href="https://makespp2020.devpost.com">
+            {" "}<u>Devpost</u>{" "}
+          </a>
+          by <br/> 2 PM on October 11th
+        </h2>
+        <h2>
+          <a href="http://mlh.io/code-of-conduct">
+          <u>MLH Code of Conduct</u>
+          </a>
+        </h2>
+        <h2>
+            All events (except for games on Discord) are on <i>Zoom & YouTube Live</i>.
+        </h2>
+        <br/>
+        </Col>
+        <Col sm={5} className="center">
+        <h2>
+          24/7 Minecraft Server:<br/>
+          <i>Java IP:</i> 51.81.29.22:25610
+          {" "}
+          <i>Bedrock IP:</i> 51.81.29.22
+          {" "}
+          <i>Bedrock Port:</i> 25610
+        </h2>
+        <h2>
+          The Minecraft Server includes <i>two minigames</i>: Village Defense & Build Battles
+          + Survival Mode
+        </h2>
+        </Col>
+        <Col sm={0.5}/>
+{/*
+        <Col className="center" sm={4}>
+          <h2>
+            <u> Pitch your Project Workshop @ 4 PM</u>
+          </h2>
+
+          <h2>
+            <a className="blue" href="https://enlight.nyc">
+              <u> Enlight Projects</u>
+            </a>
+            : Web Development & Machine Learning
+          </h2>
+
+          <h2>
+            <a className="blue" href="https://repl.it">
+              <u> Repl.it Cloud IDE</u>
+            </a>
+          </h2>
+
+          <h2>
+            <a
+              className="blue"
+              href="https://support.balsamiq.com/sales/cloudpromo/"
+            >
+              <u> Balsamiq Cloud Free Trial</u>
+            </a>
+            <br />
+            Code: BQGSWTKRC040819
+          </h2>
+        </Col>*/}
+      </Row>
+      <Row>
+      <Col sm={2}/>
+      <Col sm={4} className="center">
+        <TwitterTimelineEmbed
+          sourceType="profile"
+          screenName="makespp"
+          options={{ height: 400 }}
+        />{" "}
+      </Col>
+      <Col sm={1}/>
+      <Col sm={3} className="center">
+      <iframe title="Discord Widget" src="https://discordapp.com/widget?id=731656931411755140&theme=light" width="350" height="400" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+      </Col>
+      <Col sm={2}/>
+      </Row>
+    </Container><br/>
+    <div class="center">
+      <a href="https://twitter.com/makespp">
+        <img height="52px" src="/twitter.svg" alt="twitter icon."/>
+      </a>
+      <a href="https://discord.gg/mxmsaSK">
+        <img height="52px" src="/discord.svg" alt="discord icon."/>
+      </a>
+      <a href="https://instagram.com/sppmakes">
+        <img height="50px" src="/instagram.png" alt="instagram icon."/>
+      </a>
+    </div>
     <Description color="#333" className="center" size="16px">
       © 2020 <a href="https://spprep.org"> Saint Peter's Prep High School</a>
     </Description>{" "}
