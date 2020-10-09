@@ -25,7 +25,7 @@ const Description = styled.p`
     }
 `;
 
-const Register = styled.h1`
+const ScheduleButton = styled.h1`
   display: inline-block;
   padding: 5px;
   border: 3px solid;
@@ -631,7 +631,7 @@ const Landing = () => (
             <item>
               <span className="right">5 PM</span>
               <span classname="right"> <a href="/404" target="_blank" rel="noreferrer">
-              <Register>Opening Ceremony </Register></a></span>
+              <ScheduleButton>Opening Ceremony </ScheduleButton></a></span>
             </item>
             <item>
               <span className="right">5:15 PM</span> Platforms & Schedule Overview
@@ -654,7 +654,7 @@ const Landing = () => (
             <item>
               <span className="right">8 PM</span>
               <span classname="right"> <a href="https://us02web.zoom.us/j/81192807306" target="_blank" rel="noreferrer">
-              <Register><b>Workshop</b>: Intro to HTML/CSS </Register></a></span>
+              <ScheduleButton><b>Workshop</b>: Intro to HTML/CSS </ScheduleButton></a></span>
             </item>
             <item>
               <span className="right">8 PM</span> <b>Game</b>: Skribbl.io
