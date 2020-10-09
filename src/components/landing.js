@@ -672,11 +672,11 @@ const Landing = () => (
             <item>
               <span className="right">7 PM</span> <b>Game</b>: Among Us
             </item>
-            {/*<item>
-              <span className="right">7 PM</span> <b>Lecture</b>: AI & Society
-            </item>*/}
             <item>
-              <span className="right">8 PM</span> Conclusion of Official Programming
+              <span className="right">8 PM</span> <b>MLH Activity</b>: Painting with Bob Ross
+            </item>
+            <item>
+              <span className="right">9 PM</span> Conclusion of Official Programming
             </item>
           </div>
         </Col>
@@ -706,9 +706,6 @@ const Landing = () => (
               </item>
               <item>
                 <span className="right">3 PM</span> <b>Game</b>: Minecraft Village Defense
-              </item>
-              <item>
-                <span className="right">4 PM</span> <b>MLH Activity</b>: Painting with Bob Ross
               </item>
               <item>
                 <span className="right">2-5 PM</span> Judging
