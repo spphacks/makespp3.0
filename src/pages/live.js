@@ -86,7 +86,7 @@ const Live = () => (
         <div className="schedule">
           <item>
             <span className="right">5 PM</span>
-            <span classname="right"> <a href="/404" target="_blank" rel="noreferrer">
+            <span classname="right"> <a href="https://twitch.tv/makespp2020" target="_blank" rel="noreferrer">
             <ScheduleButton>Opening Ceremony </ScheduleButton></a></span>
           </item>
           <item>
@@ -139,7 +139,7 @@ const Live = () => (
           </a>
         </h2>
         <h2>
-            All events (except for games on Discord) are on <i>Zoom & YouTube Live</i>.
+            All events (except for games on Discord) are on <i>Zoom & Twitch</i>.
         </h2>
         <br/>
         </Col>
