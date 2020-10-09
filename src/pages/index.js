@@ -12,7 +12,7 @@ const IndexPage = () => (
     />
     <Header />
     <Landing />
-    <img className="right" height="100px" src="/makey.jpg"/>
+    <img className="right" height="100px" alt="Makey Mascot" src="/makey.jpg"/>
   </Layout>
 );
 

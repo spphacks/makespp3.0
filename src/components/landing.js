@@ -2,7 +2,6 @@ import { Link } from "gatsby";
 import React from "react";
 import styled from "styled-components";
 import { Row, Col } from "react-grid-system";
-import Flip from 'react-reveal/Zoom';
 
 const Call = styled.h2`
   margin: 0;
@@ -24,6 +23,34 @@ const Description = styled.p`
   @media only screen and (max-width: 1024px) {
       font-size: 20px;
     }
+`;
+
+const Register = styled.h1`
+  display: inline-block;
+  padding: 5px;
+  border: 3px solid;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #DC143C;
+  transition: all 300ms ease;
+  &:hover {
+    background: #DCDCDC;
+  }
+  @media only screen and (max-width: 1024px) {
+    font-size: 20px;
+  }
+
+  animation: 1s Zoom linear infinite,
+  2s Always ease alternate infinite;
+  }
+  @keyframes Zoom {
+      100% { background-position: 100vw 0px; }
+  }
+
+  @keyframes Always {
+      100% { transform: scale(1.05);}
+  }
+
 `;
 
 const CardText = styled.p`
@@ -602,7 +629,9 @@ const Landing = () => (
         <Col sm={8}>
           <div className="schedule">
             <item>
-              <span className="right">5 PM</span> Opening Ceremony
+              <span className="right">5 PM</span>
+              <span classname="right"> <a href="/404" target="_blank" rel="noreferrer">
+              <Register>Opening Ceremony </Register></a></span>
             </item>
             <item>
               <span className="right">5:15 PM</span> Platforms & Schedule Overview
@@ -612,18 +641,24 @@ const Landing = () => (
             </item>
             <item>
               <span className="right">5:55 PM</span> Team Formation
+              <img height="25px" src="/discord.svg" alt="discord icon."/>
             </item>
             <item>
-              <span className="right">6:20 PM</span> Icebreakers
+              <span className="right">6:20 PM</span> Icebreakers <a>
+                <img height="25px" src="/discord.svg" alt="discord icon."/>
+              </a>
             </item>
             <item>
               <span className="right">6:40-8 PM</span> Dinner Break
             </item>
             <item>
-              <span className="right">8 PM</span> <b>Workshop</b>: Intro to HTML/CSS
+              <span className="right">8 PM</span>
+              <span classname="right"> <a href="https://us02web.zoom.us/j/81192807306" target="_blank" rel="noreferrer">
+              <Register><b>Workshop</b>: Intro to HTML/CSS </Register></a></span>
             </item>
             <item>
               <span className="right">8 PM</span> <b>Game</b>: Skribbl.io
+              <img height="25px" src="/discord.svg" alt="discord icon."/>
             </item>
             <item>
               <span className="right">9 PM</span> Worktime
