@@ -125,7 +125,7 @@ const Live = () => (
           </item>
           <item>
             <span className="right">6 PM</span>
-            <span classname="right"> <a href="https://us02web.zoom.us/j/8636416146" target="_blank" rel="noreferrer">
+            <span classname="right"> <a href="https://virginiatech.zoom.us/j/4836087091" target="_blank" rel="noreferrer">
             <ScheduleButton><b>MLH Activity</b>: Capture the Flag</ScheduleButton></a></span>
           </item>
           <item>
