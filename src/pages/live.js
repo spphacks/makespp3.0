@@ -79,48 +79,68 @@ const Live = () => (
     </div>
     <Container>
       <Call color="#333" className="center" size="40px">
-        Friday Schedule
+        Saturday Schedule
       </Call>
       <Row>
-        <Col>
+      <Col>
         <div className="schedule">
           <item>
-            <span className="right">5 PM</span>
-            <span classname="right"> <a href="https://twitch.tv/makespp2020" target="_blank" rel="noreferrer">
-            <ScheduleButton>Opening Ceremony </ScheduleButton></a></span>
+            <span className="right">9 AM</span> Morning Message <img height="25px" src="/discord.svg" alt="discord icon."/>
           </item>
           <item>
-            <span className="right">5:15 PM</span> Platforms & Schedule Overview
+            <span classname="right"> <a href="https://us02web.zoom.us/j/82158559126?pwd=eWxaTklPbys4TUZicnNJcjRyYkVKUT09" target="_blank" rel="noreferrer">
+            <ScheduleButton><b>Workshop</b>: Intro to Python </ScheduleButton></a></span>
+            <span className="right">10 AM</span>
           </item>
           <item>
-            <span className="right">5:25 PM</span> Hestia Academy Keynote
+            <span className="right">10:30 AM</span>
+            <span classname="right"> <a href="https://zoom.us/j/92297011718" target="_blank" rel="noreferrer">
+            <ScheduleButton><b>Workshop</b>: Build an echoAR App </ScheduleButton></a></span>
           </item>
           <item>
-            <span className="right">5:55 PM</span> Team Formation
-            <img height="25px" src="/discord.svg" alt="discord icon."/>
+            <span className="right">11 AM</span> <b>Game</b>: Among Us <img height="25px" src="/discord.svg" alt="discord icon."/>
           </item>
           <item>
-            <span className="right">6:20 PM</span> Icebreakers <a>
-              <img height="25px" src="/discord.svg" alt="discord icon."/>
-            </a>
+            <span className="right">1 PM</span><b>Workshop</b>: Intro to JavaScript
+            {/*<span classname="right"> <a href="https://us02web.zoom.us/j/82158559126?pwd=eWxaTklPbys4TUZicnNJcjRyYkVKUT09" target="_blank" rel="noreferrer">
+            <ScheduleButton><b>Workshop</b>: Intro to JavaScript </ScheduleButton></a></span>*/}
           </item>
           <item>
-            <span className="right">6:40-8 PM</span> Dinner Break
+            <span className="right">3 PM</span><b>Panel</b>: Entrepreneurship
+            {/*<span classname="right"> <a href="https://us02web.zoom.us/j/82158559126?pwd=eWxaTklPbys4TUZicnNJcjRyYkVKUT09" target="_blank" rel="noreferrer">
+            <ScheduleButton><b>Panel</b>: Entrepreneurship</ScheduleButton></a></span>*/}
           </item>
           <item>
-            <span className="right">8 PM</span>
-            <span classname="right"> <a href="https://twitch.tv/makespp2020" target="_blank" rel="noreferrer">
-            <ScheduleButton><b>Workshop</b>: Intro to HTML/CSS (Twitch)</ScheduleButton></a></span>
+            <span className="right">3 PM</span> <b>Game</b>: Makey Makeoff <img height="25px" src="/discord.svg" alt="discord icon."/>
           </item>
           <item>
-            <span className="right">8 PM</span> <b>Game</b>: Skribbl.io
-            <img height="25px" src="/discord.svg" alt="discord icon."/>
+            <span className="right">4 PM</span> <b>Workshop</b>: Machine Learning
+            {/*<span classname="right"> <a href="https://us02web.zoom.us/j/82158559126?pwd=eWxaTklPbys4TUZicnNJcjRyYkVKUT09" target="_blank" rel="noreferrer">
+            <ScheduleButton><b>Workshop</b>: Machine Learning</ScheduleButton></a></span>*/}
+          </item>
+          <item>
+            <span className="right">5 PM</span> <b>Panel</b>: Future of E-Learning
+            {/*<span classname="right"> <a href="https://us02web.zoom.us/j/82158559126?pwd=eWxaTklPbys4TUZicnNJcjRyYkVKUT09" target="_blank" rel="noreferrer">
+            <ScheduleButton><b>Panel</b>: Future of E-Learning</ScheduleButton></a></span>*/}
+          </item>
+          <item>
+            <span className="right">6 PM</span> <b>MLH Activity</b>: Capture the Flag
+            {/*<span classname="right"> <a href="" target="_blank" rel="noreferrer">
+            <ScheduleButton><b>MLH Activity</b>: Capture the Flag</ScheduleButton></a></span>*/}
+          </item>
+          <item>
+            <span className="right">7 PM</span> <b>Game</b>: Minecraft Build Battles <img height="25px" src="/discord.svg" alt="discord icon."/>
+          </item>
+          <item>
+            <span className="right">8 PM</span> <b>MLH Activity</b>: Painting with Bob Ross
+            {/*<span classname="right"> <a href="" target="_blank" rel="noreferrer">
+            <ScheduleButton><b>MLH Activity</b>: Painting with Bob Ross</ScheduleButton></a></span>*/}
           </item>
           <item>
             <span className="right">9 PM</span> Worktime
           </item>
         </div>
-        </Col>
+      </Col>
       </Row>
       <br/>
       <Row>
@@ -139,7 +159,10 @@ const Live = () => (
           </a>
         </h2>
         <h2>
-            All events (except for games on Discord) are on <i>Twitch</i> going forward.
+        <a href="https://devpost.com/software/example-template-submission"><u>Example Devpost Template Submission</u></a>
+        </h2>
+        <h2>
+            All events (except for games on Discord) are on <i>Twitch & Zoom</i>.
         </h2>
         <br/>
         </Col>
@@ -190,8 +213,8 @@ const Live = () => (
         </Col>*/}
       </Row>
       <Row>
-      <Col sm={2}/>
-      <Col sm={4} className="center">
+      <Col sm={1.5}/>
+      <Col sm={5} className="center">
         <TwitterTimelineEmbed
           sourceType="profile"
           screenName="makespp"
@@ -202,7 +225,7 @@ const Live = () => (
       <Col sm={3} className="center">
       <iframe title="Discord Widget" src="https://discordapp.com/widget?id=731656931411755140&theme=light" width="350" height="400" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
       </Col>
-      <Col sm={2}/>
+      <Col sm={1.5}/>
       </Row>
     </Container><br/>
     <div class="center">

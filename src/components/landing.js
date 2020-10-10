@@ -95,6 +95,16 @@ const Prize = styled.img`
     }
 `;
 
+const Check = styled.img`
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+  @media only screen and (max-width: 580px) {
+    max-width: 20%;
+    }
+`;
+
 const PrizeSub = styled.img`
     display: block;
     margin: auto;
@@ -157,11 +167,11 @@ const Landing = () => (
           hackathon and technology conference. we're a diverse and creative
           community of students dedicated to solving some of the most
           challenging problems with technology.{" "}
-          <b>
+          {/*<b>
             <u>
               <a href="https://makespp.typeform.com/to/ZzGcLGKb" target="_blank" rel="noreferrer">join us</a>
             </u>
-          </b>.
+          </b>.*/}
         </Description>
       </Col>
     </Row>
@@ -624,14 +634,16 @@ const Landing = () => (
       <Call color="#333" className="center" size="40px">
         October 9th
       </Call>
+      <br/>
       <Row>
-        <Col sm={2} />
-        <Col sm={8}>
+        <Col sm={4.5}/>
+        <Col sm={3}>
+        <Check src="/checkmark.png" />
+        </Col>
+        {/*<Col sm={8}>
           <div className="schedule">
             <item>
-              <span className="right">5 PM</span>
-              <span classname="right"> <a href="https://twitch.tv/makespp2020" target="_blank" rel="noreferrer">
-              <ScheduleButton>Opening Ceremony </ScheduleButton></a></span>
+              <span className="right">5 PM</span> Opening Ceremony
             </item>
             <item>
               <span className="right">5:15 PM</span> Platforms & Schedule Overview
@@ -644,9 +656,8 @@ const Landing = () => (
               <img height="25px" src="/discord.svg" alt="discord icon."/>
             </item>
             <item>
-              <span className="right">6:20 PM</span> Icebreakers <a>
+              <span className="right">6:20 PM</span> Icebreakers
                 <img height="25px" src="/discord.svg" alt="discord icon."/>
-              </a>
             </item>
             <item>
               <span className="right">6:40-8 PM</span> Dinner Break
@@ -664,8 +675,8 @@ const Landing = () => (
               <span className="right">9 PM</span> Worktime
             </item>
           </div>
-        </Col>
-        <Col sm={2}/>
+        </Col>*/}
+        <Col sm={4.5}/>
       </Row><br/>
       <Call color="#333" className="center" size="40px">
         October 10th
@@ -675,43 +686,59 @@ const Landing = () => (
         <Col sm={8}>
           <div className="schedule">
             <item>
-              <span className="right">9 AM</span> Morning Keynote
+              <span className="right">9 AM</span> Morning Message <img height="25px" src="/discord.svg" alt="discord icon."/>
             </item>
             <item>
-              <span className="right">10 AM</span> <b>Workshop</b>: Intro to Python
+              <span classname="right"> <a href="https://us02web.zoom.us/j/82158559126?pwd=eWxaTklPbys4TUZicnNJcjRyYkVKUT09" target="_blank" rel="noreferrer">
+              <ScheduleButton><b>Workshop</b>: Intro to Python </ScheduleButton></a></span>
+              <span className="right">10 AM</span>
             </item>
             <item>
-              <span className="right">10:30 AM</span> <b>Workshop</b>: Build an echoAR App
+              <span className="right">10:30 AM</span>
+              <span classname="right"> <a href="https://zoom.us/j/92297011718" target="_blank" rel="noreferrer">
+              <ScheduleButton><b>Workshop</b>: Build an echoAR App </ScheduleButton></a></span>
             </item>
             <item>
-              <span className="right">11 AM</span> <b>Game</b>: Minecraft Build Battles
+              <span className="right">11 AM</span> <b>Game</b>: Among Us <img height="25px" src="/discord.svg" alt="discord icon."/>
             </item>
             <item>
-              <span className="right">1 PM</span> <b>Workshop</b>: Intro to JavaScript
+              <span className="right">1 PM</span><b>Workshop</b>: Intro to JavaScript
+              {/*<span classname="right"> <a href="https://us02web.zoom.us/j/82158559126?pwd=eWxaTklPbys4TUZicnNJcjRyYkVKUT09" target="_blank" rel="noreferrer">
+              <ScheduleButton><b>Workshop</b>: Intro to JavaScript </ScheduleButton></a></span>*/}
             </item>
             <item>
-              <span className="right">3 PM</span> <b>Panel</b>: Entrepreneurship
+              <span className="right">3 PM</span><b>Panel</b>: Entrepreneurship
+              {/*<span classname="right"> <a href="https://us02web.zoom.us/j/82158559126?pwd=eWxaTklPbys4TUZicnNJcjRyYkVKUT09" target="_blank" rel="noreferrer">
+              <ScheduleButton><b>Panel</b>: Entrepreneurship</ScheduleButton></a></span>*/}
             </item>
             <item>
-              <span className="right">3 PM</span> <b>Game</b>: Makey Makeoff
+              <span className="right">3 PM</span> <b>Game</b>: Makey Makeoff <img height="25px" src="/discord.svg" alt="discord icon."/>
             </item>
             <item>
-              <span className="right">4 PM</span> <b>Lecture</b>: Machine Learning
+              <span className="right">4 PM</span> <b>Workshop</b>: Machine Learning
+              {/*<span classname="right"> <a href="https://us02web.zoom.us/j/82158559126?pwd=eWxaTklPbys4TUZicnNJcjRyYkVKUT09" target="_blank" rel="noreferrer">
+              <ScheduleButton><b>Workshop</b>: Machine Learning</ScheduleButton></a></span>*/}
             </item>
             <item>
-              <span className="right">5 PM</span> <b>Lecture</b>: Future of E-Learning
+              <span className="right">5 PM</span> <b>Panel</b>: Future of E-Learning
+              {/*<span classname="right"> <a href="https://us02web.zoom.us/j/82158559126?pwd=eWxaTklPbys4TUZicnNJcjRyYkVKUT09" target="_blank" rel="noreferrer">
+              <ScheduleButton><b>Panel</b>: Future of E-Learning</ScheduleButton></a></span>*/}
             </item>
             <item>
               <span className="right">6 PM</span> <b>MLH Activity</b>: Capture the Flag
+              {/*<span classname="right"> <a href="" target="_blank" rel="noreferrer">
+              <ScheduleButton><b>MLH Activity</b>: Capture the Flag</ScheduleButton></a></span>*/}
             </item>
             <item>
-              <span className="right">7 PM</span> <b>Game</b>: Among Us
+              <span className="right">7 PM</span> <b>Game</b>: Minecraft Build Battles <img height="25px" src="/discord.svg" alt="discord icon."/>
             </item>
             <item>
               <span className="right">8 PM</span> <b>MLH Activity</b>: Painting with Bob Ross
+              {/*<span classname="right"> <a href="" target="_blank" rel="noreferrer">
+              <ScheduleButton><b>MLH Activity</b>: Painting with Bob Ross</ScheduleButton></a></span>*/}
             </item>
             <item>
-              <span className="right">9 PM</span> Conclusion of Official Programming
+              <span className="right">9 PM</span> Worktime
             </item>
           </div>
         </Col>
