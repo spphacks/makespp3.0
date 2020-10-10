@@ -108,7 +108,7 @@ const Live = () => (
           <item>
             <span className="right">3 PM</span>
             <span classname="right"> <a href="https://twitch.tv/makespp2020" target="_blank" rel="noreferrer">
-            <ScheduleButton><b>Panel</b>: Entrepreneurship</ScheduleButton></a></span>*/}
+            <ScheduleButton><b>Panel</b>: Entrepreneurship</ScheduleButton></a></span>
           </item>
           <item>
             <span className="right">3 PM</span> <b>Game</b>: Makey Makeoff <img height="25px" src="/discord.svg" alt="discord icon."/>
