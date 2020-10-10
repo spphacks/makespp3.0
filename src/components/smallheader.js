@@ -34,7 +34,7 @@ const LogoText = styled.img`
 const Header = ({ siteTitle }) => (
   <Background>
   <ParticleContainer><Particles
-  height="100vh"
+  height="40vh"
   width="100vw"
   params={{
     particles: {
