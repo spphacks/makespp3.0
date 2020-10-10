@@ -702,9 +702,9 @@ const Landing = () => (
               <span className="right">11 AM</span> <b>Game</b>: Among Us <img height="25px" src="/discord.svg" alt="discord icon."/>
             </item>
             <item>
-              <span className="right">1 PM</span><b>Workshop</b>: Intro to JavaScript
-              {/*<span classname="right"> <a href="https://us02web.zoom.us/j/82158559126?pwd=eWxaTklPbys4TUZicnNJcjRyYkVKUT09" target="_blank" rel="noreferrer">
-              <ScheduleButton><b>Workshop</b>: Intro to JavaScript </ScheduleButton></a></span>*/}
+              <span className="right">1 PM</span>
+              <span classname="right"> <a href="https://us02web.zoom.us/j/83849584443?pwd=bWhBZlpBeGNVb0lXMWFPanQ4WHIzQT09" target="_blank" rel="noreferrer">
+              <ScheduleButton><b>Workshop</b>: Intro to JavaScript </ScheduleButton></a></span>
             </item>
             <item>
               <span className="right">3 PM</span><b>Panel</b>: Entrepreneurship
