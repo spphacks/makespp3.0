@@ -114,14 +114,14 @@ const Live = () => (
             <span className="right">3 PM</span> <b>Game</b>: Makey Makeoff <img height="25px" src="/discord.svg" alt="discord icon."/>
           </item>
           <item>
-            <span className="right">4 PM</span> <b>Workshop</b>: Machine Learning
-            {/*<span classname="right"> <a href="https://us02web.zoom.us/j/82158559126?pwd=eWxaTklPbys4TUZicnNJcjRyYkVKUT09" target="_blank" rel="noreferrer">
-            <ScheduleButton><b>Workshop</b>: Machine Learning</ScheduleButton></a></span>*/}
+            <span className="right">4 PM</span>
+            <span classname="right"> <a href="https://us02web.zoom.us/j/89270081772?pwd=bmlXUmpSdzZnQk9IcTk0L29TR2JDQT09" target="_blank" rel="noreferrer">
+            <ScheduleButton><b>Workshop</b>: Machine Learning</ScheduleButton></a></span>
           </item>
           <item>
             <span className="right">5 PM</span> <b>Panel</b>: Future of E-Learning
-            {/*<span classname="right"> <a href="https://twitch.tv/makespp2020" target="_blank" rel="noreferrer">
-            <ScheduleButton><b>Panel</b>: Future of E-Learning</ScheduleButton></a></span>*/}
+            <span classname="right"> <a href="https://twitch.tv/makespp2020" target="_blank" rel="noreferrer">
+            <ScheduleButton><b>Panel</b>: Future of E-Learning</ScheduleButton></a></span>
           </item>
           <item>
             <span className="right">6 PM</span> <b>MLH Activity</b>: Capture the Flag
