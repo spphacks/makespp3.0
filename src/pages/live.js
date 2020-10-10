@@ -106,8 +106,8 @@ const Live = () => (
             <ScheduleButton><b>Workshop</b>: Intro to JavaScript </ScheduleButton></a></span>
           </item>
           <item>
-            <span className="right">3 PM</span><b>Panel</b>: Entrepreneurship
-            {/*<span classname="right"> <a href="https://us02web.zoom.us/j/82158559126?pwd=eWxaTklPbys4TUZicnNJcjRyYkVKUT09" target="_blank" rel="noreferrer">
+            <span className="right">3 PM</span>
+            <span classname="right"> <a href="https://twitch.tv/makespp2020" target="_blank" rel="noreferrer">
             <ScheduleButton><b>Panel</b>: Entrepreneurship</ScheduleButton></a></span>*/}
           </item>
           <item>
@@ -120,7 +120,7 @@ const Live = () => (
           </item>
           <item>
             <span className="right">5 PM</span> <b>Panel</b>: Future of E-Learning
-            {/*<span classname="right"> <a href="https://us02web.zoom.us/j/82158559126?pwd=eWxaTklPbys4TUZicnNJcjRyYkVKUT09" target="_blank" rel="noreferrer">
+            {/*<span classname="right"> <a href="https://twitch.tv/makespp2020" target="_blank" rel="noreferrer">
             <ScheduleButton><b>Panel</b>: Future of E-Learning</ScheduleButton></a></span>*/}
           </item>
           <item>
