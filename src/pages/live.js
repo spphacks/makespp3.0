@@ -132,9 +132,9 @@ const Live = () => (
             <span className="right">7 PM</span> <b>Game</b>: Minecraft Build Battles <img height="25px" src="/discord.svg" alt="discord icon."/>
           </item>
           <item>
-            <span className="right">8 PM</span> <b>MLH Activity</b>: Painting with Bob Ross
-            {/*<span classname="right"> <a href="" target="_blank" rel="noreferrer">
-            <ScheduleButton><b>MLH Activity</b>: Painting with Bob Ross</ScheduleButton></a></span>*/}
+            <span className="right">8 PM</span>
+            <span classname="right"> <a href="https://virginiatech.zoom.us/j/4836087091" target="_blank" rel="noreferrer">
+            <ScheduleButton><b>MLH Activity</b>: Painting with Bob Ross</ScheduleButton></a></span>
           </item>
           <item>
             <span className="right">9 PM</span> Worktime
