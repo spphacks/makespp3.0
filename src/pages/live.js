@@ -124,9 +124,9 @@ const Live = () => (
             <ScheduleButton><b>Panel</b>: Future of E-Learning</ScheduleButton></a></span>
           </item>
           <item>
-            <span className="right">6 PM</span> <b>MLH Activity</b>: Capture the Flag
-            {/*<span classname="right"> <a href="" target="_blank" rel="noreferrer">
-            <ScheduleButton><b>MLH Activity</b>: Capture the Flag</ScheduleButton></a></span>*/}
+            <span className="right">6 PM</span>
+            <span classname="right"> <a href="https://us02web.zoom.us/j/8636416146" target="_blank" rel="noreferrer">
+            <ScheduleButton><b>MLH Activity</b>: Capture the Flag</ScheduleButton></a></span>
           </item>
           <item>
             <span className="right">7 PM</span> <b>Game</b>: Minecraft Build Battles <img height="25px" src="/discord.svg" alt="discord icon."/>
