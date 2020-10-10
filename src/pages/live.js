@@ -119,7 +119,7 @@ const Live = () => (
             <ScheduleButton><b>Workshop</b>: Machine Learning</ScheduleButton></a></span>
           </item>
           <item>
-            <span className="right">5 PM</span> <b>Panel</b>: Future of E-Learning
+            <span className="right">5 PM</span>
             <span classname="right"> <a href="https://twitch.tv/makespp2020" target="_blank" rel="noreferrer">
             <ScheduleButton><b>Panel</b>: Future of E-Learning</ScheduleButton></a></span>
           </item>
