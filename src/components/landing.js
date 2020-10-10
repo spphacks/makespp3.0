@@ -653,8 +653,8 @@ const Landing = () => (
             </item>
             <item>
               <span className="right">8 PM</span>
-              <span classname="right"> <a href="https://us02web.zoom.us/j/81192807306" target="_blank" rel="noreferrer">
-              <ScheduleButton><b>Workshop</b>: Intro to HTML/CSS </ScheduleButton></a></span>
+              <span classname="right"> <a href="https://twitch.tv/makespp2020" target="_blank" rel="noreferrer">
+              <ScheduleButton><b>Workshop</b>: Intro to HTML/CSS (Twitch)</ScheduleButton></a></span>
             </item>
             <item>
               <span className="right">8 PM</span> <b>Game</b>: Skribbl.io
