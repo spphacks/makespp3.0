@@ -79,67 +79,36 @@ const Live = () => (
     </div>
     <Container>
       <Call color="#333" className="center" size="40px">
-        Saturday Schedule
+        Sunday Schedule
       </Call>
       <Row>
       <Col>
-        <div className="schedule">
+      <div className="schedule">
           <item>
-            <span className="right">9 AM</span> Morning Message <img height="25px" src="/discord.svg" alt="discord icon."/>
+            <span className="right">11 AM</span> <b>Reminder</b>: Prepare Presentation
           </item>
           <item>
-            <span classname="right"> <a href="https://us02web.zoom.us/j/82158559126?pwd=eWxaTklPbys4TUZicnNJcjRyYkVKUT09" target="_blank" rel="noreferrer">
-            <ScheduleButton><b>Workshop</b>: Intro to Python </ScheduleButton></a></span>
-            <span className="right">10 AM</span>
+            <span className="right">12 PM</span> <b>Workshop</b>: Pitching Your Product
           </item>
           <item>
-            <span className="right">10:30 AM</span>
-            <span classname="right"> <a href="https://zoom.us/j/92297011718" target="_blank" rel="noreferrer">
-            <ScheduleButton><b>Workshop</b>: Build an echoAR App </ScheduleButton></a></span>
+            <span className="right">1 PM</span> <b>Reminder</b>: Submissions Due Soon
           </item>
           <item>
-            <span className="right">11 AM</span> <b>Game</b>: Among Us <img height="25px" src="/discord.svg" alt="discord icon."/>
+            <span className="right">2 PM</span> Submissions Due
           </item>
           <item>
-            <span className="right">1 PM</span>
-            <span classname="right"> <a href="https://us02web.zoom.us/j/83849584443?pwd=bWhBZlpBeGNVb0lXMWFPanQ4WHIzQT09" target="_blank" rel="noreferrer">
-            <ScheduleButton><b>Workshop</b>: Intro to JavaScript </ScheduleButton></a></span>
+            <span className="right">2 PM</span> <b>Game</b>: Codenames
           </item>
           <item>
-            <span className="right">3 PM</span>
-            <span classname="right"> <a href="https://twitch.tv/makespp2020" target="_blank" rel="noreferrer">
-            <ScheduleButton><b>Panel</b>: Entrepreneurship</ScheduleButton></a></span>
+            <span className="right">3 PM</span> <b>Game</b>: Minecraft Village Defense
           </item>
           <item>
-            <span className="right">3 PM</span> <b>Game</b>: Makey Makeoff <img height="25px" src="/discord.svg" alt="discord icon."/>
+            <span className="right">2-5 PM</span> Judging
           </item>
           <item>
-            <span className="right">4 PM</span>
-            <span classname="right"> <a href="https://us02web.zoom.us/j/89270081772?pwd=bmlXUmpSdzZnQk9IcTk0L29TR2JDQT09" target="_blank" rel="noreferrer">
-            <ScheduleButton><b>Workshop</b>: Machine Learning</ScheduleButton></a></span>
+            <span className="right">5-6 PM</span> Winners Announced/Presentations & Closing Ceremony
           </item>
-          <item>
-            <span className="right">5 PM</span>
-            <span classname="right"> <a href="https://twitch.tv/makespp2020" target="_blank" rel="noreferrer">
-            <ScheduleButton><b>Panel</b>: Future of E-Learning</ScheduleButton></a></span>
-          </item>
-          <item>
-            <span className="right">6 PM</span>
-            <span classname="right"> <a href="https://virginiatech.zoom.us/j/4836087091" target="_blank" rel="noreferrer">
-            <ScheduleButton><b>MLH Activity</b>: Capture the Flag</ScheduleButton></a></span>
-          </item>
-          <item>
-            <span className="right">7 PM</span> <b>Game</b>: Minecraft Build Battles <img height="25px" src="/discord.svg" alt="discord icon."/>
-          </item>
-          <item>
-            <span className="right">8 PM</span>
-            <span classname="right"> <a href="https://virginiatech.zoom.us/j/4836087091" target="_blank" rel="noreferrer">
-            <ScheduleButton><b>MLH Activity</b>: Painting with Bob Ross</ScheduleButton></a></span>
-          </item>
-          <item>
-            <span className="right">9 PM</span> Worktime
-          </item>
-        </div>
+      </div>
       </Col>
       </Row>
       <br/>
