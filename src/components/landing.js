@@ -682,8 +682,11 @@ const Landing = () => (
         October 10th
       </Call><br/>
       <Row>
-        <Col sm={2}/>
-        <Col sm={8}>
+        <Col sm={4.5}/>
+        <Col sm={3}>
+        <Check src="/checkmark.png" />
+        </Col>
+        {/*<Col sm={8}>
           <div className="schedule">
             <item>
               <span className="right">9 AM</span> Morning Message <img height="25px" src="/discord.svg" alt="discord icon."/>
@@ -741,7 +744,7 @@ const Landing = () => (
               <span className="right">9 PM</span> Worktime
             </item>
           </div>
-        </Col>
+        </Col>*/}
         <Col sm={2}/>
       </Row><br/>
       <Call color="#333" className="center" size="40px">
@@ -777,7 +780,7 @@ const Landing = () => (
               </item>
           </div>
         </Col>
-        <Col sm={2} />
+        <Col sm={4.5} />
       </Row>
       <br />
       <br />
