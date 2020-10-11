@@ -91,6 +91,7 @@ const Live = () => (
             <span className="right">11 AM</span> <b>Reminder</b>: Prepare Presentation
           </item>
           <item>
+          <span className="right">12 PM</span>
           <span classname="right"> <a href="https://us02web.zoom.us/j/82866365418?pwd=eFpOZllpNTBUQSttcHcwaTNWaEMwdz09" target="_blank" rel="noreferrer">
           <ScheduleButton><b>Workshop</b>: Pitching Your Product</ScheduleButton></a></span>
           </item>
