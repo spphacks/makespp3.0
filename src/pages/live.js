@@ -102,16 +102,16 @@ const Live = () => (
             <span className="right">2 PM</span> Submissions Due
           </item>
           <item>
-            <span className="right">2 PM</span> <b>Game</b>: Codenames
+            <span className="right">2 PM</span> <b>Game</b>: Codenames <img height="25px" src="/discord.svg" alt="discord icon."/>
           </item>
           <item>
-            <span className="right">3 PM</span> <b>Game</b>: Minecraft Village Defense
+            <span className="right">3 PM</span> <b>Game</b>: Minecraft Village Defense <img height="25px" src="/discord.svg" alt="discord icon."/>
           </item>
           <item>
             <span className="right">2-5 PM</span> Judging
           </item>
           <item>
-            <span className="right">5-6 PM</span> Winners Announced/Presentations & Closing Ceremony
+            <span className="right">5-6 PM</span> Closing Ceremony & Winners
           </item>
       </div>
       </Col>
