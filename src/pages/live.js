@@ -73,9 +73,12 @@ const Live = () => (
     />
     <br/>
     <div>
-      <Counter>
+    <Call color="#333" className="center" size="40px">
+      Submit on <a href="https://makespp2020.devpost.com"><u>Devpost</u></a> by 2pm EST!
+    </Call>
+      {/*<Counter>
         <Countdown timeTillDate="10 11 2020, 2:00 pm" timeFormat="MM DD YYYY, h:mm a" />
-      </Counter>
+      </Counter>*/}
     </div>
     <Container>
       <Call color="#333" className="center" size="40px">
