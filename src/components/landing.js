@@ -772,6 +772,9 @@ const Landing = () => (
                 <span className="right">2 PM</span> <b>Game</b>: Codenames <img height="25px" src="/discord.svg" alt="discord icon."/>
               </item>
               <item>
+                <span className="right">2:30 PM</span> MEME WARRRRR <img height="25px" src="/discord.svg" alt="discord icon."/>
+              </item>
+              <item>
                 <span className="right">3 PM</span> <b>Game</b>: Minecraft Village Defense <img height="25px" src="/discord.svg" alt="discord icon."/>
               </item>
               <item>
