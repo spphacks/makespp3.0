@@ -111,7 +111,10 @@ const Live = () => (
             <span className="right">2-5 PM</span> Judging
           </item>
           <item>
-            <span className="right">5-6 PM</span> Closing Ceremony & Winners
+            <span className="right">5-6 PM</span>
+            <span classname="right"> <a href="https://us02web.zoom.us/j/83305769250?pwd=QlBtYjJvbzBwcExobTFjVTZtT0JoUT09" target="_blank" rel="noreferrer">
+            <ScheduleButton>Closing Ceremony & Winners</ScheduleButton></a></span>
+            </item>
           </item>
       </div>
       </Col>
