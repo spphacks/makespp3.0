@@ -67,11 +67,8 @@ const CardText = styled.p`
 `;
 
 const Card = styled.div`
-  max-width: 400px;
   text-align: center;
-  @media only screen and (max-width: 1024px) {
-    height: 330px;
-  }
+
 `;
 
 const Sponsor = styled.img`
@@ -174,16 +171,15 @@ const Landing = () => (
           </b>.*/}
         </Description>
       </Col>
+    <br/>
     </Row>
-    <br />
     <Site>
       <Row>
         <Col sm={4}>
           <Img height="250px" src="/1.jpg" />
         </Col>
         <Col sm={4}>
-        <CardSpacerContainer><br/></CardSpacerContainer>
-          <Card bg="#F9BEBE;">
+          <Card>
             <Call size="24px" color="#333">
               beginner focused. expert welcomed.
             </Call>
@@ -200,11 +196,9 @@ const Landing = () => (
             <Img height="250px" src="/2.jpg" />
           </Col>
       </Row>
-      <CardSpacerContainer><br/></CardSpacerContainer>
-      <br/>
       <Row>
       <Col sm={4}>
-        <Card bg="#F9BEBE;">
+        <Card>
           <Call size="24px" color="#333">
             share your solutions. win prizes.
           </Call>
@@ -218,7 +212,6 @@ const Landing = () => (
           <Img height="250px" src="/3.jpg" />
         </Col>
         <Col sm={4}>
-        <CardSpacerContainer><br></br></CardSpacerContainer>
           <Card>
             <Call color="#333" size="24px">
                come for the fun. stay for the swag.
@@ -232,7 +225,7 @@ const Landing = () => (
           </Card>
         </Col>
       </Row>
-      <FAQSpacerContainer><br/><br/></FAQSpacerContainer>
+      <FAQSpacerContainer><br/></FAQSpacerContainer>
       {/*}
       <Call color="#333" className="center" size="48px">
         Location
@@ -745,14 +738,17 @@ const Landing = () => (
             </item>
           </div>
         </Col>*/}
-        <Col sm={2}/>
+        <Col sm={4.5}/>
       </Row><br/>
       <Call color="#333" className="center" size="40px">
         October 11th
       </Call><br/>
       <Row>
-        <Col sm={2}/>
-        <Col sm={8}>
+        <Col sm={4.5}/>
+        <Col sm={3}>
+        <Check src="/checkmark.png" />
+        </Col>
+        {/*<Col sm={8}>
           <div className="schedule">
               <item>
                 <span className="right">11 AM</span> <b>Reminder</b>: Prepare Presentation
@@ -786,8 +782,8 @@ const Landing = () => (
                 <ScheduleButton>Closing Ceremony & Winners</ScheduleButton></a></span>
               </item>
           </div>
-        </Col>
-        <Col sm={4.5} />
+        </Col>*/}
+        <Col sm={4.5}/>
       </Row>
       <br />
       <br />
@@ -1104,11 +1100,12 @@ const Landing = () => (
             {" "}
             Administrator
           </Description>
-          <br />
+          <br/>
         </Col>
-        <Col sm={3.5} />
+        <Col sm={3.5}/>
       </Row>
     </Site>
+
     <div class="center">
       <a href="https://twitter.com/makespp">
         <img height="52px" src="/twitter.svg" alt="twitter icon."/>
@@ -1117,20 +1114,18 @@ const Landing = () => (
         <img height="52px" src="/discord.svg" alt="discord icon."/>
       </a>
       <a href="https://instagram.com/sppmakes">
-        <img height="50px" src="/instagram.png" alt="instagram icon."/>
+        <img height="52px" src="/instagram.png" alt="instagram icon."/>
       </a>
     </div>
-    <Description className="center" size="16px">
-      <Link to ="http://mlh.io/code-of-conduct" style={{
-        color: `black`,
-        fontWeight: `bold`,
-        textDecoration: `underline`
-      }}> MLH Code of Conduct </Link>
-    </Description>
-    <Description color="#333" className="center" size="16px">
-      © 2020 <a href="https://spprep.org"> St. Peter's Prep High School</a></Description>
 
-<div class="center">
+    <Description className="center" size="16px">
+      <a href="http://mlh.io/code-of-conduct"> <b><u>MLH Code of Conduct</u></b></a>
+    </Description>
+
+    <Description color="#333" className="center" size="16px">
+      © 2020<a href="https://spprep.org"> St. Peter's Prep High School</a></Description>
+
+    <div class="center">
       <a href="http://2018.makespp.com">
         <b>2018</b>
       </a>&nbsp; | &nbsp;
@@ -1141,6 +1136,6 @@ const Landing = () => (
        <b>2020</b>
       </a>
     </div>
-  </div>
-);
+</div>
+)
 export default Landing;
