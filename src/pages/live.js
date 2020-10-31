@@ -77,7 +77,7 @@ const Live = () => (
       Submit on <a href="https://makespp2020.devpost.com"><u>Devpost</u></a> by 2pm EST!
     </Call>
       {/*<Counter>
-        <Countdown timeTillDate="10 11 2020, 2:00 pm" timeFormat="MM DD YYYY, h:mm a" />
+        <Countdown timeTillDate="10 11 2019, 2:00 pm" timeFormat="MM DD YYYY, h:mm a" />
       </Counter>*/}
     </div>
     <Container>
@@ -105,7 +105,7 @@ const Live = () => (
             <span className="right">2 PM</span> <b>Game</b>: Codenames <img height="25px" src="/discord.svg" alt="discord icon."/>
           </item>
           <item>
-            <span className="right">2:30 PM</span> MEME WARRRRR <img height="25px" src="/discord.svg" alt="discord icon."/>
+            <span className="right">2:30 PM</span> MEME WAR <img height="25px" src="/discord.svg" alt="discord icon."/>
           </item>
           <item>
             <span className="right">3 PM</span> <b>Game</b>: Minecraft Village Defense <img height="25px" src="/discord.svg" alt="discord icon."/>
