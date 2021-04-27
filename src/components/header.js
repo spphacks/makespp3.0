@@ -8,8 +8,8 @@ const Background = styled.header`
   margin: 0;
   padding: 0;
   color: #fff;
-  margin: 0;
-  background: linear-gradient(to right, #200122, #6f0000);
+  min-height: 100vh;
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
 `;
 
 const ParticleContainer = styled.div`
@@ -23,12 +23,39 @@ const Logo = styled.img`
   max-height: 200px;
   padding: 16px;
   @media only screen and (max-width: 767px) {
-    content:url("/logosmall.svg");
-    position: auto;
+    display: none;
+}
+`;
+
+const MobileLogo = styled.img`
+  display: none;
+  @media only screen and (max-width: 767px) {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
+    max-height: 200px;
+    padding: 16px;
+}
+`;
+
+const Description = styled.p`
+  font-size: ${props => props.size};
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 2;
+  position: relative;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+`;
+
+const Makey = styled.img`
+  right: 0%;
+  height: 320px;
+  position: fixed;
+  bottom: 0;
+  @media only screen and (max-width: 767px) {
+    height: 270px;
 }
 `;
 
@@ -51,28 +78,33 @@ const Tagline = styled.h1`
   margin-left: auto;
   margin-right: auto;
   color: #fff;
+  @media only screen and (max-width: 767px) {
+      font-size: 2rem;
+    }
 `;
 
 const SubTagline = styled.h1`
   text-align: center;
-  max-width: 700px;
+  max-width: 600px;
   padding: 12px;
   font-size: 24px;
   margin-left: auto;
   margin-right: auto;
   color: #fff;
+  @media only screen and (max-width: 767px) {
+      font-size: 1.3rem;
+    }
 `;
 
 const Date = styled.h1`
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  @media only screen and (max-width: 1024px) {
-    font-size: 25px;
-  }
-  @media only screen and (max-width: 600px) {
-    font-size: 20px;
-  }
+  font-size: 2.7rem;
+  @media only screen and (max-width: 767px) {
+      font-size: 2rem;
+      margin: 0;
+    }
 `;
 
 const Register = styled.h1`
@@ -122,7 +154,7 @@ const RegisterContainer = styled.div`
 
 const Header = ({ siteTitle }) => (
   <Background>
-  <a id="mlh-trust-badge"
+  {/*<a id="mlh-trust-badge"
   href="https://mlh.io/seasons/2021/events"
   target="_blank" rel="noreferrer">
   <Img src="https://s3.amazonaws.com/logged-assets/trust-badge/2021/mlh-trust-badge-2021-black.svg" alt="Major League Hacking 2021 Hackathon Season"></Img></a>
@@ -154,7 +186,7 @@ const Header = ({ siteTitle }) => (
         }
       },
     }}
-  /></ParticleContainer>
+  /></ParticleContainer>*/}<br/><br/>
     <Container><Link
       to="/"
       style={{
@@ -163,22 +195,39 @@ const Header = ({ siteTitle }) => (
       }}
     >
       {" "}
-      <Logo src="/logo.svg" />
+      <Logo src="/logo.svg" /><MobileLogo src="/logosmall.svg" />
     </Link></Container>
-    <Tagline> The Premier Virtual High School Hackathon </Tagline>
+    <Tagline> The Premier Virtual <br/>High School Hackathon </Tagline>
     <SubTagline>Learn to build & pitch a product with workshops and thousands in prizes.</SubTagline>
     <br></br>
-      <Date>October 9-11, 2020</Date>
+      <Date>Fall 2021</Date>
+      <Makey src="/makey.png"/>
     {/*<RegisterContainer>
       <a href="https://makespp.typeform.com/to/ZzGcLGKb" target="_blank" rel="noreferrer">
       <Register> Register </Register>
       </a>
-    </RegisterContainer>*/}
+    </RegisterContainer>
     <RegisterContainer>
       <a href="/live" target="_blank" rel="noreferrer">
       <Register> Live </Register>
       </a>
-    </RegisterContainer>
+    </RegisterContainer>*/}<br/><br/><br/><br/><br/>
+    <Description color="#333" className="center" size="16px">
+      © 2021<a href="https://spprep.org"> St. Peter's Prep High School</a><br/>
+      <a href="http://2018.makespp.com">
+        <b>2018</b>
+      </a>&nbsp; | &nbsp;
+      <a href="https://2019.makespp.com">
+       <b>2019</b>
+      </a> &nbsp; | &nbsp;
+      <a href="https://2020.makespp.com">
+       <b>2020</b>
+      </a>  &nbsp; | &nbsp;
+      <a href="https://makespp.com">
+       <b>2021</b>
+      </a>
+      </Description>
+    <br/>
   </Background>
 );
 

@@ -11,8 +11,8 @@ const IndexPage = () => (
       keywords={[`MakeSPP`, `makespp`, `Saint Peter's Prep`, `hackathon`]}
     />
     <Header />
-    <Landing />
-    <img className="right" height="100px" alt="Makey Mascot" src="/makey.jpg"/>
+    {/*<Landing />*/}
+
   </Layout>
 );
 
