@@ -3,6 +3,7 @@ import React from "react";
 import Particles from "react-particles-js";
 import styled from "styled-components";
 import { Container} from "react-grid-system";
+import Typed from 'react-typed';
 
 const Background = styled.header`
   margin: 0;
@@ -197,7 +198,10 @@ const Header = ({ siteTitle }) => (
       {" "}
       <Logo src="/logo.svg" /><MobileLogo src="/logosmall.svg" />
     </Link></Container>
-    <Tagline> The Premier Virtual <br/>High School Hackathon </Tagline>
+    <Tagline> The Premier Virtual <br/> High School Hackathon{/*<Typed
+              strings={['The Premier Virtual <br/> High School Hackathon']}
+              typeSpeed={60}
+              showCursor={true}></Typed>*/}</Tagline>
     <SubTagline>Learn to build & pitch a product with workshops and thousands in prizes.</SubTagline>
     <br></br>
       <Date>Fall 2021</Date>
