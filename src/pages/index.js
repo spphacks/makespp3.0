@@ -7,7 +7,7 @@ import SEO from "../components/seo";
 const IndexPage = () => (
   <Layout>
     <SEO
-      title="MakeSPP 2020"
+      title="MakeSPP 2021"
       keywords={[`MakeSPP`, `makespp`, `Saint Peter's Prep`, `hackathon`]}
     />
     <Header />
