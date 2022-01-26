@@ -27,8 +27,6 @@ export const Logo = styled.img`
   padding-bottom: 50px;
 `;
 
-
-
 export const Wrapper1 = styled.div`
 text-align: center;
 margin-left: 5%;

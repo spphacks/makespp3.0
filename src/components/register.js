@@ -57,6 +57,7 @@ class Join extends Component {
                 name="name"
                 placeholder="Full Name"
                 value={this.state.name}
+                required
                 onChange={event =>
                   this.setState(
                     updateByPropertyName("name", event.target.value)
@@ -68,7 +69,7 @@ class Join extends Component {
               <Input
                 type="text"
                 name="email"
-                placeholder="name@example.com"
+                placeholder="Email"
                 value={this.state.email}
                 required
                 onChange={event =>
@@ -84,6 +85,7 @@ class Join extends Component {
                 name="school"
                 placeholder="School"
                 value={this.state.school}
+                required
                 onChange={event =>
                   this.setState(
                     updateByPropertyName("school", event.target.value)
@@ -107,12 +109,12 @@ class Join extends Component {
                 <option value="" disabled selected>
                   Grade Level
                 </option>
-                <option>7th Grade</option>
-                <option>8th Grade</option>
-                <option>9th Grade</option>
-                <option>10th Grade</option>
-                <option>11th Grade</option>
-                <option>12th Grade</option>
+                <option>7th</option>
+                <option>8th</option>
+                <option>9th</option>
+                <option>10th</option>
+                <option>11th</option>
+                <option>12th</option>
               </Select>
             </Col>
             <Col>
@@ -171,6 +173,7 @@ class Join extends Component {
                 type="text"
                 placeholder=""
                 value={this.state.why}
+                required
                 onChange={event =>
                   this.setState(updateByPropertyName("why", event.target.value))
                 }
@@ -181,7 +184,7 @@ class Join extends Component {
           <Row>
             <Col>
               <SubLabel>
-                If you have a team, enter their names here. Make sure
+                If you have a team, enter members here. Make sure
                 they sign up too! If you don't have a team yet, don't worry,
                 there will be a team formation session at the beginning of MakeSPP.
               </SubLabel>
@@ -205,7 +208,7 @@ class Join extends Component {
               <Input
                 type="text"
                 name="dietary"
-                placeholder="Dietary Choices and/or Allergies?"
+                placeholder="Dietary Choices/Allergies"
                 value={this.state.dietary}
                 onChange={event =>
                   this.setState(
@@ -218,6 +221,7 @@ class Join extends Component {
               <Select
                 name="shirt"
                 value={this.state.shirt}
+                required
                 onChange={event =>
                   this.setState(
                     updateByPropertyName("shirt", event.target.value)
@@ -228,10 +232,10 @@ class Join extends Component {
                   T-Shirt Size (Adult)
                 </option>
 
-                <option>Small</option>
-                <option>Medium</option>
-                <option>Large</option>
-                <option>X-Large</option>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
               </Select>
             </Col>
 
