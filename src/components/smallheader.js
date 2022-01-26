@@ -1,6 +1,5 @@
 import { Link } from "gatsby";
 import React from "react";
-import Particles from "react-particles-js";
 import styled from "styled-components";
 import { Container} from "react-grid-system";
 
@@ -11,10 +10,6 @@ const Background = styled.header`
   margin: 0;
   background: linear-gradient(to right, #200122, #6f0000);
   `;
-
-const ParticleContainer = styled.div`
-  position: absolute;
-`;
 
 const LogoText = styled.img`
   display: block;
@@ -33,34 +28,6 @@ const LogoText = styled.img`
 
 const Header = ({ siteTitle }) => (
   <Background>
-  <ParticleContainer><Particles
-  height="40vh"
-  width="100vw"
-  params={{
-    particles: {
-      number: {
-        value: 400,
-      },
-      size: {
-        value: 3,
-        random: true,
-        anim: {
-          speed: 5,
-          size_min: 0.3
-        }
-      },
-      line_linked: {
-        enable: false
-      },
-      move: {
-        random: true,
-        speed: 1,
-        direction: "right",
-        out_mode: "out"
-      }
-    },
-  }}
-  /></ParticleContainer>
     <Container><Link
       to="/"
       style={{

@@ -22,7 +22,7 @@ class Join extends Component {
     console.log(this.state);
     const data = new FormData(event.target);
     fetch(
-      "https://script.google.com/macros/s/AKfycby79kV_9VQkk19PP9T6Oa7MwU7Wh1wVKfdvuWf0UD5KvDyJRB5O6ZwP_fDaUOi6S0bO7w/exec",
+      "https://script.google.com/macros/s/AKfycbyOWWQ2c2otCdwYTTP2axCLTTkBrPES9LSWzko9XCxXSvYlCdCo-o3yqs7tKW3yxGy_eg/exec",
       { method: "POST", body: data }
     )
       .then(response => console.log("success!", response))

@@ -1,6 +1,5 @@
 import { Link } from "gatsby";
 import React from "react";
-import Particles from "react-particles-js";
 import styled from "styled-components";
 import { Container} from "react-grid-system";
 import Typed from 'react-typed';
@@ -11,10 +10,6 @@ const Background = styled.header`
   color: #fff;
   min-height: 100vh;
   background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
-`;
-
-const ParticleContainer = styled.div`
-  position: absolute;
 `;
 
 const Logo = styled.img`
@@ -159,35 +154,7 @@ const Header = ({ siteTitle }) => (
   href="https://mlh.io/seasons/2021/events"
   target="_blank" rel="noreferrer">
   <Img src="https://s3.amazonaws.com/logged-assets/trust-badge/2021/mlh-trust-badge-2021-black.svg" alt="Major League Hacking 2021 Hackathon Season"></Img></a>
-  <ParticleContainer>
-  <Particles
-    height="100vh"
-    width="100vw"
-    params={{
-      particles: {
-        number: {
-          value: 400,
-        },
-        size: {
-          value: 3,
-          random: true,
-          anim: {
-            speed: 5,
-            size_min: 0.3
-          }
-        },
-        line_linked: {
-          enable: false
-        },
-        move: {
-          random: true,
-          speed: 1,
-          direction: "right",
-          out_mode: "out"
-        }
-      },
-    }}
-  /></ParticleContainer>*/}<br/><br/>
+  */}<br/><br/>
     <Container><Link
       to="/"
       style={{
