@@ -1,39 +1,38 @@
 import styled from 'styled-components';
 
 export const RegisterButton = styled.button`
-display: inline-block;
+  display: inline-block;
   cursor: pointer;
-  font-size: 10pt;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 15px;
-  padding-right: 15px;
+  font-size: 16pt;
+  padding: 10px;
   border: none;
-  border-radius: 0 10px 10px 0;
+  border-radius: 10px;
+  min-width: 150px;
   transition: all 0.5s ease;
-  background: #444444;
-  color: #FFF;
+  background: #DCDCDC;
+  color: #666;
   :hover {
-    box-shadow: ${({ theme }) => (theme === 'dark' ? 'inset 0 0 100px 100px #E5E5E5' : 'inset 0 0 100px 100px #444d56')};
+    background: #ca043f;
   }
   @media only screen and (max-width: 640px) {
     font-size: 8pt;
   }
 `;
 
-export const Input = styled.input`
-display: inline-block;
-  font-size: 10pt;
-  padding: 8px;
-  background: #DCDCDC;
-  border: none;
-  border-radius: 10px 0 0 10px;
-  @media only screen and (max-width: 640px) {
-    font-size: 8pt;
-  }
+export const Logo = styled.img`
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 200px;
+  padding-bottom: 50px;
 `;
+
+
 
 export const Wrapper1 = styled.div`
+text-align: center;
+margin-left: 5%;
+margin-right: 5%;
 `;
 
 export const Wrapper = styled.div`
@@ -58,21 +57,44 @@ export const Details = styled.div`
   }
 `;
 
-export const Select = styled.select`
-  font-size: 18px;
+export const Input = styled.input`
+  font-size: 12pt;
   padding: 10px;
-  border: 2px solid #e4e4e4;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  border-radius: 5px;
+  text-align: center;
+  background: #DCDCDC;
+  border: 2px solid #DCDCDC;
+  border-radius: 10px;
+  max-width: 400px;
   width: 100%;
-  margin: 10px;
-  transition: all 300ms ease hover;
-  &:focus {
+  @media only screen and (max-width: 960px) {
+    font-size: 10pt;
+  }
+  @media only screen and (max-width: 640px) {
+    font-size: 8pt;
+  }
+  &:hover {
     border: 2px solid #ca043f;
   }
 `;
+
+export const Select = styled.select`
+  color: #666666;
+  font-size: 12pt;
+  padding: 10px;
+  text-align: center;
+  background: #DCDCDC;
+  width: 100%;
+  border: 2px solid #DCDCDC;
+  appearance: none;
+  -webkit-appearance: none;
+  border-radius: 10px;
+  transition: all 300ms ease hover;
+  &:hover {
+    border: 2px solid #ca043f;
+  }
+`;
+
+//&:focus {}
 
 export const Submit = styled.button`
   font-size: 24px;
@@ -95,23 +117,28 @@ export const Label = styled.p`
   margin: 0 0 10px 0;
   padding: 0;
   font-size: 24px;
+  color: white;
 `;
 
 export const SubLabel = styled.p`
   margin: 0;
   padding: 0;
   font-size: 14px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
 `;
 
 export const Textarea = styled.textarea`
   height: 100px;
   padding: 10px;
-  border: 2px solid #e4e4e4;
-  border-radius: 5px;
+  border: 5px solid #DCDCDC;
+  border-radius: 10px;
   transition: all 300ms ease hover;
-  width: 90%;
-  font-size: 18px;
+  width: 60%;
+  font-size: 12px;
   &:focus {
-    border: 2px solid #ca043f;
+    border: 5px solid #ca043f;
   }
 `;

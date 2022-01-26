@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { navigate } from "gatsby";
-import { Wrapper1, RegisterButton, Input, Select, Label, SubLabel, Textarea} from './styles';
+import { Link } from "gatsby";
+import { Logo, Wrapper1, RegisterButton, Input, Select, Label, SubLabel, Textarea} from './styles';
 import { Row, Col } from "react-grid-system";
+import GatsbyLink from 'gatsby-link';
 
 const updateByPropertyName = (propertyName, value) => () => ({
   [propertyName]: value
@@ -21,7 +23,6 @@ class Join extends Component {
       why: "",
       team: "",
       dietary: "",
-      entrepreneurship: "",
       shirt: "",
       online: "",
       time: ""
@@ -48,8 +49,9 @@ class Join extends Component {
         <form onSubmit={this.handleSubmit}>
           <br/><br/><br/>
           <Wrapper1>
+          <Link to="/"><Logo src="/logo.svg"/></Link>
           <Row>
-            <Col sm={4}>
+            <Col>
               <Input
                 type="text"
                 name="name"
@@ -62,7 +64,7 @@ class Join extends Component {
                 }
               />
             </Col>
-            <Col sm={4}>
+            <Col>
               <Input
                 type="text"
                 name="email"
@@ -76,7 +78,7 @@ class Join extends Component {
                 }
               />
             </Col>
-            <Col sm={4}>
+            <Col>
               <Input
                 type="text"
                 name="school"
@@ -91,8 +93,8 @@ class Join extends Component {
             </Col>
           </Row>
           <Row>
-            <Col sm={4}>
-              <br />
+            <Col>
+              <br/>
               <Select
                 name="year"
                 value={this.state.year}
@@ -103,16 +105,17 @@ class Join extends Component {
                 }
               >
                 <option value="" disabled selected>
-                  Class Year
+                  Grade Level
                 </option>
-                <option>Middle School</option>
-                <option>Freshman</option>
-                <option>Sophomore</option>
-                <option>Junior </option>
-                <option>Senior</option>
+                <option>7th Grade</option>
+                <option>8th Grade</option>
+                <option>9th Grade</option>
+                <option>10th Grade</option>
+                <option>11th Grade</option>
+                <option>12th Grade</option>
               </Select>
             </Col>
-            <Col sm={4}>
+            <Col>
               <br />
               <Select
                 name="gender"
@@ -126,14 +129,14 @@ class Join extends Component {
                 <option value="" disabled selected>
                   Gender
                 </option>
-
-                <option>Male</option>
                 <option>Female</option>
-                <option>Non-binary</option>
+                <option>Male</option>
+                <option>Nonbinary</option>
+                <option>Other</option>
                 <option>Prefer not to say</option>
               </Select>
             </Col>
-            <Col sm={4}>
+            <Col>
               <br />
               <Select
                 name="skill_level"
@@ -148,18 +151,18 @@ class Join extends Component {
                   Hackathon Experience
                 </option>
 
-                <option>Beginner (never attended a hackathon before)</option>
+                <option>Beginner (never attended a hackathon)</option>
                 <option>Intermediate (familiar with hackathons)</option>
-                <option>Expert (attended many hackathons before)</option>
+                <option>Expert (attended many hackathons)</option>
               </Select>
             </Col>
           </Row>
-          <br />
+          <br/>
           <Row>
-            <Col sm={12}>
+            <Col>
               <Label>Why do you want to attend MakeSPP?</Label>
               <SubLabel>
-                Please share a couple sentences on what you'd like to learn or
+                Share a few sentences on what you'd like to learn or
                 build at MakeSPP.
               </SubLabel>
               <br />
@@ -176,18 +179,17 @@ class Join extends Component {
           </Row>
           <br />
           <Row>
-            <Col sm={2} />
-            <Col sm={8}>
+            <Col>
               <SubLabel>
-                If you have a team, please enter their names here. Make sure
+                If you have a team, enter their names here. Make sure
                 they sign up too! If you don't have a team yet, don't worry,
-                there will be a team formation session at the beginning of the
-                event.{" "}
+                there will be a team formation session at the beginning of MakeSPP.
               </SubLabel>
+              <br/>
               <Input
                 type="text"
                 name="team"
-                placeholder="Team members"
+                placeholder="Team Members"
                 value={this.state.team}
                 onChange={event =>
                   this.setState(
@@ -196,44 +198,14 @@ class Join extends Component {
                 }
               />{" "}
             </Col>
-            <Col sm={2} />
           </Row>
           <br />
           <Row>
-            <Col sm={4} />
-
-            <Col sm={4}>
-              <SubLabel>
-                Are you interested in attending the entrepreneurship panel
-                (advice from CEOs/founders)?{" "}
-              </SubLabel>
-              <Select
-                name="entrepreneurship"
-                value={this.state.entrepreneurship}
-                onChange={event =>
-                  this.setState(
-                    updateByPropertyName("entrepreneurship", event.target.value)
-                  )
-                }
-              >
-                <option value="" disabled selected>
-                  Select option
-                </option>
-
-                <option>Yes</option>
-                <option>No</option>
-                <option>Maybe</option>
-              </Select>
-            </Col>
-            <Col sm={4} />
-          </Row>
-          <Row>
-            <Col sm={4}>
-              <SubLabel>Any dietary restrictions?</SubLabel>
+            <Col>
               <Input
                 type="text"
                 name="dietary"
-                placeholder=""
+                placeholder="Dietary Choices and/or Allergies?"
                 value={this.state.dietary}
                 onChange={event =>
                   this.setState(
@@ -242,8 +214,7 @@ class Join extends Component {
                 }
               />{" "}
             </Col>
-            <Col sm={4}>
-              <SubLabel>T-Shirt size</SubLabel>
+            <Col>
               <Select
                 name="shirt"
                 value={this.state.shirt}
@@ -254,18 +225,17 @@ class Join extends Component {
                 }
               >
                 <option value="" disabled selected>
-                  Select Size (Adult)
+                  T-Shirt Size (Adult)
                 </option>
 
-                <option>S</option>
-                <option>M</option>
-                <option>L</option>
-                <option>XL</option>
+                <option>Small</option>
+                <option>Medium</option>
+                <option>Large</option>
+                <option>X-Large</option>
               </Select>
             </Col>
 
-            <Col sm={4}>
-              <SubLabel>Anything to share?</SubLabel>
+            <Col>
               <Input
                 name="online"
                 type="text"
@@ -276,15 +246,13 @@ class Join extends Component {
                     updateByPropertyName("online", event.target.value)
                   )
                 }
-              />{" "}
+              />
             </Col>
           </Row>
-          <br />
-
-
-
+          <br/>
             <RegisterButton type="submit">Submit</RegisterButton>
             </Wrapper1>
+            <br/><br/>
         </form>
     );
   }

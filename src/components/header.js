@@ -103,6 +103,13 @@ const Date = styled.h1`
     }
 `;
 
+const Map = styled.div`
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  display: flex;
+`;
+
 const Register = styled.h1`
   display: flex;
   justify-content: center;
@@ -165,7 +172,7 @@ const Header = ({ siteTitle }) => (
       {" "}
       <Logo src="/logo.svg" /><MobileLogo src="/logosmall.svg" />
     </Link></Container>
-    <Tagline> The Premier Virtual <br/> High School Hackathon{/*<Typed
+    <Tagline> New Jersey's Premier <br/> High School Hackathon{/*<Typed
               strings={['The Premier Virtual <br/> High School Hackathon']}
               typeSpeed={60}
               showCursor={true}></Typed>*/}</Tagline>
@@ -183,7 +190,13 @@ const Header = ({ siteTitle }) => (
       <a href="/live" target="_blank" rel="noreferrer">
       <Register> Live </Register>
       </a>
-    </RegisterContainer>*/}<br/><br/><br/><br/><br/>
+    </RegisterContainer>*/}
+    <Container>
+    <Date>Location
+      </Date>
+      <Map><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d25895663.48555616!2d-95.665!3d37.6!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c250afc8027c7b%3A0x7eab9f6e8a6183f5!2sSaint%20Peter&#39;s%20Prep!5e0!3m2!1sen!2sus!4v1643176726300!5m2!1sen!2sus" width="400" height="300" allowfullscreen="" loading="lazy"></iframe></Map>
+      </Container>
+    <br/><br/><br/><br/><br/>
     <Description color="#333" className="center" size="16px">
       © 2022<a href="https://spprep.org"> St. Peter's Prep High School</a><br/>
       <a href="http://2018.makespp.com">
