@@ -204,20 +204,21 @@ const Header = ({ siteTitle }) => (
               showCursor={true}></Typed>*/}</Tagline>
     <SubTagline>Learn to build & pitch a product with workshops and thousands in prizes.</SubTagline>
     <br></br>
-      <Date>Fall 2021</Date>
+      <Date>April 9th, 2022
+      </Date>
       <Makey src="/makey.png"/>
-    {/*<RegisterContainer>
-      <a href="https://makespp.typeform.com/to/ZzGcLGKb" target="_blank" rel="noreferrer">
-      <Register> Register </Register>
+    <RegisterContainer>
+      <a href="/register" rel="noreferrer">
+      <Register>Register</Register>
       </a>
-    </RegisterContainer>
+    </RegisterContainer>{/*}
     <RegisterContainer>
       <a href="/live" target="_blank" rel="noreferrer">
       <Register> Live </Register>
       </a>
     </RegisterContainer>*/}<br/><br/><br/><br/><br/>
     <Description color="#333" className="center" size="16px">
-      © 2021<a href="https://spprep.org"> St. Peter's Prep High School</a><br/>
+      © 2022<a href="https://spprep.org"> St. Peter's Prep High School</a><br/>
       <a href="http://2018.makespp.com">
         <b>2018</b>
       </a>&nbsp; | &nbsp;
