@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `MakeSPP`,
-    description: `United States Premier High School Hackathon`,
-    author: `Saint Peter's Prep MakeSPP team`
+    description: `New Jersey's Premier High School Hackathon`,
+    author: `MakeSPP Team`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
